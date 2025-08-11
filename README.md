@@ -12,7 +12,7 @@ This Go program converts Homebrew casks to Fleet-compatible YAML files, specific
 
 ## Requirements
 
-- Go 1.21 or later
+- Go 1.24 or later
 - Internet connection to fetch Homebrew casks data
 
 ## Installation

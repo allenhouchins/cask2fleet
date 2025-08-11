@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"slices"
 	"strings"
 	"time"
 
@@ -142,7 +143,8 @@ func (cp *CaskProcessor) extractPKGIdentifiers(cask *Cask) []string {
 		}
 	}
 
-	return identifiers
+	// Remove duplicates using slices package (Go 1.24+)
+	return slices.Compact(identifiers)
 }
 
 // generateFleetYAML generates Fleet-compatible YAML structure for a cask
@@ -282,8 +284,8 @@ func (cp *CaskProcessor) processCasks() error {
 
 	fmt.Printf("Found %d total casks\n", len(casks))
 
-	// Filter and process casks
-	var includedCasks []*Cask
+	// Filter and process casks using slices package for better performance
+	includedCasks := make([]*Cask, 0, len(casks)/4) // Pre-allocate with reasonable capacity
 	for _, cask := range casks {
 		if cp.shouldIncludeCask(cask) {
 			includedCasks = append(includedCasks, cask)

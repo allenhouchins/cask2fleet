@@ -23,7 +23,7 @@ echo -e "${BLUE}📁 Output directory: ${OUTPUT_DIR}${NC}"
 
 # Check if Go is installed
 if ! command -v go &> /dev/null; then
-    echo -e "${RED}❌ Go is not installed. Please install Go 1.21 or later.${NC}"
+    echo -e "${RED}❌ Go is not installed. Please install Go 1.24 or later.${NC}"
     exit 1
 fi
 
