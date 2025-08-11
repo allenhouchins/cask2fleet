@@ -1,0 +1,121 @@
+name: Update Fleet YAML Files
+
+on:
+  schedule:
+    # Run at 6:00 AM and 6:00 PM UTC (twice daily)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch:  # Allow manual triggering
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.go'
+      - 'go.mod'
+      - 'go.sum'
+
+jobs:
+  update-fleet-yaml:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.21'
+        cache: true
+        
+    - name: Cache Go modules
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/go-build
+          ~/go/pkg/mod
+        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-
+          
+    - name: Download dependencies
+      run: go mod download
+      
+    - name: Build and run cask2fleet
+      run: |
+        go build -o cask2fleet main.go
+        ./cask2fleet
+        
+    - name: Count generated files
+      id: count-files
+      run: |
+        FILE_COUNT=$(find fleet_yaml_files -name "*.yml" | wc -l)
+        echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
+        echo "Generated $FILE_COUNT YAML files"
+        
+    - name: Create update metadata
+      run: |
+        TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        cat > fleet_yaml_files/UPDATE_METADATA.md << EOF
+        # Fleet YAML Files Update Metadata
+        
+        ## Last Update
+        - **Timestamp**: ${TIMESTAMP}
+        - **Total Files Generated**: ${{ steps.count-files.outputs.file_count }}
+        - **Source**: Homebrew Casks API
+        - **Filter Criteria**: Non-deprecated casks with PKG file types
+        - **GitHub Run ID**: [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+        
+        ## Generation Details
+        - **Script**: cask2fleet (Go program)
+        - **Go Version**: $(go version)
+        - **Output Directory**: fleet_yaml_files
+        - **Triggered by**: ${{ github.event_name }}
+        
+        ## File Format
+        Each YAML file contains:
+        - \`url\`: Download URL for the PKG installer
+        - \`automatic_install\`: false
+        - \`self_service\`: false  
+        - \`categories\`: [] (empty array)
+        
+        ## Categories
+        Categories are currently limited to: Browsers, Communication, Developer tools, and Productivity.
+        
+        ## Configuration
+        This is a minimum version of each file. All configurable parameters can be seen at:
+        https://fleetdm.com/docs/rest-api/rest-api#parameters139
+        
+        ## Automation
+        This directory is automatically updated twice daily via GitHub Actions.
+        EOF
+        
+    - name: Show generated files
+      run: |
+        echo "Generated files:"
+        ls -la fleet_yaml_files/*.yml | head -10
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add fleet_yaml_files/
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update Fleet YAML files (${{ steps.count-files.outputs.file_count }} files) [skip ci]"
+        git push
+        
+    - name: Create summary comment
+      if: github.event_name == 'workflow_dispatch'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## 🤖 Fleet YAML Update Complete
+          
+          **Generated**: ${{ steps.count-files.outputs.file_count }} YAML files
+          **Timestamp**: ${new Date().toISOString()}
+          **Run ID**: [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          
+          Files have been updated and committed to the repository.`
+          }) 
