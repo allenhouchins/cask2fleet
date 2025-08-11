@@ -58,27 +58,31 @@ func (cp *CaskProcessor) isPKGFile(url string) bool {
 
 	url = strings.ToLower(url)
 
-	// Check for .pkg extension
+	// Check for .pkg extension (most reliable)
 	if strings.HasSuffix(url, ".pkg") {
-		return true
-	}
-
-	// Check for PKG in filename
-	if strings.Contains(url, "pkg") {
 		return true
 	}
 
 	// Check for installer patterns that typically indicate PKG files
 	pkgPatterns := []string{
-		`installer.*\.pkg`,
+		`installer.*\.pkg$`,
 		`\.pkg$`,
-		`pkg.*installer`,
-		`installer.*pkg`,
+		`pkg.*installer$`,
+		`installer.*pkg$`,
 	}
 
 	for _, pattern := range pkgPatterns {
 		matched, _ := regexp.MatchString(pattern, url)
 		if matched {
+			return true
+		}
+	}
+
+	// Additional check: must end with .pkg or be a clear PKG installer
+	// Avoid false positives like ZIP files containing "pkg" in the name
+	if strings.Contains(url, "pkg") && !strings.Contains(url, ".zip") && !strings.Contains(url, ".dmg") && !strings.Contains(url, ".tar") {
+		// Only include if it's likely a PKG installer, not a utility or other file type
+		if strings.Contains(url, "installer") || strings.Contains(url, "setup") || strings.Contains(url, "package") {
 			return true
 		}
 	}

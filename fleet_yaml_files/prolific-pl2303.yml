@@ -1,7 +1,0 @@
-url: https://www.prolific.com.tw/UserFiles/files/PL2303HXD_G_Mac%20Driver_v2_2_5_20240808_pkg.zip
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

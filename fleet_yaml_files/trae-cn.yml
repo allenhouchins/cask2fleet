@@ -1,7 +1,0 @@
-url: https://lf-cdn.trae.com.cn/obj/trae-com-cn/pkg/app/releases/stable/1.0.17303/darwin/Trae%20CN-darwin-arm64.dmg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
