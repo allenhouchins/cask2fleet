@@ -1,0 +1,7 @@
+url: https://downloads.topazlabs.com/deploy/TopazGigapixelAI/8.4.2/TopazGigapixelAI-8.4.2.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

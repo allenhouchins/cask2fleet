@@ -1,0 +1,7 @@
+url: https://cdn.zoom.us/prod/6.5.9.61929/arm64/zoomusInstallerFull.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

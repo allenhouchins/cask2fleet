@@ -1,0 +1,7 @@
+url: https://download.microsoft.com/download/3a8e7366-aac0-4636-bc1d-a3c6c217accf/Installer/1.1.8/MSN/Var1/MW021/Bing%20Wallpaper.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

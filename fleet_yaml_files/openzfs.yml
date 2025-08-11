@@ -1,0 +1,7 @@
+url: https://github.com/openzfsonosx/openzfs-fork/releases/download/zfs-macOS-2.3.0/OpenZFSonOsX-2.3.0-Sequoia-15-arm64.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

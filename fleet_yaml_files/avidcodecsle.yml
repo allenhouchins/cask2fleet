@@ -1,0 +1,7 @@
+url: https://cdn.avid.com/Codecs/LE/2.7.6/3B39AE16/AvidCodecsLE_2.7.6_Mac.pkg.zip
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://picturecode.cachefly.net/photoninja/downloads/PhotoNinja_1.4.0d_sse42.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://package.mac.wpscdn.cn/mac_wps_pkg/7.5.1/WPS_Office_7.5.1(8994)_arm64.dmg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

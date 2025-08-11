@@ -1,0 +1,7 @@
+url: https://boss.hdslb.com/bcut_pc_pkg/static/e66098dde9fd01dec3a670d099266608/BCUT-3.10.0-20160807-arm.dmg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

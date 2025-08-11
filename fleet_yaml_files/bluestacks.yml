@@ -1,0 +1,7 @@
+url: https://ak-build.bluestacks.com/public/app-player/mac/nxt_mac2/5.21.725.7518/d0b44477d68443e6a604c8e55ac1ee20/BlueStacksInstaller_5.21.725.7518.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
