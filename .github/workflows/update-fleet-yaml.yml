@@ -1,4 +1,4 @@
-name: Update Fleet YAML Files
+name: Update Fleet yaml files
 
 on:
   schedule:
