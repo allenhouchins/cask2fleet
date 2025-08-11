@@ -110,19 +110,24 @@ jobs:
         git push origin HEAD:main
         
     - name: Create summary comment
-      if: github.event_name == 'workflow_dispatch'
+      if: github.event_name == 'workflow_dispatch' && github.event.issue.number
       uses: actions/github-script@v7
       with:
         script: |
-          github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: `## 🤖 Fleet YAML Update Complete
+          // Only create comment if we have a valid issue number
+          if (context.issue && context.issue.number) {
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## 🤖 Fleet YAML Update Complete
           
           **Generated**: ${{ steps.count-files.outputs.file_count }} YAML files
           **Timestamp**: ${new Date().toISOString()}
           **Run ID**: [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
           
           Files have been updated and committed to the repository.`
-          }) 
+            })
+          } else {
+            console.log('No issue number available, skipping comment creation')
+          } 
