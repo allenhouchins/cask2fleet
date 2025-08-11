@@ -35,7 +35,7 @@ jobs:
         cache: true
         
     - name: Cache Go modules
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           ~/.cache/go-build
@@ -44,8 +44,14 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-go-
           
-    - name: Download dependencies
-      run: go mod download
+    - name: Clean and download dependencies
+      run: |
+        # Clean any corrupted cache
+        go clean -cache -modcache -testcache || true
+        # Download dependencies
+        go mod download
+        # Verify dependencies
+        go mod verify
       
     - name: Build and run cask2fleet
       run: |
