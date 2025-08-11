@@ -1,17 +1,17 @@
 # Fleet YAML Files Update Metadata
 
 ## Last Update
-- **Timestamp**: 2025-08-11 22:35:32 UTC
-- **Total Files Generated**: 457
+- **Timestamp**: 2025-08-11 22:40:13 UTC
+- **Total Files Generated**: 318
 - **Source**: Homebrew Casks API
 - **Filter Criteria**: Non-deprecated casks with PKG file types
-- **GitHub Run ID**: [16893811157](https://github.com/allenhouchins/cask2fleet/actions/runs/16893811157)
+- **GitHub Run ID**: [16893892834](https://github.com/allenhouchins/cask2fleet/actions/runs/16893892834)
 
 ## Generation Details
 - **Script**: cask2fleet (Go program)
 - **Go Version**: go version go1.24.5 linux/amd64
 - **Output Directory**: fleet_yaml_files
-- **Triggered by**: workflow_dispatch
+- **Triggered by**: push
 
 ## File Format
 Each YAML file contains:
