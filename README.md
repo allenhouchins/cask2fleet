@@ -9,11 +9,31 @@ This Go program converts Homebrew casks to Fleet-compatible YAML files, specific
 - Generates Fleet-compatible YAML files for each qualifying cask
 - Creates a comprehensive summary of processed casks
 - Handles package identifiers for proper uninstallation
+- **Precise PKG detection** to avoid false positives (ZIP, DMG, TAR files)
+- **Go 1.24+ optimized** with improved performance and memory efficiency
 
 ## Requirements
 
 - Go 1.24 or later
 - Internet connection to fetch Homebrew casks data
+
+## Recent Improvements
+
+### Go 1.24 Upgrade (Latest)
+- **Updated to Go 1.24** for latest features and performance improvements
+- **Enhanced slice operations** using the `slices` package for better efficiency
+- **Improved memory allocation** with pre-allocated slices
+- **Updated GitHub Actions** to use Go 1.24
+
+### PKG Detection Improvements (Latest)
+- **Fixed false positives** that were incorrectly including ZIP, DMG, and TAR files
+- **Precise detection logic** that only includes actual PKG installer files
+- **Cleaned up 139 incorrectly generated files** from previous runs
+- **Added safety filters** to prevent future false positives
+
+### Example of Fixed Issues
+- ❌ **Before**: `uninstallpkg_1.2.2.zip` was incorrectly identified as PKG
+- ✅ **After**: Only legitimate PKG files like `zoom.pkg`, `microsoft-office.pkg` are included
 
 ## Installation
 
@@ -87,10 +107,28 @@ The program includes casks that meet ALL of the following criteria:
 
 ## Package Detection
 
-The program identifies PKG files using multiple methods:
-- File extension (.pkg)
-- Filename containing "pkg"
-- Common installer patterns
+The program uses precise PKG file detection to avoid false positives:
+
+### Primary Detection Methods
+- **File extension**: URLs ending with `.pkg`
+- **Installer patterns**: URLs matching patterns like `installer.*\.pkg$`, `pkg.*installer$`
+
+### Safety Filters
+- **Excludes ZIP files**: URLs containing `.zip` are automatically excluded
+- **Excludes DMG files**: URLs containing `.dmg` are automatically excluded  
+- **Excludes TAR files**: URLs containing `.tar` are automatically excluded
+- **Requires installer keywords**: For URLs containing "pkg" but not ending in `.pkg`, must also contain "installer", "setup", or "package"
+
+### Examples
+✅ **Valid PKG files**:
+- `https://example.com/app.pkg`
+- `https://example.com/installer.pkg`
+- `https://example.com/app-setup.pkg`
+
+❌ **Excluded files**:
+- `https://example.com/uninstallpkg_1.2.2.zip` (ZIP file)
+- `https://example.com/font-noto-sans-osage.zip` (ZIP file)
+- `https://example.com/app.dmg` (DMG file)
 
 ## Error Handling
 
@@ -113,15 +151,18 @@ You can modify the program to:
 ```
 Fetching Homebrew casks...
 Found 1234 total casks
-Processing 45 casks that meet criteria...
-Generated: example-app.yaml
-Generated: another-app.yaml
+Processing 318 casks that meet criteria...
+Generated: dotnet-runtime.yml
+Generated: zoom.yml
+Generated: microsoft-office.yml
 ...
-Generated 45 Fleet YAML files in fleet_yaml_files/
+Generated 318 Fleet YAML files in fleet_yaml_files/
 
 Summary generated: SUMMARY.md
 Conversion completed successfully!
 ```
+
+**Note**: The number of generated files varies based on the current Homebrew casks available. The program now uses precise PKG detection, so only legitimate PKG installer files are included.
 
 ## Building for Distribution
 
