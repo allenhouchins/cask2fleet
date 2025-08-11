@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks
 
-Generated on: 2025-08-11 18:56:52 UTC
+Generated on: 2025-08-11 21:37:13 UTC
 
 ## Summary
 
@@ -1837,10 +1837,10 @@ Total casks processed: 457
 
 ### Malwarebytes for Mac (malwarebytes)
 
-- **Version**: 5.15.2.3152
+- **Version**: 5.16.1.3237
 - **Description**: Scan and remove malware, spyware, and viruses
 - **File**: `malwarebytes.yml`
-- **URL**: https://data-cdn.mbamupdates.com/web/mb5_mac/Malwarebytes-Mac-5.15.2.3152.pkg
+- **URL**: https://data-cdn.mbamupdates.com/web/mb5_mac/Malwarebytes-Mac-5.16.1.3237.pkg
 
 ### MAMP (mamp)
 
