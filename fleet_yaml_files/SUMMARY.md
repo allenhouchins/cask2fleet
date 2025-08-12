@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks
 
-Generated on: 2025-08-11 22:48:29 UTC
+Generated on: 2025-08-12 06:04:03 UTC
 
 ## Summary
 
@@ -899,10 +899,10 @@ Total casks processed: 317
 
 ### Looking Glass Studio (lookingglassstudio)
 
-- **Version**: 1.7.0
+- **Version**: 1.7.1
 - **Description**: View and edit 3D image and video formats on the Looking Glass
 - **File**: `lookingglassstudio.yml`
-- **URL**: https://dhtk4bwj5r21z.cloudfront.net/HoloPlayStudio/PublicLinks/LookingGlassStudio-1.7.0-arm64.pkg
+- **URL**: https://dhtk4bwj5r21z.cloudfront.net/HoloPlayStudio/PublicLinks/LookingGlassStudio-1.7.1-arm64.pkg
 
 ### Low Profile (low-profile)
 
