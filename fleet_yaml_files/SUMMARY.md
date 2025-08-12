@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks
 
-Generated on: 2025-08-12 06:04:03 UTC
+Generated on: 2025-08-12 18:03:52 UTC
 
 ## Summary
 
@@ -87,10 +87,10 @@ Total casks processed: 317
 
 ### Arq (arq)
 
-- **Version**: 7.36
+- **Version**: 7.36.2
 - **Description**: Multi-cloud backup application
 - **File**: `arq.yml`
-- **URL**: https://www.arqbackup.com/download/arqbackup/Arq7.36.pkg
+- **URL**: https://www.arqbackup.com/download/arqbackup/Arq7.36.2.pkg
 
 ### Arturia Software Center (arturia-software-center)
 
@@ -199,10 +199,10 @@ Total casks processed: 317
 
 ### BlueStacks (bluestacks)
 
-- **Version**: 5.21.725.7518,d0b44477d68443e6a604c8e55ac1ee20
+- **Version**: 5.21.730.7536,79692e3bf5404ee7b894f219d776d6b6
 - **Description**: Mobile gaming platform
 - **File**: `bluestacks.yml`
-- **URL**: https://ak-build.bluestacks.com/public/app-player/mac/nxt_mac2/5.21.725.7518/d0b44477d68443e6a604c8e55ac1ee20/BlueStacksInstaller_5.21.725.7518.pkg
+- **URL**: https://ak-build.bluestacks.com/public/app-player/mac/nxt_mac2/5.21.730.7536/79692e3bf5404ee7b894f219d776d6b6/BlueStacksInstaller_5.21.730.7536.pkg
 
 ### BlurScreen (blurscreen)
 
@@ -458,10 +458,10 @@ Total casks processed: 317
 
 ### Elgato Stream Deck (elgato-stream-deck)
 
-- **Version**: 6.9.1.21711
+- **Version**: 7.0.0.22005
 - **Description**: Assign keys, and then decorate and label them
 - **File**: `elgato-stream-deck.yml`
-- **URL**: https://edge.elgato.com/egc/macos/sd/Stream_Deck_6.9.1.21711.pkg
+- **URL**: https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.0.0.22005.pkg
 
 ### Elgato Wave Link (elgato-wave-link)
 
@@ -703,10 +703,10 @@ Total casks processed: 317
 
 ### Hackolade (hackolade)
 
-- **Version**: 8.3.6
+- **Version**: 8.3.7
 - **Description**: Polyglot data modelling software
 - **File**: `hackolade.yml`
-- **URL**: https://hackolade.s3.amazonaws.com/previous/v8.3.6/Hackolade-macARM64-setup-signed.pkg
+- **URL**: https://hackolade.s3.amazonaws.com/previous/v8.3.7/Hackolade-macARM64-setup-signed.pkg
 
 ### Hancom Docs (hancom-docs)
 
@@ -1158,10 +1158,10 @@ Total casks processed: 317
 
 ### Mullvad VPN (mullvad-vpn@beta)
 
-- **Version**: 2025.8-beta2
+- **Version**: 2025.8-beta3
 - **Description**: VPN client
 - **File**: `mullvad-vpn@beta.yml`
-- **URL**: https://cdn.mullvad.net/app/desktop/releases/2025.8-beta2/MullvadVPN-2025.8-beta2.pkg
+- **URL**: https://cdn.mullvad.net/app/desktop/releases/2025.8-beta3/MullvadVPN-2025.8-beta3.pkg
 
 ### Multipass (multipass)
 
@@ -1256,17 +1256,17 @@ Total casks processed: 317
 
 ### NordVPN (nordvpn)
 
-- **Version**: 9.2.1
+- **Version**: 9.3.0
 - **Description**: VPN client for secure internet access and private browsing
 - **File**: `nordvpn.yml`
-- **URL**: https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.2.1/NordVPN.pkg
+- **URL**: https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/9.3.0/NordVPN.pkg
 
 ### nPerf (nperf)
 
-- **Version**: 1.12.3
+- **Version**: 2.15.4
 - **Description**: Internet speed test utility
 - **File**: `nperf.yml`
-- **URL**: https://repo.nperf.com/macos/nperf/nPerf-arm64-1.12.3.pkg
+- **URL**: https://repo.nperf.com/macos/nperf/nPerf-arm64-2.15.4.pkg
 
 ### Nudge (nudge)
 
@@ -2033,10 +2033,10 @@ Total casks processed: 317
 
 ### VCam (vcam)
 
-- **Version**: 5.0.1
+- **Version**: 5.0.2
 - **Description**: Webcam background tool
 - **File**: `vcam.yml`
-- **URL**: https://installers.vcam.ai/VCam_5.0.1.pkg
+- **URL**: https://installers.vcam.ai/VCam_5.0.2.pkg
 
 ### VCV Rack (vcv-rack)
 
