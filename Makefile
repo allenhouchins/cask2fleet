@@ -5,14 +5,14 @@ all: build
 
 # Build the program
 build:
-	@echo "Building cask2fleet..."
-	go build -o cask2fleet main.go
+	@echo "Building generate_fleet_yaml..."
+	go build -o generate_fleet_yaml main.go
 	@echo "Build complete!"
 
 # Run the program
 run: build
-	@echo "Running cask2fleet..."
-	./cask2fleet
+	@echo "Running generate_fleet_yaml..."
+	./generate_fleet_yaml
 
 # Run directly with Go (no build step)
 go-run:
@@ -22,7 +22,7 @@ go-run:
 # Clean build artifacts
 clean:
 	@echo "Cleaning build artifacts..."
-	rm -f cask2fleet
+	rm -f generate_fleet_yaml
 	rm -rf fleet_yaml_files/
 	@echo "Clean complete!"
 
@@ -36,17 +36,17 @@ build-all: build-macos build-linux build-windows
 
 build-macos:
 	@echo "Building for macOS..."
-	GOOS=darwin GOARCH=amd64 go build -o cask2fleet-macos-amd64 main.go
-	GOOS=darwin GOARCH=arm64 go build -o cask2fleet-macos-arm64 main.go
+	GOOS=darwin GOARCH=amd64 go build -o generate_fleet_yaml-macos-amd64 main.go
+	GOOS=darwin GOARCH=arm64 go build -o generate_fleet_yaml-macos-arm64 main.go
 
 build-linux:
 	@echo "Building for Linux..."
-	GOOS=linux GOARCH=amd64 go build -o cask2fleet-linux-amd64 main.go
-	GOOS=linux GOARCH=arm64 go build -o cask2fleet-linux-arm64 main.go
+	GOOS=linux GOARCH=amd64 go build -o generate_fleet_yaml-linux-amd64 main.go
+	GOOS=linux GOARCH=arm64 go build -o generate_fleet_yaml-linux-arm64 main.go
 
 build-windows:
 	@echo "Building for Windows..."
-	GOOS=windows GOARCH=amd64 go build -o cask2fleet-windows-amd64.exe main.go
+	GOOS=windows GOARCH=amd64 go build -o generate_fleet_yaml-windows-amd64.exe main.go
 
 # Install dependencies
 deps:
