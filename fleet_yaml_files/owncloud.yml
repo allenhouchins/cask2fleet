@@ -1,4 +1,4 @@
-url: https://download.owncloud.com/desktop/ownCloud/stable/5.3.2.15463/mac/ownCloud-5.3.2.15463-arm64.pkg
+url: ${downloadPage}ownCloud-${appNewVersion}-x86_64.pkg
 automatic_install: false
 self_service: false
 categories: []

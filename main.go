@@ -30,6 +30,16 @@ type Cask struct {
 	Variations map[string]interface{} `json:"variations"`
 }
 
+// InstallomatorEntry represents an Installomator package entry
+type InstallomatorEntry struct {
+	Label       string
+	Name        string
+	Type        string
+	PackageID   string
+	DownloadURL string
+	Source      string // "installomator" to identify source
+}
+
 // FleetSoftware represents the Fleet software configuration structure
 type FleetSoftware struct {
 	URL              string   `yaml:"url"`
@@ -207,46 +217,7 @@ func (cp *CaskProcessor) saveYAMLFile(cask *Cask, fleetConfig *FleetSoftware) er
 	return nil
 }
 
-// generateSummary creates a summary document of processed casks
-func (cp *CaskProcessor) generateSummary(includedCasks []*Cask) error {
-	summaryFile := filepath.Join(cp.outputDir, "SUMMARY.md")
 
-	summaryContent := fmt.Sprintf(`# Fleet YAML Files Generated from Homebrew Casks
-
-Generated on: %s
-
-## Summary
-
-Total casks processed: %d
-
-## Generated Files
-
-`, time.Now().UTC().Format("2006-01-02 15:04:05 UTC"), len(includedCasks))
-
-	for _, cask := range includedCasks {
-		name := cask.Token
-		if len(cask.Name) > 0 {
-			name = cask.Name[0]
-		}
-
-		summaryContent += fmt.Sprintf(`### %s (%s)
-
-- **Version**: %s
-- **Description**: %s
-- **File**: `+"`%s.yml`"+`
-- **URL**: %s
-
-`, name, cask.Token, cask.Version, cask.Desc, cask.Token, cask.URL)
-	}
-
-	err := os.WriteFile(summaryFile, []byte(summaryContent), 0644)
-	if err != nil {
-		return fmt.Errorf("error writing summary: %w", err)
-	}
-
-	fmt.Printf("Summary generated: %s\n", filepath.Base(summaryFile))
-	return nil
-}
 
 // fetchCasks fetches all Homebrew casks from the API
 func (cp *CaskProcessor) fetchCasks() ([]*Cask, error) {
@@ -274,6 +245,181 @@ func (cp *CaskProcessor) fetchCasks() ([]*Cask, error) {
 	return casks, nil
 }
 
+// fetchInstallomatorData fetches the Installomator script and extracts package entries
+func (cp *CaskProcessor) fetchInstallomatorData() ([]*InstallomatorEntry, error) {
+	resp, err := http.Get("https://raw.githubusercontent.com/Installomator/Installomator/main/Installomator.sh")
+	if err != nil {
+		return nil, fmt.Errorf("error fetching Installomator script: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("Installomator API returned status: %d", resp.StatusCode)
+	}
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("error reading Installomator response body: %w", err)
+	}
+
+	return cp.parseInstallomatorScript(string(body))
+}
+
+// parseInstallomatorScript parses the Installomator shell script to extract package entries
+func (cp *CaskProcessor) parseInstallomatorScript(scriptContent string) ([]*InstallomatorEntry, error) {
+	var entries []*InstallomatorEntry
+	
+	// Split the script into lines
+	lines := strings.Split(scriptContent, "\n")
+	
+	var currentEntry *InstallomatorEntry
+	var inEntry bool
+	
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		
+		// Check for start of a new entry (label pattern: word followed by )
+		if match := regexp.MustCompile(`^([a-zA-Z0-9_-]+)\)$`).FindStringSubmatch(line); match != nil {
+			// Save previous entry if it exists and has a download URL
+			if currentEntry != nil && currentEntry.DownloadURL != "" && cp.isPKGFile(currentEntry.DownloadURL) {
+				entries = append(entries, currentEntry)
+			}
+			
+			// Start new entry
+			currentEntry = &InstallomatorEntry{
+				Label:  match[1],
+				Source: "installomator",
+			}
+			inEntry = true
+			continue
+		}
+		
+		// If we're in an entry, parse the fields
+		if inEntry && currentEntry != nil {
+			// Check for end of entry (;;)
+			if strings.TrimSpace(line) == ";;" {
+				inEntry = false
+				continue
+			}
+			
+			// Parse name field
+			if strings.HasPrefix(line, "name=") {
+				currentEntry.Name = strings.Trim(strings.TrimPrefix(line, "name="), `"`)
+				continue
+			}
+			
+			// Parse type field
+			if strings.HasPrefix(line, "type=") {
+				currentEntry.Type = strings.Trim(strings.TrimPrefix(line, "type="), `"`)
+				continue
+			}
+			
+			// Parse packageID field
+			if strings.HasPrefix(line, "packageID=") {
+				currentEntry.PackageID = strings.Trim(strings.TrimPrefix(line, "packageID="), `"`)
+				continue
+			}
+			
+			// Parse downloadURL field
+			if strings.HasPrefix(line, "downloadURL=") {
+				currentEntry.DownloadURL = strings.Trim(strings.TrimPrefix(line, "downloadURL="), `"`)
+				continue
+			}
+		}
+	}
+	
+	// Don't forget the last entry
+	if currentEntry != nil && currentEntry.DownloadURL != "" && cp.isPKGFile(currentEntry.DownloadURL) {
+		entries = append(entries, currentEntry)
+	}
+	
+	return entries, nil
+}
+
+// shouldIncludeInstallomatorEntry determines if an Installomator entry should be included
+func (cp *CaskProcessor) shouldIncludeInstallomatorEntry(entry *InstallomatorEntry) bool {
+	// Must have a download URL
+	if entry.DownloadURL == "" {
+		return false
+	}
+	
+	// Must be a PKG file
+	if !cp.isPKGFile(entry.DownloadURL) {
+		return false
+	}
+	
+	// Must have a label (identifier)
+	if entry.Label == "" {
+		return false
+	}
+	
+	return true
+}
+
+// generateFleetYAMLFromInstallomator generates Fleet-compatible YAML structure for an Installomator entry
+func (cp *CaskProcessor) generateFleetYAMLFromInstallomator(entry *InstallomatorEntry) *FleetSoftware {
+	// Create Fleet software configuration
+	fleetConfig := &FleetSoftware{
+		URL:              entry.DownloadURL,
+		AutomaticInstall: false,
+		SelfService:      false,
+		Categories:       []string{},
+	}
+
+	return fleetConfig
+}
+
+// generateUninstallScriptFromInstallomator generates an uninstall script for the Installomator entry
+func (cp *CaskProcessor) generateUninstallScriptFromInstallomator(entry *InstallomatorEntry) string {
+	if entry.PackageID != "" {
+		// Create uninstall script using pkgutil
+		script := "#!/bin/bash\n"
+		script += fmt.Sprintf("pkgutil --forget '%s'\n", entry.PackageID)
+		return script
+	}
+
+	// Fallback uninstall script
+	return "#!/bin/bash\necho 'No specific uninstall script available for this package'"
+}
+
+// saveYAMLFileFromInstallomator saves the Fleet configuration to a YAML file for Installomator entries
+func (cp *CaskProcessor) saveYAMLFileFromInstallomator(entry *InstallomatorEntry, fleetConfig *FleetSoftware) error {
+	// Create safe filename
+	safeLabel := regexp.MustCompile(`[^a-zA-Z0-9_-]`).ReplaceAllString(entry.Label, "_")
+	filename := fmt.Sprintf("%s.yml", safeLabel)
+	filepath := filepath.Join(cp.outputDir, filename)
+
+	// Marshal to YAML
+	yamlData, err := yaml.Marshal(fleetConfig)
+	if err != nil {
+		return fmt.Errorf("error marshaling YAML for %s: %w", filename, err)
+	}
+
+	// Add comment at the bottom
+	comment := "\n# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.\n# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139\n"
+	finalData := append(yamlData, []byte(comment)...)
+
+	// Write to file
+	err = os.WriteFile(filepath, finalData, 0644)
+	if err != nil {
+		return fmt.Errorf("error writing %s: %w", filename, err)
+	}
+
+	fmt.Printf("Generated: %s (from Installomator)\n", filename)
+	return nil
+}
+
+// CombinedEntry represents a unified entry from either Homebrew or Installomator
+type CombinedEntry struct {
+	Identifier  string
+	Name        string
+	URL         string
+	Source      string // "homebrew" or "installomator"
+	Description string
+	Version     string
+	PackageID   string
+}
+
 // processCasks is the main method to process all casks and generate YAML files
 func (cp *CaskProcessor) processCasks() error {
 	fmt.Println("Fetching Homebrew casks...")
@@ -286,35 +432,179 @@ func (cp *CaskProcessor) processCasks() error {
 		return fmt.Errorf("no casks found")
 	}
 
-	fmt.Printf("Found %d total casks\n", len(casks))
+	fmt.Printf("Found %d total Homebrew casks\n", len(casks))
 
-	// Filter and process casks using slices package for better performance
-	includedCasks := make([]*Cask, 0, len(casks)/4) // Pre-allocate with reasonable capacity
+	fmt.Println("Fetching Installomator data...")
+	installomatorEntries, err := cp.fetchInstallomatorData()
+	if err != nil {
+		return fmt.Errorf("failed to fetch Installomator data: %w", err)
+	}
+
+	fmt.Printf("Found %d total Installomator entries\n", len(installomatorEntries))
+
+	// Filter Homebrew casks
+	includedCasks := make([]*Cask, 0, len(casks)/4)
 	for _, cask := range casks {
 		if cp.shouldIncludeCask(cask) {
 			includedCasks = append(includedCasks, cask)
 		}
 	}
 
-	fmt.Printf("Processing %d casks that meet criteria...\n", len(includedCasks))
-
-	// Generate YAML files
-	for _, cask := range includedCasks {
-		fleetConfig := cp.generateFleetYAML(cask)
-		err := cp.saveYAMLFile(cask, fleetConfig)
-		if err != nil {
-			fmt.Printf("Error processing %s: %v\n", cask.Token, err)
+	// Filter Installomator entries
+	includedInstallomatorEntries := make([]*InstallomatorEntry, 0, len(installomatorEntries)/4)
+	for _, entry := range installomatorEntries {
+		if cp.shouldIncludeInstallomatorEntry(entry) {
+			includedInstallomatorEntries = append(includedInstallomatorEntries, entry)
 		}
 	}
 
-	fmt.Printf("\nGenerated %d Fleet YAML files in %s/\n", len(includedCasks), cp.outputDir)
+	fmt.Printf("Processing %d Homebrew casks and %d Installomator entries that meet criteria...\n", 
+		len(includedCasks), len(includedInstallomatorEntries))
+
+	// Combine and deduplicate entries
+	combinedEntries := cp.combineAndDeduplicate(includedCasks, includedInstallomatorEntries)
+
+	// Sort alphabetically by identifier
+	slices.SortFunc(combinedEntries, func(a, b *CombinedEntry) int {
+		return strings.Compare(strings.ToLower(a.Identifier), strings.ToLower(b.Identifier))
+	})
+
+	fmt.Printf("Generated %d unique entries after deduplication\n", len(combinedEntries))
+
+	// Generate YAML files
+	for _, entry := range combinedEntries {
+		if entry.Source == "homebrew" {
+			// Find the original cask
+			for _, cask := range includedCasks {
+				if cask.Token == entry.Identifier {
+					fleetConfig := cp.generateFleetYAML(cask)
+					err := cp.saveYAMLFile(cask, fleetConfig)
+					if err != nil {
+						fmt.Printf("Error processing %s: %v\n", cask.Token, err)
+					}
+					break
+				}
+			}
+		} else if entry.Source == "installomator" {
+			// Find the original Installomator entry
+			for _, installomatorEntry := range includedInstallomatorEntries {
+				if installomatorEntry.Label == entry.Identifier {
+					fleetConfig := cp.generateFleetYAMLFromInstallomator(installomatorEntry)
+					err := cp.saveYAMLFileFromInstallomator(installomatorEntry, fleetConfig)
+					if err != nil {
+						fmt.Printf("Error processing %s: %v\n", installomatorEntry.Label, err)
+					}
+					break
+				}
+			}
+		}
+	}
+
+	fmt.Printf("\nGenerated %d Fleet YAML files in %s/\n", len(combinedEntries), cp.outputDir)
 
 	// Generate summary
-	err = cp.generateSummary(includedCasks)
+	err = cp.generateCombinedSummary(combinedEntries)
 	if err != nil {
 		fmt.Printf("Warning: Could not generate summary: %v\n", err)
 	}
 
+	return nil
+}
+
+// combineAndDeduplicate combines Homebrew casks and Installomator entries, removing duplicates
+// Installomator entries take priority over Homebrew casks for duplicates
+func (cp *CaskProcessor) combineAndDeduplicate(casks []*Cask, installomatorEntries []*InstallomatorEntry) []*CombinedEntry {
+	// Create a map to track seen URLs and identifiers
+	seenURLs := make(map[string]bool)
+	seenIdentifiers := make(map[string]bool)
+	var combinedEntries []*CombinedEntry
+
+	// First, add all Installomator entries (they have priority)
+	for _, entry := range installomatorEntries {
+		url := strings.ToLower(entry.DownloadURL)
+		identifier := strings.ToLower(entry.Label)
+		
+		if !seenURLs[url] && !seenIdentifiers[identifier] {
+			combinedEntries = append(combinedEntries, &CombinedEntry{
+				Identifier:  entry.Label,
+				Name:        entry.Name,
+				URL:         entry.DownloadURL,
+				Source:      "installomator",
+				Description: entry.Name, // Use name as description
+				Version:     "",         // Installomator doesn't always have version
+				PackageID:   entry.PackageID,
+			})
+			seenURLs[url] = true
+			seenIdentifiers[identifier] = true
+		}
+	}
+
+	// Then add Homebrew casks that don't conflict
+	for _, cask := range casks {
+		url := strings.ToLower(cask.URL)
+		identifier := strings.ToLower(cask.Token)
+		
+		if !seenURLs[url] && !seenIdentifiers[identifier] {
+			name := cask.Token
+			if len(cask.Name) > 0 {
+				name = cask.Name[0]
+			}
+			
+			combinedEntries = append(combinedEntries, &CombinedEntry{
+				Identifier:  cask.Token,
+				Name:        name,
+				URL:         cask.URL,
+				Source:      "homebrew",
+				Description: cask.Desc,
+				Version:     cask.Version,
+				PackageID:   "", // Homebrew casks don't have packageID
+			})
+			seenURLs[url] = true
+			seenIdentifiers[identifier] = true
+		}
+	}
+
+	return combinedEntries
+}
+
+// generateCombinedSummary creates a summary document of processed entries from both sources
+func (cp *CaskProcessor) generateCombinedSummary(entries []*CombinedEntry) error {
+	summaryFile := filepath.Join(cp.outputDir, "SUMMARY.md")
+
+	summaryContent := fmt.Sprintf(`# Fleet YAML Files Generated from Homebrew Casks and Installomator
+
+Generated on: %s
+
+## Summary
+
+Total entries processed: %d
+
+## Generated Files
+
+`, time.Now().UTC().Format("2006-01-02 15:04:05 UTC"), len(entries))
+
+	for _, entry := range entries {
+		// Create safe filename for the summary
+		safeIdentifier := regexp.MustCompile(`[^a-zA-Z0-9_-]`).ReplaceAllString(entry.Identifier, "_")
+		
+		summaryContent += fmt.Sprintf(`### %s (%s)
+
+- **Source**: %s
+- **Name**: %s
+- **Description**: %s
+- **Version**: %s
+- **File**: `+"`%s.yml`"+`
+- **URL**: %s
+
+`, entry.Name, entry.Identifier, entry.Source, entry.Name, entry.Description, entry.Version, safeIdentifier, entry.URL)
+	}
+
+	err := os.WriteFile(summaryFile, []byte(summaryContent), 0644)
+	if err != nil {
+		return fmt.Errorf("error writing summary: %w", err)
+	}
+
+	fmt.Printf("Summary generated: %s\n", filepath.Base(summaryFile))
 	return nil
 }
 

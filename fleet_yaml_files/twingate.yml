@@ -1,4 +1,4 @@
-url: https://binaries.twingate.com/client/macos/2025.175.15032/Twingate.pkg
+url: https://api.twingate.com/download/darwin?installer=pkg
 automatic_install: false
 self_service: false
 categories: []
