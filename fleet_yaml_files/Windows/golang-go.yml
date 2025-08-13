@@ -1,4 +1,4 @@
-url: https://go.dev/dl/go1.24.6.windows-amd64.msi
+url: https://go.dev/dl/go1.25.0.windows-amd64.msi
 automatic_install: false
 self_service: false
 categories: []

@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-13 04:28:02 UTC
+Generated on: 2025-08-13 06:05:08 UTC
 
 ## Summary
 
@@ -10146,7 +10146,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `biomejs-biome.yml`
-- **URL**: https://github.com/biomejs/biome/releases/download/@biomejs/biome@2.1.3/biome-win32-x64.exe
+- **URL**: https://github.com/biomejs/biome/releases/download/@biomejs/biome@2.1.4/biome-win32-x64.exe
 
 #### biosilico-essaywriter
 
@@ -12441,7 +12441,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `chrox-readest.yml`
-- **URL**: https://github.com/readest/readest/releases/download/v0.9.69/Readest_0.9.69_x64-setup.exe
+- **URL**: https://github.com/readest/readest/releases/download/v0.9.71/Readest_0.9.71_x64-setup.exe
 
 #### chungzh-notepanda
 
@@ -21027,7 +21027,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `golang-go.yml`
-- **URL**: https://go.dev/dl/go1.24.6.windows-amd64.msi
+- **URL**: https://go.dev/dl/go1.25.0.windows-amd64.msi
 
 #### golde-purplepen
 
@@ -21954,7 +21954,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `haali-winutils-lswitch.yml`
-- **URL**: http://haali.net/winutils/lswitch.exe
+- **URL**: https://haali.net/winutils/lswitch.exe
 
 #### hadolint-hadolint
 
