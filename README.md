@@ -1,13 +1,16 @@
 # Cask to Fleet Converter
 
-This Go program converts Homebrew casks to Fleet-compatible YAML files, specifically targeting non-deprecated casks with PKG file types.
+This Go program converts Homebrew casks and Installomator entries to Fleet-compatible YAML files, specifically targeting non-deprecated entries with PKG file types.
 
 ## Features
 
 - Fetches Homebrew casks data from the official API
-- Filters for non-deprecated casks with URLs and PKG file types
-- Generates Fleet-compatible YAML files for each qualifying cask
-- Creates a comprehensive summary of processed casks
+- Fetches Installomator script data from GitHub
+- Filters for non-deprecated entries with URLs and PKG file types
+- **Deduplicates entries** with Installomator taking priority over Homebrew casks
+- **Alphabetically sorts** all entries regardless of source
+- Generates Fleet-compatible YAML files for each qualifying entry
+- Creates a comprehensive summary of processed entries
 - Handles package identifiers for proper uninstallation
 - **Precise PKG detection** to avoid false positives (ZIP, DMG, TAR files)
 - **Go 1.24+ optimized** with improved performance and memory efficiency
@@ -15,7 +18,7 @@ This Go program converts Homebrew casks to Fleet-compatible YAML files, specific
 ## Requirements
 
 - Go 1.24 or later
-- Internet connection to fetch Homebrew casks data
+- Internet connection to fetch Homebrew casks data and Installomator script
 
 ## Recent Improvements
 
@@ -60,15 +63,19 @@ go run main.go
 
 The program will:
 1. Fetch all Homebrew casks from the API
-2. Filter for qualifying casks (non-deprecated, has URL, PKG file type)
-3. Generate individual YAML files for each cask
-4. Create a summary document
+2. Fetch all Installomator entries from the script
+3. Filter for qualifying entries (non-deprecated, has URL, PKG file type)
+4. Deduplicate entries with Installomator taking priority
+5. Sort all entries alphabetically
+6. Generate individual YAML files for each entry
+7. Create a summary document
 
 ## Output
 
 The program creates a `fleet_yaml_files/` directory containing:
-- Individual YAML files for each qualifying cask
-- A `SUMMARY.md` file with details about all processed casks
+- Individual YAML files for each qualifying entry
+- A `SUMMARY.md` file with details about all processed entries (including source information)
+- An `UPDATE_METADATA.md` file with generation details and statistics
 
 ## Fleet YAML Structure
 
@@ -150,19 +157,22 @@ You can modify the program to:
 
 ```
 Fetching Homebrew casks...
-Found 1234 total casks
-Processing 318 casks that meet criteria...
-Generated: dotnet-runtime.yml
-Generated: zoom.yml
-Generated: microsoft-office.yml
+Found 7562 total Homebrew casks
+Fetching Installomator data...
+Found 92 total Installomator entries
+Processing 317 Homebrew casks and 92 Installomator entries that meet criteria...
+Generated 398 unique entries after deduplication
+Generated: 1password8.yml (from Installomator)
+Generated: adoptopenjdk.yml
+Generated: airmedia.yml
 ...
-Generated 318 Fleet YAML files in fleet_yaml_files/
+Generated 398 Fleet YAML files in fleet_yaml_files/
 
 Summary generated: SUMMARY.md
 Conversion completed successfully!
 ```
 
-**Note**: The number of generated files varies based on the current Homebrew casks available. The program now uses precise PKG detection, so only legitimate PKG installer files are included.
+**Note**: The number of generated files varies based on the current Homebrew casks and Installomator entries available. The program now uses precise PKG detection, so only legitimate PKG installer files are included. Installomator entries take priority over Homebrew casks for duplicates.
 
 ## Building for Distribution
 
@@ -181,7 +191,7 @@ GOOS=windows GOARCH=amd64 go build -o cask2fleet-windows-amd64.exe main.go
 
 ## 🤖 Automation
 
-This repository includes automated updates to keep the Fleet YAML files current with the latest Homebrew casks.
+This repository includes automated updates to keep the Fleet YAML files current with the latest Homebrew casks and Installomator entries.
 
 ### GitHub Actions Workflow
 

@@ -66,19 +66,42 @@ echo -e "${GREEN}✅ Successfully generated ${FILE_COUNT} YAML files${NC}"
 
 # Create a summary file with metadata
 SUMMARY_FILE="$OUTPUT_DIR/UPDATE_METADATA.md"
+
+# Count files by source (this is a simplified approach - the actual counts come from the Go program)
 cat > "$SUMMARY_FILE" << EOF
 # Fleet YAML Files Update Metadata
 
 ## Last Update
 - **Timestamp**: ${TIMESTAMP}
 - **Total Files Generated**: ${FILE_COUNT}
-- **Source**: Homebrew Casks API
-- **Filter Criteria**: Non-deprecated casks with PKG file types
+- **Sources**: 
+  - Homebrew Casks API
+  - Installomator Script
+- **Filter Criteria**: Non-deprecated entries with PKG file types
+- **Deduplication**: Installomator entries take priority over Homebrew casks
 
 ## Generation Details
 - **Script**: cask2fleet (Go program)
 - **Go Version**: ${GO_VERSION}
 - **Output Directory**: ${OUTPUT_DIR}
+- **Processing**: Combined and deduplicated from multiple sources
+
+## Sources
+
+### Homebrew Casks
+- **API Endpoint**: https://formulae.brew.sh/api/cask.json
+- **Filter**: Non-deprecated casks with PKG file URLs
+
+### Installomator
+- **Source**: https://raw.githubusercontent.com/Installomator/Installomator/main/Installomator.sh
+- **Filter**: Entries with PKG file URLs
+- **Priority**: Takes precedence over Homebrew casks for duplicates
+
+## Deduplication Strategy
+- Installomator entries are processed first and take priority
+- Homebrew casks are added only if they don't conflict with existing entries
+- Conflicts are resolved by URL and identifier matching
+- Final output is sorted alphabetically by identifier
 
 ## File Format
 Each YAML file contains:
