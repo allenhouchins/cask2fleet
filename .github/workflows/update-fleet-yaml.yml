@@ -96,30 +96,54 @@ jobs:
     - name: Generate summary file
       run: |
         # Create the header
-        echo "# Fleet YAML Files Generated from Homebrew Casks and Installomator" > fleet_yaml_files/SUMMARY.md
+        echo "# Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet" > fleet_yaml_files/SUMMARY.md
         echo "" >> fleet_yaml_files/SUMMARY.md
         echo "Generated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> fleet_yaml_files/SUMMARY.md
         echo "" >> fleet_yaml_files/SUMMARY.md
         echo "## Summary" >> fleet_yaml_files/SUMMARY.md
         echo "" >> fleet_yaml_files/SUMMARY.md
-        echo "Total entries processed: ${{ steps.count-files.outputs.macos_count }}" >> fleet_yaml_files/SUMMARY.md
+        echo "Total entries processed: ${{ steps.count-files.outputs.file_count }}" >> fleet_yaml_files/SUMMARY.md
+        echo "- macOS files: ${{ steps.count-files.outputs.macos_count }}" >> fleet_yaml_files/SUMMARY.md
+        echo "- Windows files: ${{ steps.count-files.outputs.windows_count }}" >> fleet_yaml_files/SUMMARY.md
         echo "" >> fleet_yaml_files/SUMMARY.md
         echo "## Generated Files" >> fleet_yaml_files/SUMMARY.md
         echo "" >> fleet_yaml_files/SUMMARY.md
         
         # Add macOS files to summary
+        echo "### macOS Files" >> fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
         if [ -d "fleet_yaml_files/macOS" ]; then
           for file in fleet_yaml_files/macOS/*.yml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yml)
-              echo "### $filename" >> fleet_yaml_files/SUMMARY.md
+              echo "#### $filename" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
-              echo "- **Source**: homebrew" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Source**: homebrew/installomator" >> fleet_yaml_files/SUMMARY.md
               echo "- **Name**: $filename" >> fleet_yaml_files/SUMMARY.md
-              echo "- **Description**: Generated from Homebrew cask" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Description**: Generated from Homebrew cask or Installomator script" >> fleet_yaml_files/SUMMARY.md
               echo "- **Version**: " >> fleet_yaml_files/SUMMARY.md
               echo "- **File**: \`$filename.yml\`" >> fleet_yaml_files/SUMMARY.md
-              echo "- **URL**: Generated from Homebrew API" >> fleet_yaml_files/SUMMARY.md
+              echo "- **URL**: Generated from Homebrew API or Installomator" >> fleet_yaml_files/SUMMARY.md
+              echo "" >> fleet_yaml_files/SUMMARY.md
+            fi
+          done
+        fi
+        
+        # Add Windows files to summary
+        echo "### Windows Files" >> fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
+        if [ -d "fleet_yaml_files/Windows" ]; then
+          for file in fleet_yaml_files/Windows/*.yml; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .yml)
+              echo "#### $filename" >> fleet_yaml_files/SUMMARY.md
+              echo "" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Source**: winget" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Name**: $filename" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Description**: Generated from WinGet repository" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Version**: " >> fleet_yaml_files/SUMMARY.md
+              echo "- **File**: \`$filename.yml\`" >> fleet_yaml_files/SUMMARY.md
+              echo "- **URL**: Generated from WinGet repository" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
             fi
           done
