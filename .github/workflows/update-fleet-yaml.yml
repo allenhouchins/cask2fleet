@@ -116,6 +116,7 @@ jobs:
           for file in fleet_yaml_files/macOS/*.yml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yml)
+              url=$(grep "^url:" "$file" | sed 's/url: //' | tr -d ' ')
               echo "#### $filename" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
               echo "- **Source**: homebrew/installomator" >> fleet_yaml_files/SUMMARY.md
@@ -123,7 +124,7 @@ jobs:
               echo "- **Description**: Generated from Homebrew cask or Installomator script" >> fleet_yaml_files/SUMMARY.md
               echo "- **Version**: " >> fleet_yaml_files/SUMMARY.md
               echo "- **File**: \`$filename.yml\`" >> fleet_yaml_files/SUMMARY.md
-              echo "- **URL**: Generated from Homebrew API or Installomator" >> fleet_yaml_files/SUMMARY.md
+              echo "- **URL**: $url" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
             fi
           done
@@ -136,6 +137,7 @@ jobs:
           for file in fleet_yaml_files/Windows/*.yml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yml)
+              url=$(grep "^url:" "$file" | sed 's/url: //' | tr -d ' ')
               echo "#### $filename" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
               echo "- **Source**: winget" >> fleet_yaml_files/SUMMARY.md
@@ -143,7 +145,7 @@ jobs:
               echo "- **Description**: Generated from WinGet repository" >> fleet_yaml_files/SUMMARY.md
               echo "- **Version**: " >> fleet_yaml_files/SUMMARY.md
               echo "- **File**: \`$filename.yml\`" >> fleet_yaml_files/SUMMARY.md
-              echo "- **URL**: Generated from WinGet repository" >> fleet_yaml_files/SUMMARY.md
+              echo "- **URL**: $url" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
             fi
           done
