@@ -1,0 +1,7 @@
+url: https://downloads.pvs.global/downloads/audac/software/system-manager/AUDAC-system-manager-win7-8-10-64bit/AUDAC%20System%20Manager-1.09(win64).msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://rakudo.org/dl/rakudo/rakudo-moar-2025.05-01-win-x86_64-msvc.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

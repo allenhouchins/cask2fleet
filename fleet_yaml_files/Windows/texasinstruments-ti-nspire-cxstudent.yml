@@ -1,0 +1,7 @@
+url: https://education.ti.com/download/en/ed-tech/AFCFF2853BC34DEFB4C0B8B156F92404/92EDE540D24B4EFC87094385AF6B57F8/TINspireCXStudentSoftware-6.2.0.423.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

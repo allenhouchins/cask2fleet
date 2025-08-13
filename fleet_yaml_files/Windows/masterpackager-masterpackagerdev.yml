@@ -1,0 +1,7 @@
+url: https://www.masterpackager.com/installer/dev/1.2.0/mpdev_self_contained_x64_1.2.0.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

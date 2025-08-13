@@ -1,0 +1,7 @@
+url: https://github.com/starship/starship/releases/download/v1.9.1/starship-x86_64-pc-windows-msvc.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

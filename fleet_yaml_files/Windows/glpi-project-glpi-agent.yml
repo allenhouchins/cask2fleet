@@ -1,0 +1,7 @@
+url: https://github.com/glpi-project/glpi-agent/releases/download/1.9/GLPI-Agent-1.9-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

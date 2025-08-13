@@ -1,0 +1,7 @@
+url: https://github.com/webosbrew/dev-manager-desktop/releases/download/v1.99.13/webOS.Dev.Manager_1.99.13_x64_en-US.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

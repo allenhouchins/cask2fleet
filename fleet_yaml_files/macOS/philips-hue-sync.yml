@@ -1,0 +1,7 @@
+url: https://firmware.meethue.com/storage/huesyncmac/74/6e0c1322-16b4-4753-acb4-86b8a73179d0/HueSyncInstaller_1.12.4.74.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

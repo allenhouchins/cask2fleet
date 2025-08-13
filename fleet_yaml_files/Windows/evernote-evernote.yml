@@ -1,0 +1,10 @@
+url: https://win.desktop.evernote.com/builds/Evernote-10.99.3-win-ddl-stage-20240729150016-abc1f9a6770cb5f82a26bd6855e6ea9817b25f17-setup.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

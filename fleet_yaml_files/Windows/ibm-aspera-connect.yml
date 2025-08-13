@@ -1,0 +1,7 @@
+url: https://connectinstallers.s3.amazonaws.com/downloads/connect/latest/bin/ibm-aspera-connect_4.2.15.870-HEAD_win32_AMD64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

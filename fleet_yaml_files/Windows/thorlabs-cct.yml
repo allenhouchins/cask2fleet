@@ -1,0 +1,10 @@
+url: https://www.thorlabs.com/software/THO/CCT/v3.35/ThorSpectra_CCT_setup_3.35.0.4055.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

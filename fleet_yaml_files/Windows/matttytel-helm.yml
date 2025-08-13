@@ -1,0 +1,7 @@
+url: https://tytel.org/static/dist/Helm_64bit_v0_9_0_r.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

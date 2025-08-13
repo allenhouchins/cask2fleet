@@ -1,0 +1,7 @@
+url: https://download.microsoft.com/download/8/4/D/84DD73BF-93E9-4298-B54D-CB779F9D0EC9/CHS/x64/msodbcsql.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://github.com/jasp-stats/jasp-desktop/releases/download/v0.95.0/JASP-0.95.0.0-Windows.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

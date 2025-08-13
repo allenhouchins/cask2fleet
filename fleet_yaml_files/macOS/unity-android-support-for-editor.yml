@@ -1,0 +1,7 @@
+url: https://download.unity3d.com/download_unity/0e25a174756c/MacEditorTargetInstaller/UnitySetup-Android-Support-for-Editor-2023.2.20f1.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

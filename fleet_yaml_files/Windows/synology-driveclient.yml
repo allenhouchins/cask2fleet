@@ -1,0 +1,7 @@
+url: https://global.synologydownload.com/download/Utility/SynologyDriveClient/4.0.0-17591/Windows/Installer/x86_64/Synology%20Drive%20Client-4.0.0-17591-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

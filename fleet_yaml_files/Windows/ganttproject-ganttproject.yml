@@ -1,0 +1,7 @@
+url: https://dl.ganttproject.biz/ganttproject-3.3.3316/ganttproject-3.3.3316.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

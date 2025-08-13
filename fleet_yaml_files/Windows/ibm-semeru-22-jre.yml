@@ -1,0 +1,7 @@
+url: https://github.com/ibmruntimes/semeru22-binaries/releases/download/jdk-22.0.2+9_openj9-0.46.1/ibm-semeru-open-jre_x64_windows_22.0.2_9_openj9-0.46.1.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://github.com/sn4k3/UVtools/releases/download/v5.1.7/UVtools_win-x64_v5.1.7.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

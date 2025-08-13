@@ -1,0 +1,7 @@
+url: https://www.arixcel.com/download/Arixcel_Explorer_v8.9.9212.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

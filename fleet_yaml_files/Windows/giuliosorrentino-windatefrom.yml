@@ -1,0 +1,7 @@
+url: https://github.com/GiulianoSpaghetti/WinDateFrom.avalonia/releases/download/5.0/WinDateFrom.Avalonia-5.0.0.2-amd64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

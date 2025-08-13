@@ -1,0 +1,7 @@
+url: https://fw-download.ubnt.com/data/uid-ui-desktop-app/6ae9-macOS-0.89.1-7ee8d102-d6c2-472d-9d0b-38b3627d11be.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

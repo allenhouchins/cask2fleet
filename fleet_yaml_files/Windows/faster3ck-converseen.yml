@@ -1,0 +1,7 @@
+url: https://github.com/Faster3ck/Converseen/releases/download/v0.15.0.2/Converseen-0.15.0.2-1-win64-setup.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

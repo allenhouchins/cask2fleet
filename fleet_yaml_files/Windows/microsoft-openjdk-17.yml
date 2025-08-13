@@ -1,0 +1,7 @@
+url: https://download.visualstudio.microsoft.com/download/pr/8593866b-3e08-4ba6-9db6-de50162ae976/9fdf282ed05035750a1e5c4a0a7e111c/microsoft-jdk-17.0.1.12.1-windows-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

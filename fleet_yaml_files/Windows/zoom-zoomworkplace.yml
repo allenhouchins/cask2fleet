@@ -1,0 +1,10 @@
+url: https://zoom.us/client/6.4.12.64384/ZoomInstallerFull.exe?archType=x64&ampDeviceId=114fae25-3982-45da-81de-cebe7e3b6e09&ampSessionId=1749314140765
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

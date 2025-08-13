@@ -1,0 +1,7 @@
+url: https://github.com/mar10/pyftpsync/releases/download/v4.1.0/pyftpsync-4.1.0.0-win64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

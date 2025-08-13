@@ -1,0 +1,7 @@
+url: https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/0e427f5b-c906-47d4-b922-d944c1d227e4/MicrosoftEdgeDevEnterpriseX64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

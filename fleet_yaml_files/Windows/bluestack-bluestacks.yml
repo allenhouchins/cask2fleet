@@ -1,0 +1,10 @@
+url: https://cdn3.bluestacks.com/downloads/windows/nxt/5.9.350.1035/60bb40c68dc54e2191e97fc4d5ab1ae8/FullInstaller/x64/BlueStacksFullInstaller_5.9.350.1035_amd64_native.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

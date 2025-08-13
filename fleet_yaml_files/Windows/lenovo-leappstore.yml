@@ -1,0 +1,10 @@
+url: https://pc-store.lenovomm.cn/dlservice/download?fk=tAsJN21339xTYJTP6JngxCUiy8FwsymmreRHSKqkSu4Vr6etqMx4WDetVQo1zdRbYDqS2MLtPX4ENbjrgYVxab26qPADCi2wwY39qiPSWdtkkFVFgeS7Gft9ZsSM2Ct9T4qkzXN1dRtLXt&type=6&filekey=/appstore/advert/apps/38f54112-fe38-4da4-81cb-2c7e6be9a269/Store-ind-20000-992-ASM.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

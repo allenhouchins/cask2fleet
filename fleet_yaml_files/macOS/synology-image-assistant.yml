@@ -1,0 +1,7 @@
+url: https://global.download.synology.com/download/Utility/SynologyImageAssistant/1.0.2-56/Mac/SynologyImageAssistant-1.0.2-56-arm64.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

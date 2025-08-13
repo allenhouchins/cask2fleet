@@ -1,0 +1,7 @@
+url: https://artifacts.videolan.org/vlc/nightly-win64/20250806-0421/vlc-4.0.0-dev-win64-231f5d40.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

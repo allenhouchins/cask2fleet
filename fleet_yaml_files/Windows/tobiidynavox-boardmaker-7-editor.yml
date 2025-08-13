@@ -1,0 +1,7 @@
+url: https://download.mytobiidynavox.com/Boardmaker/v7/Prod-Editor-Updates/Boardmaker%207%20Editor%20Win%20x64%20Setup%207.2.7-2025040303.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

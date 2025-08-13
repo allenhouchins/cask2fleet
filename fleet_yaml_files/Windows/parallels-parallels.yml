@@ -1,0 +1,7 @@
+url: https://download.parallels.com/ras/v20/20.2.1.25997/RASClient-x64-20.2.25997.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://downloadcenter.samsung.com/content/SW/202301/20230117125241517/Easy_Connection_to_Screen-4.7.1-win64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

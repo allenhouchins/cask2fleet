@@ -1,0 +1,7 @@
+url: https://openrgb.org/releases/release_candidate_1.0rc1/OpenRGB_1.0rc1_Windows_64_1fbacde.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

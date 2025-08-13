@@ -1,0 +1,7 @@
+url: https://github.com/sn4k3/NetSonar/releases/download/0.1.1/NetSonar_win-x64_v0.1.1.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

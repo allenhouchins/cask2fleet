@@ -1,0 +1,7 @@
+url: https://github.com/tushev/aojdk-updatewatcher/releases/download/2.0.5.0/AJUpdateWatcher-2.0.5.0-setup.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

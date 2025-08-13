@@ -1,0 +1,7 @@
+url: https://github.com/grafana/k6/releases/download/v1.1.0/k6-v1.1.0-windows-amd64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

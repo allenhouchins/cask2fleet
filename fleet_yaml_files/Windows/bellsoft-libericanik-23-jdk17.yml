@@ -1,0 +1,7 @@
+url: https://github.com/bell-sw/LibericaNIK/releases/download/23.0.5+1-17.0.12+10/bellsoft-liberica-vm-openjdk17.0.12+10-23.0.5+1-windows-amd64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

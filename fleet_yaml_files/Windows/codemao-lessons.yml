@@ -1,0 +1,10 @@
+url: https://static.codemao.cn/codemaster-octopus-client/releases/gray/production/%E7%BC%96%E7%A8%8B%E7%8C%AB%E5%AE%9A%E5%88%B6%E8%AF%BE-3.6.0.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

@@ -1,0 +1,7 @@
+url: https://www.dmt.dk/uploads/6/5/6/8/65689239/myopulse_v3.1.13_installer.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

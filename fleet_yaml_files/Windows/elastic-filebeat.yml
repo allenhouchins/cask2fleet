@@ -1,0 +1,7 @@
+url: https://artifacts.elastic.co/downloads/beats/packetbeat/packetbeat-9.1.1-windows-x86_64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

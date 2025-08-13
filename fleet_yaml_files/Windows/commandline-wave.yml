@@ -1,0 +1,7 @@
+url: https://dl.waveterm.dev/releases-w2/Wave-win32-x64-0.9.3.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

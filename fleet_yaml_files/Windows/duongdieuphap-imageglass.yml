@@ -1,0 +1,7 @@
+url: https://github.com/d2phap/ImageGlass/releases/download/9.3.2.520/ImageGlass_9.3.2.520_x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

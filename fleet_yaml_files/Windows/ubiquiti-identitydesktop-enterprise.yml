@@ -1,0 +1,7 @@
+url: https://fw-download.ubnt.com/data/uid-ui-desktop-app-msi/933c-windows-0.89.1-a9150f85-da44-4478-a211-12d304cb8c51.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

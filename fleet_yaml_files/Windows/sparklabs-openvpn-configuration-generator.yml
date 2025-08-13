@@ -1,0 +1,7 @@
+url: https://github.com/thesparklabs/openvpn-configuration-generator/releases/download/1.0.9/OpenVPNConfigurationGeneratorx64_Win10_1.0.9.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

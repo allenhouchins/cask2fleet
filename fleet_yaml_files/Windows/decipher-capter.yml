@@ -1,0 +1,7 @@
+url: https://github.com/decipher3114/Capter/releases/download/v4.0.1/capter_4.0.1_x64_en-US.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

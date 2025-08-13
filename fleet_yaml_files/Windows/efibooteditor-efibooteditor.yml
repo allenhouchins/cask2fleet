@@ -1,0 +1,7 @@
+url: https://github.com/Neverous/efibooteditor/releases/download/v1.5.3/EFIBootEditor-v1.5.3-windows-2022-qt-6.8.3-MSVC.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

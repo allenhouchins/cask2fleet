@@ -1,0 +1,7 @@
+url: https://dl.google.com/release2/misc/advta3mda3kvh5bar7fprm55nqnq_14.9.4.0/google_ads_editor.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

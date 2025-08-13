@@ -1,0 +1,7 @@
+url: https://github.com/halestudio/hale/releases/download/v5.4.0/HALE-5.4.0-en-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

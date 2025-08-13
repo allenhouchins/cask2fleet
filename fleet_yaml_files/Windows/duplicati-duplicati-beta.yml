@@ -1,0 +1,7 @@
+url: https://github.com/duplicati/duplicati/releases/download/v2.1.0.3_beta_2025-01-22/duplicati-2.1.0.3_beta_2025-01-22-win-x64-gui.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,10 @@
+url: https://github.com/coq/platform/releases/download/2025.01.0/Coq-Platform-release-2025.01.0-version.8.19.2024.10-Windows-x86_64_UNSIGNED.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

@@ -1,0 +1,7 @@
+url: https://colony-labs-public.s3.us-east-2.amazonaws.com/Scribe_5.7.29.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

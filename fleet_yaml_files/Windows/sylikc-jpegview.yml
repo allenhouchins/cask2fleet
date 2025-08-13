@@ -1,0 +1,7 @@
+url: https://github.com/sylikc/jpegview/releases/download/v1.3.46/JPEGView64_en-us_1.3.46.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

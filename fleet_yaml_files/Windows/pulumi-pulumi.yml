@@ -1,0 +1,7 @@
+url: https://github.com/pulumi/pulumi-winget/releases/download/v3.99.0/pulumi-3.99.0-windows-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

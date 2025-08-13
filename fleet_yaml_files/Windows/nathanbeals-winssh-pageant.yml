@@ -1,0 +1,7 @@
+url: https://github.com/ndbeals/winssh-pageant/releases/download/v2.3.1/winssh-pageant-v2.3.1_amd64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

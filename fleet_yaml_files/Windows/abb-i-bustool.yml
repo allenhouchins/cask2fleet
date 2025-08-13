@@ -1,0 +1,7 @@
+url: https://library.e.abb.com/public/669077566dee4a6cb2de0d195bae3239/i-bus%20Tool%201.9.55.0.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

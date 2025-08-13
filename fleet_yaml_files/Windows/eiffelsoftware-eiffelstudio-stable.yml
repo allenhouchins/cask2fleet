@@ -1,0 +1,7 @@
+url: https://www.eiffel.com/cdn/EiffelStudio/23.09/107341/Eiffel_23.09_rev_107341-win64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

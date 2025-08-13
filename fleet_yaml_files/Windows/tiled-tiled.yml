@@ -1,0 +1,7 @@
+url: https://github.com/mapeditor/tiled/releases/download/v1.9.2/Tiled-1.9.2_Windows_x86_64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

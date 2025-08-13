@@ -1,0 +1,7 @@
+url: https://github.com/Stormix/deadlock-modmanager/releases/download/v0.4.0/Deadlock.Mod.Manager_0.4.0_x64_en-US.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

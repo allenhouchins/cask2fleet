@@ -1,0 +1,7 @@
+url: https://education.ti.com/download/en/ed-tech/F023C422368F4EA3B612C1FF45B2087D/A01382BDF9B548BB97C9E7AA0046DD82/TISmartViewTICollegePlus-1.3.0.61.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

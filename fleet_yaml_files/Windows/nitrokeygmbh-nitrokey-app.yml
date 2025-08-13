@@ -1,0 +1,7 @@
+url: https://github.com/Nitrokey/nitrokey-app2/releases/download/v2.3.3/nitrokey-app-v2.3.3-x64-windows-installer.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

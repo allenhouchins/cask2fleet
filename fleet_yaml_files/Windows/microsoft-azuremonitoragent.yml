@@ -1,0 +1,7 @@
+url: https://download.microsoft.com/download/31552825-352c-46fa-91d8-9c8984ea0545/AzureMonitorAgentClientSetup.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

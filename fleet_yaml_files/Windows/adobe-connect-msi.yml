@@ -1,0 +1,7 @@
+url: https://download.adobe.com/pub/connect/updaters/meeting/11_0/ConnectApp11_2025_5_5.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

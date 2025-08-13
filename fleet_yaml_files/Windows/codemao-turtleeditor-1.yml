@@ -1,0 +1,10 @@
+url: https://static.codemao.cn/wood/client/production/win64/%E6%B5%B7%E9%BE%9F%E7%BC%96%E8%BE%91%E5%99%A8x64-1.8.6.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined

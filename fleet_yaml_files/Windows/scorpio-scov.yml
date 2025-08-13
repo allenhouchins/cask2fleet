@@ -1,0 +1,7 @@
+url: https://github.com/qingfeng346/ScorpioConversion/releases/download/v1.0.1/scov-1.0.1-win-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

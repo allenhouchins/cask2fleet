@@ -1,0 +1,7 @@
+url: https://education.ti.com/download/en/ed-tech/F4D60658D2D947F38F0A4C9C043B12E6/CB9160F3D4C84FD8B51BBFC9A237E426/TI-SmartView-MP-1.2.0.2108.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

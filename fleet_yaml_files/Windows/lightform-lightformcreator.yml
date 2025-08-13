@@ -1,0 +1,7 @@
+url: https://software.webservices.lumenous3d.com/app/Lightform-2.2.6.1295-release-public-win.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

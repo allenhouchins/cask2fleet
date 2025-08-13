@@ -1,0 +1,7 @@
+url: http://storage.cevio.jp/product/CeVIO_Voice_Midorizaki_Kasumi_Setup_(1.1.2).msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

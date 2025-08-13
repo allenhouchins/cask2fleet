@@ -1,0 +1,7 @@
+url: https://github.com/playit-cloud/playit-agent/releases/download/v0.15.9/playit-windows-x86_64-signed.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

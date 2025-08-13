@@ -1,0 +1,7 @@
+url: https://download.microsoft.com/download/8/3/f/83fd5089-d14e-42e3-af7c-6fc36f80d347/SurfaceHub_Recovery_v2.7.139.0.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

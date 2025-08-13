@@ -1,0 +1,7 @@
+url: https://tools.veracode.com/veracode-cli/veracode_v2.37.0_windows_386.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,0 +1,7 @@
+url: https://github.com/occ-ai/obs-backgroundremoval/releases/download/1.1.13/obs-backgroundremoval-1.1.13-macos-universal.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

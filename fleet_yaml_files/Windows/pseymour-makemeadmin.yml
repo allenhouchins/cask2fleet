@@ -1,0 +1,7 @@
+url: https://raw.githubusercontent.com/pseymour/MakeMeAdmin/5314af1919badd237d800cdf302a1c2d48311341/Installers/en-us/MakeMeAdmin%202.3.81%20x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

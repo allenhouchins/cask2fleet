@@ -1,0 +1,7 @@
+url: https://download.microsoft.com/download/3/5/3/3535e42a-7b44-4a0b-aaaf-7f83349f7fb4/Hyperlapse-Pro-for-64-bit-Windows_1.6-116-d4cb262-2.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

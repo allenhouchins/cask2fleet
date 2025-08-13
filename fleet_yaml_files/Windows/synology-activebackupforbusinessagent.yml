@@ -1,0 +1,7 @@
+url: https://global.synologydownload.com/download/Utility/ActiveBackupBusinessAgent/3.0.0-4638/Windows/x86_64/Synology%20Active%20Backup%20for%20Business%20Agent-3.0.0-4638-x64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

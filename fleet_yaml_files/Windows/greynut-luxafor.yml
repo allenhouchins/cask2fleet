@@ -1,0 +1,7 @@
+url: https://api.luxafor.com/versioning/download/luxafor_blz159is6sp00pugtpqi0fvq/2.4.2.2/LuxaforApp-Installer-2.4.2.2-nonet.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

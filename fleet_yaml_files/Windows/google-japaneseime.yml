@@ -1,0 +1,7 @@
+url: https://dl.google.com/release2/misc/adgy2mhczyv34wo6gkbhvii3lkuq_2.30.5620.0/GoogleJapaneseInput64-2.30.5620.0.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

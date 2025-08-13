@@ -1,0 +1,7 @@
+url: https://github.com/feraxhp/grp/releases/download/v0.7.2-beta/grp-0.7.2-x86_64.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

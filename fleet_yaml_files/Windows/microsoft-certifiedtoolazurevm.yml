@@ -1,0 +1,7 @@
+url: https://download.microsoft.com/download/a/f/1/af1bfced-edbf-4991-a78e-775ca8dab151/Certification%20Test%20Tool%201.6%20for%20Azure%20Certified.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
