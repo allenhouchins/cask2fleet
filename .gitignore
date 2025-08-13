@@ -18,7 +18,7 @@
 go.work
 
 # Generated Fleet YAML files
-fleet_yaml_files/
+# fleet_yaml_files/
 
 # WinGet repository (cloned locally during execution)
 winget-pkgs/
