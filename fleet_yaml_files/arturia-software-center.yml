@@ -1,7 +1,0 @@
-url: https://dl.arturia.net/products/asc/soft/Arturia_Software_Center__2_10_0_2970.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

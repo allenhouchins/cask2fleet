@@ -1,7 +1,0 @@
-url: https://dl.teamviewer.com/download/version_15x/update/15.68.5/TeamViewer.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

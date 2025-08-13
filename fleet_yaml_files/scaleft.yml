@@ -1,7 +1,0 @@
-url: https://dist.scaleft.com/repos/macos/stable/all/macos-client/$(curl -s "https://dist.scaleft.com/repos/macos/stable/all/macos-client/" | grep -o 'v[0-9]\+\.[0-9]\+\.[0-9]\+' | sort -V | tail -n 1)/ScaleFT-$(curl -s "https://dist.scaleft.com/repos/macos/stable/all/macos-client/" | grep -o 'v[0-9]\+\.[0-9]\+\.[0-9]\+' | sort -V | tail -n 1 | sed 's/^v//').pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

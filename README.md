@@ -1,247 +1,213 @@
-# Cask to Fleet Converter
+# Generate Fleet YAML
 
-This Go program converts Homebrew casks and Installomator entries to Fleet-compatible YAML files, specifically targeting non-deprecated entries with PKG file types.
+A Go application that automatically generates Fleet YAML configuration files from multiple package sources including Homebrew Casks, Installomator scripts, and WinGet manifests.
 
 ## Features
 
-- Fetches Homebrew casks data from the official API
-- Fetches Installomator script data from GitHub
-- Filters for non-deprecated entries with URLs and PKG file types
-- **Deduplicates entries** with Installomator taking priority over Homebrew casks
-- **Alphabetically sorts** all entries regardless of source
-- Generates Fleet-compatible YAML files for each qualifying entry
-- Creates a comprehensive summary of processed entries
-- Handles package identifiers for proper uninstallation
-- **Precise PKG detection** to avoid false positives (ZIP, DMG, TAR files)
-- **Go 1.24+ optimized** with improved performance and memory efficiency
+- **Multi-Source Support**: Generates Fleet YAML files from Homebrew Casks, Installomator scripts, and WinGet manifests
+- **Cross-Platform**: Supports both macOS (PKG) and Windows (MSI/EXE) installers
+- **Smart Filtering**: Only includes legitimate installer packages (PKG, MSI, EXE)
+- **Organized Output**: Automatically organizes files by platform (macOS/Windows)
+- **Consistent Structure**: All files follow the same professional YAML structure
+- **EXE Script Support**: Automatically adds required install/uninstall script parameters for Windows EXE files
+- **Production Ready**: Includes GitHub Actions workflow for automated updates
 
 ## Requirements
 
-- Go 1.24 or later
-- Internet connection to fetch Homebrew casks data and Installomator script
-
-## Recent Improvements
-
-### Go 1.24 Upgrade (Latest)
-- **Updated to Go 1.24** for latest features and performance improvements
-- **Enhanced slice operations** using the `slices` package for better efficiency
-- **Improved memory allocation** with pre-allocated slices
-- **Updated GitHub Actions** to use Go 1.24
-
-### PKG Detection Improvements (Latest)
-- **Fixed false positives** that were incorrectly including ZIP, DMG, and TAR files
-- **Precise detection logic** that only includes actual PKG installer files
-- **Cleaned up 139 incorrectly generated files** from previous runs
-- **Added safety filters** to prevent future false positives
-
-### Example of Fixed Issues
-- ❌ **Before**: `uninstallpkg_1.2.2.zip` was incorrectly identified as PKG
-- ✅ **After**: Only legitimate PKG files like `zoom.pkg`, `microsoft-office.pkg` are included
+- **Go 1.24+** - Latest Go version with new features
+- **Git** - Required for WinGet repository cloning (only during GitHub Actions execution)
 
 ## Installation
 
-1. Clone or download this repository
-2. Ensure you have Go installed on your system
+```bash
+git clone https://github.com/yourusername/generate_fleet_yaml.git
+cd generate_fleet_yaml
+go build -o generate_fleet_yaml
+```
 
 ## Usage
 
-### Build and Run
+### Local Execution
 
 ```bash
-# Build the program
-go build -o cask2fleet main.go
-
-# Run the program
-./cask2fleet
+./generate_fleet_yaml
 ```
 
-### Run Directly with Go
+This will:
+1. Fetch Homebrew casks and filter for PKG files
+2. Process Installomator scripts for additional PKG files
+3. Clone and process WinGet manifests for MSI/EXE files
+4. Generate organized YAML files in `fleet_yaml_files/`
 
-```bash
-go run main.go
-```
+### GitHub Actions
 
-The program will:
-1. Fetch all Homebrew casks from the API
-2. Fetch all Installomator entries from the script
-3. Filter for qualifying entries (non-deprecated, has URL, PKG file type)
-4. Deduplicate entries with Installomator taking priority
-5. Sort all entries alphabetically
-6. Generate individual YAML files for each entry
-7. Create a summary document
+The project includes a GitHub Actions workflow (`.github/workflows/update-fleet-yaml.yml`) that:
+- Runs automatically on schedule
+- Builds and executes the application
+- Commits updated YAML files
+- Provides detailed metadata about the update
+
+## Sources
+
+### Homebrew Casks (macOS)
+- **API**: `https://formulae.brew.sh/api/cask.json`
+- **Filter**: Only includes URLs ending in `.pkg`
+- **Output**: `fleet_yaml_files/macOS/`
+
+### Installomator Scripts (macOS)
+- **Source**: Installomator script parsing
+- **Filter**: Only includes URLs ending in `.pkg`
+- **Output**: `fleet_yaml_files/macOS/`
+
+### WinGet Repository (Windows)
+- **Source**: Local clone of [WinGet manifests repository](https://github.com/microsoft/winget-pkgs)
+- **Filter**: Only includes x64 MSI and EXE installers
+- **Output**: `fleet_yaml_files/Windows/`
+- **Architecture**: x64 only
+- **Installers**: MSI and EXE files
+
+## WinGet Support (Production Ready - Local Repository)
+
+The WinGet integration uses a local repository approach for maximum efficiency:
+
+- **Local Repository**: Clones the WinGet manifests repository locally during execution
+- **Full Repository Traversal**: Processes all manifests in the repository
+- **Intelligent Caching**: Uses SHA256 hashes to avoid re-processing unchanged files
+- **Efficient File System Traversal**: Direct file system access for maximum performance
+- **x64 Architecture Filtering**: Only processes x64 Windows installers
+- **Thread-Safe Operations**: Safe concurrent processing with proper synchronization
+
+### Advanced WinGet Features
+
+- **Local Repository Management**: Automatically clones and updates the WinGet repository
+- **Git Integration**: Uses Git commands for repository management
+- **Manifest Structure Support**: Handles the complex WinGet manifest structure (main package + installer files)
+- **Performance Optimized**: Local file system access eliminates API rate limits
+
+### Git Requirements
+
+- **Git Installation**: Git must be available in the execution environment
+- **GitHub Actions**: Git is pre-installed in GitHub Actions runners
+- **Local Development**: Ensure Git is installed on your system
 
 ## Output
 
-The program creates a `fleet_yaml_files/` directory containing:
-- Individual YAML files for each qualifying entry
-- A `SUMMARY.md` file with details about all processed entries (including source information)
-- An `UPDATE_METADATA.md` file with generation details and statistics
+### Directory Structure
+
+```
+fleet_yaml_files/
+├── macOS/          # macOS PKG files
+│   ├── 1password8.yml
+│   ├── zoom.yml
+│   └── ...
+└── Windows/        # Windows MSI/EXE files
+    ├── zoom-zoom.yml
+    ├── microsoft-teams.yml
+    └── ...
+```
+
+### File Naming Convention
+All generated files use lowercase names with hyphens instead of underscores:
+- **Example**: `Yandex_Music.yml` → `yandex-music.yml`
+- **Example**: `Zoom_Zoom.yml` → `zoom-zoom.yml`
+- **Example**: `1password8.yml` → `1password8.yml` (already lowercase)
+
+### File Structure
+All YAML files follow the same consistent structure:
+
+**macOS PKG files:**
+```yaml
+url: https://example.com/installer.pkg
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+```
+
+**Windows MSI files:**
+```yaml
+url: https://example.com/installer.msi
+automatic_install: false
+self_service: false
+categories: []
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+```
+
+**Windows EXE files:**
+```yaml
+url: https://example.com/installer.exe
+automatic_install: false
+self_service: false
+categories: []
+install_script: '# TODO: Add install script for this EXE'
+uninstall_script: '# TODO: Add uninstall script for this EXE'
+
+# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
+# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
+# Note: Any exe requires an install script and uninstall script to be defined
+```
 
 ## Fleet YAML Structure
 
-Each generated YAML file follows the Fleet software configuration format:
+The generated YAML files follow the Fleet software configuration format:
 
-```yaml
-apiVersion: v1
-kind: Software
-metadata:
-  name: app-name-software
-  labels:
-    source: homebrew-cask
-    type: pkg-installer
-spec:
-  name: App Name
-  version: 1.0.0
-  description: App description
-  homepage: https://example.com
-  source:
-    type: url
-    url: https://example.com/app.pkg
-  install:
-    type: pkg
-    source: https://example.com/app.pkg
-  uninstall:
-    type: pkgutil
-    identifiers: ["com.example.app"]
-```
+- **url**: Direct download link to the installer
+- **automatic_install**: Set to `false` by default
+- **self_service**: Set to `false` by default
+- **categories**: Empty array for manual categorization
+- **install_script**: Required for EXE files (with TODO placeholder)
+- **uninstall_script**: Required for EXE files (with TODO placeholder)
 
-## Filtering Criteria
+## Filtering Logic
 
-The program includes casks that meet ALL of the following criteria:
-- **Not deprecated**: `deprecated: false`
-- **Has URL**: Contains a valid download URL
-- **PKG file type**: URL points to a PKG installer file
+### PKG Detection (macOS)
+- **Includes**: URLs ending in `.pkg`
+- **Excludes**: URLs containing `.zip`, `.dmg`, `.tar`, or `.mpkg`
+- **Regex**: `\.pkg$`
 
-## Package Detection
+### MSI Detection (Windows)
+- **Includes**: URLs ending in `.msi`
+- **Regex**: `\.msi$`
 
-The program uses precise PKG file detection to avoid false positives:
+### EXE Detection (Windows)
+- **Includes**: URLs ending in `.exe`
+- **Regex**: `\.exe$`
 
-### Primary Detection Methods
-- **File extension**: URLs ending with `.pkg`
-- **Installer patterns**: URLs matching patterns like `installer.*\.pkg$`, `pkg.*installer$`
+### Windows Installer Detection
+- **Includes**: Both MSI and EXE files
+- **Architecture**: x64 only
+- **Regex**: `\.(msi|exe)$`
 
-### Safety Filters
-- **Excludes ZIP files**: URLs containing `.zip` are automatically excluded
-- **Excludes DMG files**: URLs containing `.dmg` are automatically excluded  
-- **Excludes TAR files**: URLs containing `.tar` are automatically excluded
-- **Requires installer keywords**: For URLs containing "pkg" but not ending in `.pkg`, must also contain "installer", "setup", or "package"
+## Performance Features
 
-### Examples
-✅ **Valid PKG files**:
-- `https://example.com/app.pkg`
-- `https://example.com/installer.pkg`
-- `https://example.com/app-setup.pkg`
+- **Go 1.24 Features**: Uses `slices.Compact` for efficient deduplication
+- **Pre-allocated Slices**: Optimized memory usage with capacity hints
+- **Local Repository**: Eliminates API rate limits for WinGet processing
+- **Intelligent Caching**: Avoids re-processing unchanged files
+- **Efficient File System Access**: Direct file operations for maximum speed
 
-❌ **Excluded files**:
-- `https://example.com/uninstallpkg_1.2.2.zip` (ZIP file)
-- `https://example.com/font-noto-sans-osage.zip` (ZIP file)
-- `https://example.com/app.dmg` (DMG file)
+## GitHub Actions Workflow
 
-## Error Handling
+The included workflow (`.github/workflows/update-fleet-yaml.yml`) provides:
 
-The program includes comprehensive error handling for:
-- Network issues when fetching data
-- Invalid cask data
-- File I/O errors
-- YAML generation issues
+- **Automated Execution**: Runs on schedule
+- **Cache Management**: Efficient dependency caching
+- **File Counting**: Detailed statistics about generated files
+- **Metadata Generation**: Creates `UPDATE_METADATA.md` with update details
+- **Git Operations**: Automatic commits with descriptive messages
 
-## Customization
+## Contributing
 
-You can modify the program to:
-- Change filtering criteria
-- Adjust YAML structure
-- Modify output directory
-- Add additional metadata fields
-
-## Example Output
-
-```
-Fetching Homebrew casks...
-Found 7562 total Homebrew casks
-Fetching Installomator data...
-Found 92 total Installomator entries
-Processing 317 Homebrew casks and 92 Installomator entries that meet criteria...
-Generated 398 unique entries after deduplication
-Generated: 1password8.yml (from Installomator)
-Generated: adoptopenjdk.yml
-Generated: airmedia.yml
-...
-Generated 398 Fleet YAML files in fleet_yaml_files/
-
-Summary generated: SUMMARY.md
-Conversion completed successfully!
-```
-
-**Note**: The number of generated files varies based on the current Homebrew casks and Installomator entries available. The program now uses precise PKG detection, so only legitimate PKG installer files are included. Installomator entries take priority over Homebrew casks for duplicates.
-
-## Building for Distribution
-
-To build for different platforms:
-
-```bash
-# Build for macOS (current platform)
-GOOS=darwin GOARCH=amd64 go build -o cask2fleet-macos-amd64 main.go
-
-# Build for Linux
-GOOS=linux GOARCH=amd64 go build -o cask2fleet-linux-amd64 main.go
-
-# Build for Windows
-GOOS=windows GOARCH=amd64 go build -o cask2fleet-windows-amd64.exe main.go
-```
-
-## 🤖 Automation
-
-This repository includes automated updates to keep the Fleet YAML files current with the latest Homebrew casks and Installomator entries.
-
-### GitHub Actions Workflow
-
-The repository includes a GitHub Actions workflow (`.github/workflows/update-fleet-yaml.yml`) that:
-
-- **Runs twice daily** at 6:00 AM and 6:00 PM UTC
-- **Automatically commits** updated YAML files to the repository
-- **Can be triggered manually** via the GitHub Actions tab
-- **Runs on code changes** to the Go program
-
-### Local Update Script
-
-You can also run updates locally using the provided shell script:
-
-```bash
-# Make the script executable (first time only)
-chmod +x update_fleet_yaml.sh
-
-# Run the update
-./update_fleet_yaml.sh
-```
-
-The script will:
-- Build the Go program
-- Generate updated YAML files
-- Create metadata about the update
-- Show a summary of generated files
-
-### Update Metadata
-
-Each update creates an `UPDATE_METADATA.md` file in the `fleet_yaml_files/` directory containing:
-- Timestamp of the update
-- Number of files generated
-- Generation details
-- Link to the GitHub Actions run
-
-## Troubleshooting
-
-- **Network errors**: Ensure you have internet access and the Homebrew API is reachable
-- **Permission errors**: Make sure you have write permissions in the current directory
-- **Compilation errors**: Verify you have Go 1.21+ installed
-
-## Performance
-
-The Go implementation provides:
-- Fast execution compared to interpreted languages
-- Efficient memory usage
-- Single binary distribution
-- Cross-platform compatibility
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
 ## License
 
-This program is provided as-is for educational and development purposes. 
+This project is licensed under the MIT License - see the LICENSE file for details. 

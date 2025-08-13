@@ -1,7 +1,0 @@
-url: https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.31.0/advanced-scene-switcher-1.31.0-macos-universal.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

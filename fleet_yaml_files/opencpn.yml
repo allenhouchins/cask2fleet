@@ -1,7 +1,0 @@
-url: https://github.com/OpenCPN/OpenCPN/releases/download/Release_5.12.2/OpenCPN_5.12.2-universal+14584.efdcaa63f-14.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

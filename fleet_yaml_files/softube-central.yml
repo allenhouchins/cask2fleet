@@ -1,7 +1,0 @@
-url: https://softubestorage.b-cdn.net/softubecentraldata/softubecentral/Softube%20Central-2.0.1-universal.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

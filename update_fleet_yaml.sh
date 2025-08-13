@@ -1,134 +1,33 @@
 #!/bin/bash
 
-# Update Fleet YAML files from Homebrew casks
-# This script fetches the latest Homebrew casks and generates Fleet-compatible YAML files
+# Update Fleet YAML Generator
+# This script builds and runs the generate_fleet_yaml application
 
-set -e  # Exit on any error
+echo "🚀 Building generate_fleet_yaml..."
 
-# Colors for output
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-BLUE='\033[0;34m'
-NC='\033[0m' # No Color
+# Build the application
+go build -o generate_fleet_yaml main.go
 
-# Configuration
-OUTPUT_DIR="fleet_yaml_files"
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-
-echo -e "${BLUE}🚀 Starting Fleet YAML update process...${NC}"
-echo -e "${BLUE}📅 Timestamp: ${TIMESTAMP}${NC}"
-echo -e "${BLUE}📁 Output directory: ${OUTPUT_DIR}${NC}"
-
-# Check if Go is installed
-if ! command -v go &> /dev/null; then
-    echo -e "${RED}❌ Go is not installed. Please install Go 1.24 or later.${NC}"
+if [ $? -eq 0 ]; then
+    echo "✅ Build successful!"
+    echo "🔄 Running generate_fleet_yaml..."
+    
+    # Run the application
+    ./generate_fleet_yaml
+    
+    if [ $? -eq 0 ]; then
+        echo "✅ generate_fleet_yaml completed successfully!"
+        
+        # Show summary
+        echo "📊 Generated files:"
+        echo "   - macOS files: $(ls fleet_yaml_files/macOS/*.yml 2>/dev/null | wc -l)"
+        echo "   - Windows files: $(ls fleet_yaml_files/Windows/*.yml 2>/dev/null | wc -l)"
+        echo "   - Total files: $(find fleet_yaml_files -name "*.yml" 2>/dev/null | wc -l)"
+    else
+        echo "❌ generate_fleet_yaml failed!"
+        exit 1
+    fi
+else
+    echo "❌ Build failed!"
     exit 1
-fi
-
-# Check Go version
-GO_VERSION=$(go version | awk '{print $3}' | sed 's/go//')
-echo -e "${BLUE}🔧 Go version: ${GO_VERSION}${NC}"
-
-# Navigate to script directory
-cd "$SCRIPT_DIR"
-
-# Clean previous output
-if [ -d "$OUTPUT_DIR" ]; then
-    echo -e "${YELLOW}🧹 Cleaning previous output directory...${NC}"
-    rm -rf "$OUTPUT_DIR"
-fi
-
-# Build the Go program
-echo -e "${BLUE}🔨 Building cask2fleet program...${NC}"
-if ! go build -o cask2fleet main.go; then
-    echo -e "${RED}❌ Failed to build cask2fleet program${NC}"
-    exit 1
-fi
-
-# Run the program
-echo -e "${BLUE}🔄 Running cask2fleet to generate YAML files...${NC}"
-if ! ./cask2fleet; then
-    echo -e "${RED}❌ Failed to run cask2fleet program${NC}"
-    exit 1
-fi
-
-# Check if files were generated
-if [ ! -d "$OUTPUT_DIR" ] || [ -z "$(ls -A "$OUTPUT_DIR" 2>/dev/null)" ]; then
-    echo -e "${RED}❌ No YAML files were generated${NC}"
-    exit 1
-fi
-
-# Count generated files
-FILE_COUNT=$(find "$OUTPUT_DIR" -name "*.yml" | wc -l)
-echo -e "${GREEN}✅ Successfully generated ${FILE_COUNT} YAML files${NC}"
-
-# Create a summary file with metadata
-SUMMARY_FILE="$OUTPUT_DIR/UPDATE_METADATA.md"
-
-# Count files by source (this is a simplified approach - the actual counts come from the Go program)
-cat > "$SUMMARY_FILE" << EOF
-# Fleet YAML Files Update Metadata
-
-## Last Update
-- **Timestamp**: ${TIMESTAMP}
-- **Total Files Generated**: ${FILE_COUNT}
-- **Sources**: 
-  - Homebrew Casks API
-  - Installomator Script
-- **Filter Criteria**: Non-deprecated entries with PKG file types
-- **Deduplication**: Installomator entries take priority over Homebrew casks
-
-## Generation Details
-- **Script**: cask2fleet (Go program)
-- **Go Version**: ${GO_VERSION}
-- **Output Directory**: ${OUTPUT_DIR}
-- **Processing**: Combined and deduplicated from multiple sources
-
-## Sources
-
-### Homebrew Casks
-- **API Endpoint**: https://formulae.brew.sh/api/cask.json
-- **Filter**: Non-deprecated casks with PKG file URLs
-
-### Installomator
-- **Source**: https://raw.githubusercontent.com/Installomator/Installomator/main/Installomator.sh
-- **Filter**: Entries with PKG file URLs
-- **Priority**: Takes precedence over Homebrew casks for duplicates
-
-## Deduplication Strategy
-- Installomator entries are processed first and take priority
-- Homebrew casks are added only if they don't conflict with existing entries
-- Conflicts are resolved by URL and identifier matching
-- Final output is sorted alphabetically by identifier
-
-## File Format
-Each YAML file contains:
-- \`url\`: Download URL for the PKG installer
-- \`automatic_install\`: false
-- \`self_service\`: false  
-- \`categories\`: [] (empty array)
-
-## Categories
-Categories are currently limited to: Browsers, Communication, Developer tools, and Productivity.
-
-## Configuration
-This is a minimum version of each file. All configurable parameters can be seen at:
-https://fleetdm.com/docs/rest-api/rest-api#parameters139
-
-## Automation
-This directory is automatically updated twice daily via GitHub Actions.
-EOF
-
-echo -e "${GREEN}📝 Created update metadata: ${SUMMARY_FILE}${NC}"
-
-# Show some example files
-echo -e "${BLUE}📋 Example generated files:${NC}"
-ls -la "$OUTPUT_DIR"/*.yml | head -5
-
-echo -e "${GREEN}🎉 Fleet YAML update completed successfully!${NC}"
-echo -e "${BLUE}📊 Summary:${NC}"
-echo -e "   • Generated ${FILE_COUNT} YAML files"
-echo -e "   • Output directory: ${OUTPUT_DIR}"
-echo -e "   • Timestamp: ${TIMESTAMP}" 
+fi 

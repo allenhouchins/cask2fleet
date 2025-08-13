@@ -1,7 +1,0 @@
-url: https://github.com/DistroAV/DistroAV/releases/download/6.1.1/distroav-6.1.1-macos-universal.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,7 +1,0 @@
-url: https://file.insta360.com/static/b5ebf27ff81b175d598f71fd68bb88cc/Insta360LinkController_2.0.5(build9).pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

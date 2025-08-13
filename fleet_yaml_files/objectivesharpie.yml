@@ -1,7 +1,0 @@
-url: https://download.visualstudio.microsoft.com/download/pr/3a748cc2-780d-403c-88ba-700aa9a2d299/88cbfd86e85f56b4c61e092d0f0b9ad9/objectivesharpie-3.5.116.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

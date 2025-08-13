@@ -1,7 +1,0 @@
-url: https://github.com/scriptingosx/desktoppr/releases/download/v0.5/desktoppr-0.5-218.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

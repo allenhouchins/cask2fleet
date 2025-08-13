@@ -1,13 +1,12 @@
-name: Update Fleet yaml files
+name: Update Fleet YAML Files
 
 on:
   schedule:
-    # Run at 6:00 AM and 6:00 PM UTC (twice daily)
+    # Run twice daily at 6:00 AM and 6:00 PM UTC
     - cron: '0 6,18 * * *'
-  workflow_dispatch:  # Allow manual triggering
+  workflow_dispatch: # Allow manual triggering
   push:
-    branches:
-      - main
+    branches: [ main ]
     paths:
       - 'main.go'
       - 'go.mod'
@@ -23,17 +22,17 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-      
+        fetch-depth: 0
+
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: '1.24'
         cache: true
-        
+
     - name: Cache Go modules
       uses: actions/cache@v4
       with:
@@ -43,95 +42,73 @@ jobs:
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
         restore-keys: |
           ${{ runner.os }}-go-
-          
-    - name: Clean and download dependencies
+
+    - name: Clean cache
       run: |
-        # Clean any corrupted cache
         go clean -cache -modcache -testcache || true
-        # Download dependencies
         go mod download
-        # Verify dependencies
         go mod verify
-      
-    - name: Build and run cask2fleet
-      run: |
-        go build -o cask2fleet main.go
-        ./cask2fleet
-        
+
+    - name: Build generate_fleet_yaml
+      run: go build -o generate_fleet_yaml main.go
+
+    - name: Run generate_fleet_yaml
+      run: ./generate_fleet_yaml
+
     - name: Count generated files
       id: count-files
       run: |
-        FILE_COUNT=$(find fleet_yaml_files -name "*.yml" | wc -l)
-        echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
-        echo "Generated $FILE_COUNT YAML files"
-        
+        echo "macos_count=$(ls fleet_yaml_files/macOS/*.yml 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
+        echo "windows_count=$(ls fleet_yaml_files/Windows/*.yml 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
+        echo "file_count=$(( $(ls fleet_yaml_files/macOS/*.yml 2>/dev/null | wc -l) + $(ls fleet_yaml_files/Windows/*.yml 2>/dev/null | wc -l) ))" >> $GITHUB_OUTPUT
+
     - name: Create update metadata
       run: |
-        TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
         cat > fleet_yaml_files/UPDATE_METADATA.md << EOF
         # Fleet YAML Files Update Metadata
-        
+
         ## Last Update
-        - **Timestamp**: ${TIMESTAMP}
+        - **Timestamp**: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        - **GitHub Actions Run**: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         - **Total Files Generated**: ${{ steps.count-files.outputs.file_count }}
-        - **Sources**: 
-          - Homebrew Casks API
-          - Installomator Script
-        - **Filter Criteria**: Non-deprecated entries with PKG file types
-        - **Deduplication**: Installomator entries take priority over Homebrew casks
-        - **GitHub Run ID**: [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
-        
-        ## Generation Details
-        - **Script**: cask2fleet (Go program)
-        - **Go Version**: $(go version)
-        - **Output Directory**: fleet_yaml_files
-        - **Triggered by**: ${{ github.event_name }}
-        - **Processing**: Combined and deduplicated from multiple sources
-        
+        - **macOS Files**: ${{ steps.count-files.outputs.macos_count }}
+        - **Windows Files**: ${{ steps.count-files.outputs.windows_count }}
+
         ## Sources
-        
-        ### Homebrew Casks
-        - **API Endpoint**: https://formulae.brew.sh/api/cask.json
-        - **Filter**: Non-deprecated casks with PKG file URLs
-        
-        ### Installomator
-        - **Source**: https://raw.githubusercontent.com/Installomator/Installomator/main/Installomator.sh
-        - **Filter**: Entries with PKG file URLs
-        - **Priority**: Takes precedence over Homebrew casks for duplicates
-        
-        ## Deduplication Strategy
-        - Installomator entries are processed first and take priority
-        - Homebrew casks are added only if they don't conflict with existing entries
-        - Conflicts are resolved by URL and identifier matching
-        - Final output is sorted alphabetically by identifier
-        
-        ## File Format
-        Each YAML file contains:
-        - \`url\`: Download URL for the PKG installer
-        - \`automatic_install\`: false
-        - \`self_service\`: false  
-        - \`categories\`: [] (empty array)
-        
-        ## Categories
-        Categories are currently limited to: Browsers, Communication, Developer tools, and Productivity.
-        
-        ## Configuration
-        This is a minimum version of each file. All configurable parameters can be seen at:
-        https://fleetdm.com/docs/rest-api/rest-api#parameters139
-        
+        - **Homebrew Casks API** (macOS PKG files)
+        - **Installomator Script** (macOS PKG files)
+        - **WinGet Repository** (Windows MSI/EXE files)
+
+        ## Filter Criteria
+        - **macOS**: Only PKG installer files (excludes ZIP, DMG, TAR, MPKG)
+        - **Windows**: Only x64 MSI and EXE installer files
+        - **Architecture**: x64 only for Windows installers
+
+        ## Output Directory
+        fleet_yaml_files (organized by platform)
+
+        ## File Structure
+        All files follow consistent Fleet YAML structure with appropriate parameters:
+        - Standard fields: url, automatic_install, self_service, categories
+        - EXE files include: install_script, uninstall_script (with TODO placeholders)
+        - Helpful comments with Fleet API documentation links
+
         ## Automation
-        This directory is automatically updated twice daily via GitHub Actions.
+        This directory is automatically updated via GitHub Actions workflow.
         EOF
-        
-    - name: Show generated files
-      run: |
-        echo "Generated files:"
-        ls -la fleet_yaml_files/*.yml | head -10
-        
-    - name: Commit and push changes
+
+    - name: Configure Git
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+
+    - name: Commit and push changes
+      run: |
         git add fleet_yaml_files/
-        git diff --quiet && git diff --staged --quiet || git commit -m "Update Fleet YAML files - ${{ steps.count-files.outputs.file_count }} files generated"
+        git commit -m "Update Fleet YAML files (${{ steps.count-files.outputs.file_count }} files)
+
+        - macOS: ${{ steps.count-files.outputs.macos_count }} PKG files
+        - Windows: ${{ steps.count-files.outputs.windows_count }} MSI/EXE files
+        - Generated by generate_fleet_yaml
+        - GitHub Actions Run: ${{ github.run_id }}"
         git push 

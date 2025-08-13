@@ -1,7 +1,0 @@
-url: https://downloads.safe.com/fme/2024/macos-aarch64/fme-form-2024.1-b24612-macosx-aarch64.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

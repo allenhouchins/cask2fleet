@@ -1,7 +1,0 @@
-url: https://delivery04-mul.dhe.ibm.com/sar/CMA/OSA/0csnb/0/ibm-aspera-connect_4.2.13.820_macOS_arm64.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139

@@ -1,4 +1,4 @@
-module cask2fleet
+module generate_fleet_yaml
 
 go 1.24
 

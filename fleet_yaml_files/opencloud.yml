@@ -1,7 +1,0 @@
-url: https://github.com/opencloud-eu/desktop/releases/download/v2.0.0/OpenCloud_Desktop-v2.0.0-macos-clang-arm64.pkg
-automatic_install: false
-self_service: false
-categories: []
-
-# Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
-# This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
