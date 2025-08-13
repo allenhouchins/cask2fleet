@@ -7,11 +7,6 @@ on:
   workflow_dispatch: # Allow manual triggering
   push:
     branches: [ main ]
-    paths:
-      - 'main.go'
-      - 'go.mod'
-      - 'go.sum'
-      - 'README.md'
 
 # Add permissions block to allow writing to the repository
 permissions:
@@ -100,35 +95,31 @@ jobs:
 
     - name: Generate summary file
       run: |
-        cat > fleet_yaml_files/SUMMARY.md << EOF
-        # Fleet YAML Files Generated from Homebrew Casks and Installomator
-
-        Generated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
-
-        ## Summary
-
-        Total entries processed: ${{ steps.count-files.outputs.macos_count }}
-
-        ## Generated Files
-
-        EOF
+        # Create the header
+        echo "# Fleet YAML Files Generated from Homebrew Casks and Installomator" > fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
+        echo "Generated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
+        echo "## Summary" >> fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
+        echo "Total entries processed: ${{ steps.count-files.outputs.macos_count }}" >> fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
+        echo "## Generated Files" >> fleet_yaml_files/SUMMARY.md
+        echo "" >> fleet_yaml_files/SUMMARY.md
         
-        # Add macOS files to summary with actual YAML content
+        # Add macOS files to summary
         if [ -d "fleet_yaml_files/macOS" ]; then
           for file in fleet_yaml_files/macOS/*.yml; do
-            if [ -f "\$file" ]; then
-              filename=\$(basename "\$file" .yml)
-              display_name=\$(echo \$filename | sed 's/_/ /g' | sed 's/-/ /g' | sed 's/\b\w/\U&/g')
-              url=\$(grep "^url:" "\$file" | sed 's/url: //' | tr -d ' ')
-              
-              echo "### \$display_name (\$filename)" >> fleet_yaml_files/SUMMARY.md
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .yml)
+              echo "### $filename" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
               echo "- **Source**: homebrew" >> fleet_yaml_files/SUMMARY.md
-              echo "- **Name**: \$display_name" >> fleet_yaml_files/SUMMARY.md
+              echo "- **Name**: $filename" >> fleet_yaml_files/SUMMARY.md
               echo "- **Description**: Generated from Homebrew cask" >> fleet_yaml_files/SUMMARY.md
               echo "- **Version**: " >> fleet_yaml_files/SUMMARY.md
-              echo "- **File**: \`\$filename.yml\`" >> fleet_yaml_files/SUMMARY.md
-              echo "- **URL**: \$url" >> fleet_yaml_files/SUMMARY.md
+              echo "- **File**: \`$filename.yml\`" >> fleet_yaml_files/SUMMARY.md
+              echo "- **URL**: Generated from Homebrew API" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
             fi
           done
