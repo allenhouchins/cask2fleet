@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks and Installomator
 
-Generated on: 2025-01-27 15:30:00 UTC
+Generated on: 2025-08-13 04:11:39 UTC
 
 ## Summary
 
@@ -8,3585 +8,3585 @@ Total entries processed: 398
 
 ## Generated Files
 
-### 1Password (1password8)
+### 1password8
 
-- **Source**: installomator
-- **Name**: 1Password
-- **Description**: 1Password
+- **Source**: homebrew
+- **Name**: 1password8
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `1password8.yml`
-- **URL**: https://downloads.1password.com/mac/1Password.pkg
+- **URL**: Generated from Homebrew API
 
-### AdoptOpenJDK Java Development Kit (adoptopenjdk)
+### adoptopenjdk
 
 - **Source**: homebrew
-- **Name**: AdoptOpenJDK Java Development Kit
-- **Description**: JDK from the Java User Group (JUG)
-- **Version**: 16.0.1,9
+- **Name**: adoptopenjdk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `adoptopenjdk.yml`
-- **URL**: https://github.com/AdoptOpenJDK/openjdk16-binaries/releases/download/jdk-16.0.1%2B9/OpenJDK16U-jdk_x64_mac_hotspot_16.0.1_9.pkg
+- **URL**: Generated from Homebrew API
 
-### Crestron AirMedia (airmedia)
+### airmedia
 
 - **Source**: homebrew
-- **Name**: Crestron AirMedia
-- **Description**: Touchless presentation and collaboration software
-- **Version**: 4.1.14
+- **Name**: airmedia
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `airmedia.yml`
-- **URL**: https://www.crestron.com/software_files_public/am-100/airmedia_osx_4.1.14_installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Airtame (airtamepkg)
+### airtamepkg
 
-- **Source**: installomator
-- **Name**: Airtame
-- **Description**: Airtame
+- **Source**: homebrew
+- **Name**: airtamepkg
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `airtamepkg.yml`
-- **URL**: https://airtame-app.b-cdn.net/app/latest/mac/Airtame-${appNewVersion}.pkg
+- **URL**: Generated from Homebrew API
 
-### Airtool (airtool)
+### airtool
 
 - **Source**: homebrew
-- **Name**: Airtool
-- **Description**: Capture Wi-Fi packets
-- **Version**: 2.6.1
+- **Name**: airtool
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `airtool.yml`
-- **URL**: https://www.intuitibits.com/downloads/Airtool_2.6.1.pkg
+- **URL**: Generated from Homebrew API
 
-### Alfaview (alfaview)
+### alfaview
 
 - **Source**: homebrew
-- **Name**: Alfaview
-- **Description**: Audio video conferencing
-- **Version**: 9.22.11
+- **Name**: alfaview
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `alfaview.yml`
-- **URL**: https://assets.alfaview.com/stable/mac/alfaview-mac-production-9.22.11.pkg
+- **URL**: Generated from Homebrew API
 
-### Amazon WorkDocs Drive (amazon-workdocs-drive)
+### amazon-workdocs-drive
 
 - **Source**: homebrew
-- **Name**: Amazon WorkDocs Drive
-- **Description**: Fully managed, secure enterprise storage and sharing service
-- **Version**: 1.0.11931.0
+- **Name**: amazon-workdocs-drive
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `amazon-workdocs-drive.yml`
-- **URL**: https://d3f2hupz96ggz3.cloudfront.net/mac_v2/AmazonWorkDocsDrive.pkg
+- **URL**: Generated from Homebrew API
 
-### Workspaces (amazonworkspaces)
+### amazonworkspaces
 
-- **Source**: installomator
-- **Name**: Workspaces
-- **Description**: Workspaces
+- **Source**: homebrew
+- **Name**: amazonworkspaces
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `amazonworkspaces.yml`
-- **URL**: https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces.pkg
+- **URL**: Generated from Homebrew API
 
-### Amnezia VPN (amneziavpn)
+### amneziavpn
 
 - **Source**: homebrew
-- **Name**: Amnezia VPN
-- **Description**: VPN client
-- **Version**: 4.8.8.3
+- **Name**: amneziavpn
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `amneziavpn.yml`
-- **URL**: https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.8.3/AmneziaVPN_4.8.8.3_macos.pkg
+- **URL**: Generated from Homebrew API
 
-### Anka Build Cloud Controller (anka-build-cloud-controller)
-
-- **Source**: homebrew
-- **Name**: Anka Build Cloud Controller
-- **Description**: Anka virtual machine orchestrator GUI & API
-- **Version**: 1.48.1-f78e0361
-- **File**: `anka-build-cloud-controller.yml`
-- **URL**: https://downloads.veertu.com/anka/anka-controller-arm64-1.48.1-f78e0361.pkg
-
-### Anka Build Cloud Controller & Registry (anka-build-cloud-controller-and-registry)
+### anka-build-cloud-controller-and-registry
 
 - **Source**: homebrew
-- **Name**: Anka Build Cloud Controller & Registry
-- **Description**: Virtual machine management GUI/API and registry
-- **Version**: 1.39.0-d35842e6
+- **Name**: anka-build-cloud-controller-and-registry
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `anka-build-cloud-controller-and-registry.yml`
-- **URL**: https://downloads.veertu.com/anka/AnkaControllerRegistryArm64-1.39.0-d35842e6.pkg
+- **URL**: Generated from Homebrew API
 
-### Anka Build Cloud Controller (anka-build-cloud-registry)
+### anka-build-cloud-controller
 
 - **Source**: homebrew
-- **Name**: Anka Build Cloud Controller
-- **Description**: Anka virtual machine registry & API
-- **Version**: 1.48.1-f78e0361
+- **Name**: anka-build-cloud-controller
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `anka-build-cloud-controller.yml`
+- **URL**: Generated from Homebrew API
+
+### anka-build-cloud-registry
+
+- **Source**: homebrew
+- **Name**: anka-build-cloud-registry
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `anka-build-cloud-registry.yml`
-- **URL**: https://downloads.veertu.com/anka/anka-registry-arm64-1.48.1-f78e0361.pkg
+- **URL**: Generated from Homebrew API
 
-### Anka Virtualization (anka-virtualization)
+### anka-virtualization
 
 - **Source**: homebrew
-- **Name**: Anka Virtualization
-- **Description**: CLI tool for managing and creating virtual machines
-- **Version**: 3.7.4.205
+- **Name**: anka-virtualization
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `anka-virtualization.yml`
-- **URL**: https://downloads.veertu.com/anka/Anka-3.7.4.205.pkg
+- **URL**: Generated from Homebrew API
 
-### Apache NetBeans (apachenetbeans)
+### apachenetbeans
 
-- **Source**: installomator
-- **Name**: Apache NetBeans
-- **Description**: Apache NetBeans
+- **Source**: homebrew
+- **Name**: apachenetbeans
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `apachenetbeans.yml`
-- **URL**: https://dlcdn.apache.org/netbeans/netbeans-installers/"${appNewVersion}"/Apache-NetBeans-"${appNewVersion}".pkg
+- **URL**: Generated from Homebrew API
 
-### AquaSKK (aquaskk)
+### aquaskk
 
 - **Source**: homebrew
-- **Name**: AquaSKK
-- **Description**: 
-- **Version**: 4.7.3
+- **Name**: aquaskk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `aquaskk.yml`
-- **URL**: https://github.com/codefirst/aquaskk/releases/download/4.7.3/AquaSKK-4.7.3.pkg
+- **URL**: Generated from Homebrew API
 
-### Arq (arq)
+### arq
 
 - **Source**: homebrew
-- **Name**: Arq
-- **Description**: Multi-cloud backup application
-- **Version**: 7.36.2
+- **Name**: arq
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `arq.yml`
-- **URL**: https://www.arqbackup.com/download/arqbackup/Arq7.36.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Arq7 (arq7)
+### arq7
 
-- **Source**: installomator
-- **Name**: Arq7
-- **Description**: Arq7
+- **Source**: homebrew
+- **Name**: arq7
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `arq7.yml`
-- **URL**: https://arqbackup.com/download/arqbackup/Arq7.pkg
+- **URL**: Generated from Homebrew API
 
-### Arturia Software Center (arturia-software-center)
+### arturia-software-center
 
 - **Source**: homebrew
-- **Name**: Arturia Software Center
-- **Description**: Installer and license activation for Arturia products
-- **Version**: 2.10.0.2970
+- **Name**: arturia-software-center
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `arturia-software-center.yml`
-- **URL**: https://dl.arturia.net/products/asc/soft/Arturia_Software_Center__2_10_0_2970.pkg
+- **URL**: Generated from Homebrew API
 
-### Aspera Connect (asperaconnect)
+### asperaconnect
 
-- **Source**: installomator
-- **Name**: Aspera Connect
-- **Description**: Aspera Connect
+- **Source**: homebrew
+- **Name**: asperaconnect
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `asperaconnect.yml`
-- **URL**: https://d3gcli72yxqn2z.cloudfront.net/downloads/connect/latest/bin/$(curl -fs 'https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&product=ibm/Other+software/IBM+Aspera+Connect' --data-raw 'showStatus=false' | egrep -o "ibm-aspera-connect_[0-9.]+_macOS" | head -n1)_x86_64.pkg
+- **URL**: Generated from Homebrew API
 
-### AudioGridder Plugin (audiogridder-plugin)
+### audiogridder-plugin
 
 - **Source**: homebrew
-- **Name**: AudioGridder Plugin
-- **Description**: VST2/VST3/AU/AAX DSP Server Plugin
-- **Version**: 1.2.0_1
+- **Name**: audiogridder-plugin
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `audiogridder-plugin.yml`
-- **URL**: https://audiogridder.com/releases/AudioGridderPlugin_1.2.0_1_macOS-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### AudioGridder Server (audiogridder-server)
+### audiogridder-server
 
 - **Source**: homebrew
-- **Name**: AudioGridder Server
-- **Description**: VST2/VST3/AU DSP Server
-- **Version**: 1.2.0_1
+- **Name**: audiogridder-server
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `audiogridder-server.yml`
-- **URL**: https://audiogridder.com/releases/AudioGridderServer_1.2.0_1_macOS-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Autodesk Fusion 360 Admin Install (autodeskfusion360admininstall)
+### autodeskfusion360admininstall
 
-- **Source**: installomator
-- **Name**: Autodesk Fusion 360 Admin Install
-- **Description**: Autodesk Fusion 360 Admin Install
+- **Source**: homebrew
+- **Name**: autodeskfusion360admininstall
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `autodeskfusion360admininstall.yml`
-- **URL**: https://dl.appstreaming.autodesk.com/production/installers/Autodesk%20Fusion%20Admin%20Install.pkg
+- **URL**: Generated from Homebrew API
 
-### autogram (autogram)
+### autogram
 
 - **Source**: homebrew
 - **Name**: autogram
-- **Description**: Application for electronic signing of signatures
-- **Version**: 2.5.0
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `autogram.yml`
-- **URL**: https://github.com/slovensko-digital/autogram/releases/download/v2.5.0/Autogram-2.5.0-MacOs.pkg
+- **URL**: Generated from Homebrew API
 
-### Aviatrix VPN Client (aviatrix)
+### aviatrix-vpn-client
 
-- **Source**: installomator
-- **Name**: Aviatrix VPN Client
-- **Description**: Aviatrix VPN Client
+- **Source**: homebrew
+- **Name**: aviatrix-vpn-client
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `aviatrix-vpn-client.yml`
+- **URL**: Generated from Homebrew API
+
+### aviatrix
+
+- **Source**: homebrew
+- **Name**: aviatrix
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `aviatrix.yml`
-- **URL**: https://s3-us-west-2.amazonaws.com/aviatrix-download/AviatrixVPNClient/AVPNC_mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Aviatrix VPN Client (aviatrix-vpn-client)
-
-- **Source**: homebrew
-- **Name**: Aviatrix VPN Client
-- **Description**: VPN client that provides SAML authentication
-- **Version**: 2.17.7
-- **File**: `aviatrix-vpn-client.yml`
-- **URL**: https://aviatrix-download.s3.amazonaws.com/AviatrixVPNClient/AVPNC_mac.pkg
-
-### AWS Client VPN (aws-vpn-client)
+### aws-vpn-client
 
 - **Source**: homebrew
-- **Name**: AWS Client VPN
-- **Description**: Managed client-based VPN service to securely access AWS resources
-- **Version**: 5.2.1
+- **Name**: aws-vpn-client
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `aws-vpn-client.yml`
-- **URL**: https://d20adtppz83p9s.cloudfront.net/OSX/5.2.1/AWS_VPN_Client.pkg
+- **URL**: Generated from Homebrew API
 
-### AWSCLI (awscli2)
+### awscli2
 
-- **Source**: installomator
-- **Name**: AWSCLI
-- **Description**: AWSCLI
+- **Source**: homebrew
+- **Name**: awscli2
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `awscli2.yml`
-- **URL**: https://awscli.amazonaws.com/AWSCLIV2.pkg
+- **URL**: Generated from Homebrew API
 
-### AWS VPN Client (awsvpnclient)
+### awsvpnclient
 
-- **Source**: installomator
-- **Name**: AWS VPN Client
-- **Description**: AWS VPN Client
+- **Source**: homebrew
+- **Name**: awsvpnclient
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `awsvpnclient.yml`
-- **URL**: ${baseURL}/${appNewVersion}/AWS_VPN_Client.pkg
+- **URL**: Generated from Homebrew API
 
-### azooKey (azookey)
+### azookey
 
 - **Source**: homebrew
-- **Name**: azooKey
-- **Description**: Japanese input method
-- **Version**: 0.1.0-alpha.21
+- **Name**: azookey
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `azookey.yml`
-- **URL**: https://github.com/azooKey/azooKey-Desktop/releases/download/v0.1.0-alpha.21/azooKey-release-signed.pkg
+- **URL**: Generated from Homebrew API
 
-### Background Music (background-music)
+### background-music
 
 - **Source**: homebrew
-- **Name**: Background Music
-- **Description**: Audio utility
-- **Version**: 0.4.3
+- **Name**: background-music
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `background-music.yml`
-- **URL**: https://github.com/kyleneideck/BackgroundMusic/releases/download/v0.4.3/BackgroundMusic-0.4.3.pkg
+- **URL**: Generated from Homebrew API
 
-### BankID Security Application (Sweden) (bankid)
+### bankid
 
 - **Source**: homebrew
-- **Name**: BankID Security Application (Sweden)
-- **Description**: Swedish personal electronic identification (eID) system
-- **Version**: 7.15.2
+- **Name**: bankid
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `bankid.yml`
-- **URL**: https://cdn.bankid.com/bisp/mac/BankID_installation_7_15_2.pkg
+- **URL**: Generated from Homebrew API
 
-### Banking 4 (banking-4)
+### banking-4
 
 - **Source**: homebrew
-- **Name**: Banking 4
-- **Description**: German accounting software
-- **Version**: 8.9.3,9352
+- **Name**: banking-4
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `banking-4.yml`
-- **URL**: https://subsembly.com/download/MacBanking4.pkg
+- **URL**: Generated from Homebrew API
 
-### BasicTeX (basictex)
+### basictex
 
-- **Source**: installomator
-- **Name**: BasicTeX
-- **Description**: BasicTeX
+- **Source**: homebrew
+- **Name**: basictex
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `basictex.yml`
-- **URL**: https://mirror.ctan.org/systems/mac/mactex/BasicTeX.pkg
+- **URL**: Generated from Homebrew API
 
-### Bing Wallpaper (bing-wallpaper)
+### bing-wallpaper
 
 - **Source**: homebrew
-- **Name**: Bing Wallpaper
-- **Description**: Use the Bing daily image as your wallpaper
-- **Version**: 1.1.8
+- **Name**: bing-wallpaper
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `bing-wallpaper.yml`
-- **URL**: https://download.microsoft.com/download/3a8e7366-aac0-4636-bc1d-a3c6c217accf/Installer/1.1.8/MSN/Var1/MW021/Bing%20Wallpaper.pkg
+- **URL**: Generated from Homebrew API
 
-### BlackHole 16ch (blackhole-16ch)
+### blackhole-16ch
 
 - **Source**: homebrew
-- **Name**: BlackHole 16ch
-- **Description**: Virtual Audio Driver
-- **Version**: 0.6.1
+- **Name**: blackhole-16ch
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `blackhole-16ch.yml`
-- **URL**: https://existential.audio/downloads/BlackHole16ch-0.6.1.pkg
+- **URL**: Generated from Homebrew API
 
-### BlackHole 2ch (blackhole-2ch)
+### blackhole-2ch
 
 - **Source**: homebrew
-- **Name**: BlackHole 2ch
-- **Description**: Virtual Audio Driver
-- **Version**: 0.6.1
+- **Name**: blackhole-2ch
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `blackhole-2ch.yml`
-- **URL**: https://existential.audio/downloads/BlackHole2ch-0.6.1.pkg
+- **URL**: Generated from Homebrew API
 
-### BlackHole 64ch (blackhole-64ch)
+### blackhole-64ch
 
 - **Source**: homebrew
-- **Name**: BlackHole 64ch
-- **Description**: Virtual Audio Driver
-- **Version**: 0.6.1
+- **Name**: blackhole-64ch
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `blackhole-64ch.yml`
-- **URL**: https://existential.audio/downloads/BlackHole64ch-0.6.1.pkg
+- **URL**: Generated from Homebrew API
 
-### BlueStacks (bluestacks)
+### bluestacks
 
 - **Source**: homebrew
-- **Name**: BlueStacks
-- **Description**: Mobile gaming platform
-- **Version**: 5.21.730.7536,79692e3bf5404ee7b894f219d776d6b6
+- **Name**: bluestacks
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `bluestacks.yml`
-- **URL**: https://ak-build.bluestacks.com/public/app-player/mac/nxt_mac2/5.21.730.7536/79692e3bf5404ee7b894f219d776d6b6/BlueStacksInstaller_5.21.730.7536.pkg
+- **URL**: Generated from Homebrew API
 
-### BlurScreen (blurscreen)
+### blurscreen
 
 - **Source**: homebrew
-- **Name**: BlurScreen
-- **Description**: Blur any part of your screen
-- **Version**: 1.0
+- **Name**: blurscreen
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `blurscreen.yml`
-- **URL**: https://www.blurscreen.app/assets/BlurScreen-v2.pkg
+- **URL**: Generated from Homebrew API
 
-### Box Drive (box-drive)
+### box-drive
 
 - **Source**: homebrew
-- **Name**: Box Drive
-- **Description**: Client for the Box cloud storage service
-- **Version**: 2.43.205
+- **Name**: box-drive
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `box-drive.yml`
-- **URL**: https://e3.boxcdn.net/desktop/releases/mac/BoxDrive-2.43.205.pkg
+- **URL**: Generated from Homebrew API
 
-### Box (boxdrive)
+### boxdrive
 
-- **Source**: installomator
-- **Name**: Box
-- **Description**: Box
+- **Source**: homebrew
+- **Name**: boxdrive
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `boxdrive.yml`
-- **URL**: https://e3.boxcdn.net/desktop/releases/mac/BoxDrive.pkg
+- **URL**: Generated from Homebrew API
 
-### Box Tools (boxtools)
+### boxtools
 
-- **Source**: installomator
-- **Name**: Box Tools
-- **Description**: Box Tools
+- **Source**: homebrew
+- **Name**: boxtools
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `boxtools.yml`
-- **URL**: https://box-installers.s3.amazonaws.com/boxedit/mac/currentrelease/BoxToolsInstaller.pkg
+- **URL**: Generated from Homebrew API
 
-### PartDesigner (bricklink-partdesigner)
+### bricklink-partdesigner
 
 - **Source**: homebrew
-- **Name**: PartDesigner
-- **Description**: Design your own LEGO parts
-- **Version**: 2.25.3_1
+- **Name**: bricklink-partdesigner
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `bricklink-partdesigner.yml`
-- **URL**: https://studio.download.bricklink.info/PartDesigner/Archive/2.25.3_1/PartDesigner.pkg
+- **URL**: Generated from Homebrew API
 
-### Studio (bricklink-studio)
+### bricklink-studio
 
 - **Source**: homebrew
-- **Name**: Studio
-- **Description**: Build, render, and create LEGO instructions
-- **Version**: 2.25.7_1
+- **Name**: bricklink-studio
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `bricklink-studio.yml`
-- **URL**: https://studio.download.bricklink.info/Studio2.0/Archive/2.25.7_1/Studio+2.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Brosix (brosix)
+### brosix
 
-- **Source**: installomator
-- **Name**: Brosix
-- **Description**: Brosix
+- **Source**: homebrew
+- **Name**: brosix
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `brosix.yml`
-- **URL**: https://www.brosix.com/downloads/builds/official/Brosix.pkg
+- **URL**: Generated from Homebrew API
 
-### Cardinal (cardinal)
+### cardinal
 
 - **Source**: homebrew
-- **Name**: Cardinal
-- **Description**: Virtual modular synthesiser plugin
-- **Version**: 25.06
+- **Name**: cardinal
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `cardinal.yml`
-- **URL**: https://github.com/DISTRHO/Cardinal/releases/download/25.06/Cardinal-macOS-universal-25.06.pkg
+- **URL**: Generated from Homebrew API
 
-### CatoClient (catoclient)
+### catoclient
 
-- **Source**: installomator
-- **Name**: CatoClient
-- **Description**: CatoClient
+- **Source**: homebrew
+- **Name**: catoclient
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `catoclient.yml`
-- **URL**: https://clientdownload.catonetworks.com/public/clients/CatoClient.pkg
+- **URL**: Generated from Homebrew API
 
-### CERNBox Client (cernbox)
+### cernbox
 
 - **Source**: homebrew
-- **Name**: CERNBox Client
-- **Description**: Cloud storage for CERN users
-- **Version**: 5.3.2.15486
+- **Name**: cernbox
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `cernbox.yml`
-- **URL**: https://cernbox.cern.ch/cernbox/doc/MacOSX/cernbox-5.3.2.15486-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Atomika (cherryaudioatomika)
+### cherryaudioatomika
 
-- **Source**: installomator
-- **Name**: Atomika
-- **Description**: Atomika
+- **Source**: homebrew
+- **Name**: cherryaudioatomika
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioatomika.yml`
-- **URL**: https://store.cherryaudio.com/downloads/atomika-synthesizer-macos-installer?file=Atomika-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Blue3 Organ (cherryaudioblue3)
+### cherryaudioblue3
 
-- **Source**: installomator
-- **Name**: Blue3 Organ
-- **Description**: Blue3 Organ
+- **Source**: homebrew
+- **Name**: cherryaudioblue3
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioblue3.yml`
-- **URL**: https://store.cherryaudio.com/downloads/blue3-tonewheel-organ-macos-installer?file=Blue3-Organ-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### CA2600 (cherryaudioca2600)
+### cherryaudioca2600
 
-- **Source**: installomator
-- **Name**: CA2600
-- **Description**: CA2600
+- **Source**: homebrew
+- **Name**: cherryaudioca2600
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioca2600.yml`
-- **URL**: https://store.cherryaudio.com/downloads/ca2600-macos-installer?file=CA2600-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Chroma (cherryaudiochroma)
+### cherryaudiochroma
 
-- **Source**: installomator
-- **Name**: Chroma
-- **Description**: Chroma
+- **Source**: homebrew
+- **Name**: cherryaudiochroma
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiochroma.yml`
-- **URL**: https://store.cherryaudio.com/downloads/chroma-macos-installer?file=Chroma-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### CR-78 (cherryaudiocr78)
+### cherryaudiocr78
 
-- **Source**: installomator
-- **Name**: CR-78
-- **Description**: CR-78
+- **Source**: homebrew
+- **Name**: cherryaudiocr78
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiocr78.yml`
-- **URL**: https://store.cherryaudio.com/downloads/cr-78-macos-installer?file=CR-78-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### DCO-106 (cherryaudiodco106)
+### cherryaudiodco106
 
-- **Source**: installomator
-- **Name**: DCO-106
-- **Description**: DCO-106
+- **Source**: homebrew
+- **Name**: cherryaudiodco106
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiodco106.yml`
-- **URL**: https://store.cherryaudio.com/downloads/dco-106-macos-installer?file=DCO-106-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Dreamsynth (cherryaudiodreamsynth)
+### cherryaudiodreamsynth
 
-- **Source**: installomator
-- **Name**: Dreamsynth
-- **Description**: Dreamsynth
+- **Source**: homebrew
+- **Name**: cherryaudiodreamsynth
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiodreamsynth.yml`
-- **URL**: https://store.cherryaudio.com/downloads/dreamsynth-macos-installer?file=Dreamsynth-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Eight Voice (cherryaudioeightvoice)
+### cherryaudioeightvoice
 
-- **Source**: installomator
-- **Name**: Eight Voice
-- **Description**: Eight Voice
+- **Source**: homebrew
+- **Name**: cherryaudioeightvoice
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioeightvoice.yml`
-- **URL**: https://store.cherryaudio.com/downloads/eight-voice-macos-installer?file=Eight-Voice-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Elka-X (cherryaudioelkax)
+### cherryaudioelkax
 
-- **Source**: installomator
-- **Name**: Elka-X
-- **Description**: Elka-X
+- **Source**: homebrew
+- **Name**: cherryaudioelkax
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioelkax.yml`
-- **URL**: https://store.cherryaudio.com/downloads/elka-x-macos-installer?file=Elka-X-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Galactic Reverb (cherryaudiogalacticreverb)
+### cherryaudiogalacticreverb
 
-- **Source**: installomator
-- **Name**: Galactic Reverb
-- **Description**: Galactic Reverb
+- **Source**: homebrew
+- **Name**: cherryaudiogalacticreverb
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiogalacticreverb.yml`
-- **URL**: https://store.cherryaudio.com/downloads/galactic-reverb-macos-installer?file=Galactic-Reverb-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### GX-80 (cherryaudiogx80)
+### cherryaudiogx80
 
-- **Source**: installomator
-- **Name**: GX-80
-- **Description**: GX-80
+- **Source**: homebrew
+- **Name**: cherryaudiogx80
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiogx80.yml`
-- **URL**: https://store.cherryaudio.com/downloads/gx-80-macos-installer?file=GX-80-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Harmonia (cherryaudioharmonia)
+### cherryaudioharmonia
 
-- **Source**: installomator
-- **Name**: Harmonia
-- **Description**: Harmonia
+- **Source**: homebrew
+- **Name**: cherryaudioharmonia
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioharmonia.yml`
-- **URL**: https://store.cherryaudio.com/downloads/harmonia-macos-installer?file=Harmonia-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Lowdown (cherryaudiolowdown)
+### cherryaudiolowdown
 
-- **Source**: installomator
-- **Name**: Lowdown
-- **Description**: Lowdown
+- **Source**: homebrew
+- **Name**: cherryaudiolowdown
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiolowdown.yml`
-- **URL**: https://store.cherryaudio.com/downloads/lowdown-macos-installer?file=Lowdown-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Memorymode (cherryaudiomemorymode)
+### cherryaudiomemorymode
 
-- **Source**: installomator
-- **Name**: Memorymode
-- **Description**: Memorymode
+- **Source**: homebrew
+- **Name**: cherryaudiomemorymode
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiomemorymode.yml`
-- **URL**: https://store.cherryaudio.com/downloads/memorymode-macos-installer?file=Memorymode-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Mercury-4 (cherryaudiomercury4)
+### cherryaudiomercury4
 
-- **Source**: installomator
-- **Name**: Mercury-4
-- **Description**: Mercury-4
+- **Source**: homebrew
+- **Name**: cherryaudiomercury4
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiomercury4.yml`
-- **URL**: https://store.cherryaudio.com/downloads/mercury-4-macos-installer?file=Mercury-4-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Mercury-6 (cherryaudiomercury6)
+### cherryaudiomercury6
 
-- **Source**: installomator
-- **Name**: Mercury-6
-- **Description**: Mercury-6
+- **Source**: homebrew
+- **Name**: cherryaudiomercury6
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiomercury6.yml`
-- **URL**: https://store.cherryaudio.com/downloads/mercury-6-macos-installer?file=Mercury-6-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Miniverse (cherryaudiominiverse)
+### cherryaudiominiverse
 
-- **Source**: installomator
-- **Name**: Miniverse
-- **Description**: Miniverse
+- **Source**: homebrew
+- **Name**: cherryaudiominiverse
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiominiverse.yml`
-- **URL**: https://store.cherryaudio.com/downloads/miniverse-macos-installer?file=Miniverse-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Voltage Module Designer (cherryaudiomoduledesigner)
+### cherryaudiomoduledesigner
 
-- **Source**: installomator
-- **Name**: Voltage Module Designer
-- **Description**: Voltage Module Designer
+- **Source**: homebrew
+- **Name**: cherryaudiomoduledesigner
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiomoduledesigner.yml`
-- **URL**: https://store.cherryaudio.com/module-designer-mac/download?file=Voltage-Module-Designer-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Novachord (cherryaudionovachord)
+### cherryaudionovachord
 
-- **Source**: installomator
-- **Name**: Novachord
-- **Description**: Novachord
+- **Source**: homebrew
+- **Name**: cherryaudionovachord
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudionovachord.yml`
-- **URL**: https://store.cherryaudio.com/downloads/novachord-macos-installer?file=Novachord-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Octave Cat (cherryaudiooctavecat)
+### cherryaudiooctavecat
 
-- **Source**: installomator
-- **Name**: Octave Cat
-- **Description**: Octave Cat
+- **Source**: homebrew
+- **Name**: cherryaudiooctavecat
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiooctavecat.yml`
-- **URL**: https://store.cherryaudio.com/downloads/octave-cat-macos-installer?file=Octave-Cat-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Polymode Synthesizer (cherryaudiopolymode)
+### cherryaudiopolymode
 
-- **Source**: installomator
-- **Name**: Polymode Synthesizer
-- **Description**: Polymode Synthesizer
+- **Source**: homebrew
+- **Name**: cherryaudiopolymode
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiopolymode.yml`
-- **URL**: https://store.cherryaudio.com/downloads/polymode-synthesizer-macos-installer?file=Polymode-Synthesizer-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Pro Soloist (cherryaudioprosoloist)
+### cherryaudioprosoloist
 
-- **Source**: installomator
-- **Name**: Pro Soloist
-- **Description**: Pro Soloist
+- **Source**: homebrew
+- **Name**: cherryaudioprosoloist
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioprosoloist.yml`
-- **URL**: https://store.cherryaudio.com/downloads/pro-soloist-macos-installer?file=Pro-Soloist-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### PS-20 (cherryaudiops20)
+### cherryaudiops20
 
-- **Source**: installomator
-- **Name**: PS-20
-- **Description**: PS-20
+- **Source**: homebrew
+- **Name**: cherryaudiops20
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiops20.yml`
-- **URL**: https://store.cherryaudio.com/downloads/ps-20-macos-installer?file=PS-20-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### PS-3300 (cherryaudiops3300)
+### cherryaudiops3300
 
-- **Source**: installomator
-- **Name**: PS-3300
-- **Description**: PS-3300
+- **Source**: homebrew
+- **Name**: cherryaudiops3300
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiops3300.yml`
-- **URL**: https://store.cherryaudio.com/downloads/ps-3300-macos-installer?file=PS-3300-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Quadra (cherryaudioquadra)
+### cherryaudioquadra
 
-- **Source**: installomator
-- **Name**: Quadra
-- **Description**: Quadra
+- **Source**: homebrew
+- **Name**: cherryaudioquadra
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudioquadra.yml`
-- **URL**: https://store.cherryaudio.com/downloads/quadra-macos-installer?file=Quadra-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Rackmode (cherryaudiorackmode)
+### cherryaudiorackmode
 
-- **Source**: installomator
-- **Name**: Rackmode
-- **Description**: Rackmode
+- **Source**: homebrew
+- **Name**: cherryaudiorackmode
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiorackmode.yml`
-- **URL**: https://store.cherryaudio.com/downloads/rackmode-macos-installer?file=Rackmode-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Sines (cherryaudiosines)
+### cherryaudiosines
 
-- **Source**: installomator
-- **Name**: Sines
-- **Description**: Sines
+- **Source**: homebrew
+- **Name**: cherryaudiosines
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiosines.yml`
-- **URL**: https://store.cherryaudio.com/downloads/sines-macos-installer?file=Sines-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Solovox (cherryaudiosolovox)
+### cherryaudiosolovox
 
-- **Source**: installomator
-- **Name**: Solovox
-- **Description**: Solovox
+- **Source**: homebrew
+- **Name**: cherryaudiosolovox
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiosolovox.yml`
-- **URL**: https://store.cherryaudio.com/downloads/solovox-macos-installer?file=Solovox-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Stardust 201 Tape Echo (cherryaudiostardust201)
+### cherryaudiostardust201
 
-- **Source**: installomator
-- **Name**: Stardust 201 Tape Echo
-- **Description**: Stardust 201 Tape Echo
+- **Source**: homebrew
+- **Name**: cherryaudiostardust201
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiostardust201.yml`
-- **URL**: https://store.cherryaudio.com/downloads/stardust-201-macos-installer?file=Stardust-201-Tape-Echo-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Surrealistic MG-1 Plus (cherryaudiosurrealisticmg1plus)
+### cherryaudiosurrealisticmg1plus
 
-- **Source**: installomator
-- **Name**: Surrealistic MG-1 Plus
-- **Description**: Surrealistic MG-1 Plus
+- **Source**: homebrew
+- **Name**: cherryaudiosurrealisticmg1plus
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiosurrealisticmg1plus.yml`
-- **URL**: https://store.cherryaudio.com/downloads/surrealistic-mg-1-plus-macos-installer?file=Surrealistic-MG-1-Plus-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Cherry Audio Sync (cherryaudiosync)
+### cherryaudiosync
 
-- **Source**: installomator
-- **Name**: Cherry Audio Sync
-- **Description**: Cherry Audio Sync
+- **Source**: homebrew
+- **Name**: cherryaudiosync
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiosync.yml`
-- **URL**: https://store.cherryaudio.com/downloads/sync-macos-installer?file=Cherry-Audio-Sync-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Synthesizer Expander Module (cherryaudiosynthesizerexpander)
+### cherryaudiosynthesizerexpander
 
-- **Source**: installomator
-- **Name**: Synthesizer Expander Module
-- **Description**: Synthesizer Expander Module
+- **Source**: homebrew
+- **Name**: cherryaudiosynthesizerexpander
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiosynthesizerexpander.yml`
-- **URL**: https://store.cherryaudio.com/downloads/synthesizer-expander-module-macos-installer?file=Synthesizer-Expander-Module-Installer-macOS.pkg
+- **URL**: Generated from Homebrew API
 
-### Voltage Modular (cherryaudiovoltagemodular)
+### cherryaudiovoltagemodular
 
-- **Source**: installomator
-- **Name**: Voltage Modular
-- **Description**: Voltage Modular
+- **Source**: homebrew
+- **Name**: cherryaudiovoltagemodular
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiovoltagemodular.yml`
-- **URL**: https://store.cherryaudio.com/voltage-mac/download?file=Voltage-Modular-Installer-macOS-Universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Wurlybird 140B (cherryaudiowurlybird140b)
+### cherryaudiowurlybird140b
 
-- **Source**: installomator
-- **Name**: Wurlybird 140B
-- **Description**: Wurlybird 140B
+- **Source**: homebrew
+- **Name**: cherryaudiowurlybird140b
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `cherryaudiowurlybird140b.yml`
-- **URL**: https://store.cherryaudio.com/downloads/wurlybird140b-macos-installer?file=Wurlybird140B.pkg
+- **URL**: Generated from Homebrew API
 
-### Cisco Jabber (cisco-jabber)
+### cisco-jabber
 
 - **Source**: homebrew
-- **Name**: Cisco Jabber
-- **Description**: Jabber client from Cisco
-- **Version**: 20250430033337
+- **Name**: cisco-jabber
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `cisco-jabber.yml`
-- **URL**: https://binaries.webex.com/jabberclientmac/20250430033337/Install_Cisco-Jabber-Mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Citrix Workspace (citrix-workspace)
+### citrix-workspace
 
 - **Source**: homebrew
-- **Name**: Citrix Workspace
-- **Description**: Managed desktop virtualization solution
-- **Version**: 25.05.10.16
+- **Name**: citrix-workspace
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `citrix-workspace.yml`
-- **URL**: https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal25.05.10.16.pkg
+- **URL**: Generated from Homebrew API
 
-### ClamXAV (clamxav)
+### clamxav
 
 - **Source**: homebrew
-- **Name**: ClamXAV
-- **Description**: Anti-virus and malware scanner
-- **Version**: 3.9.1,11136
+- **Name**: clamxav
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `clamxav.yml`
-- **URL**: https://cdn.clamxav.com/ClamXAVdownloads/ClamXAV_3.9.1_11136_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Clip Studio Paint (clip-studio-paint)
+### clip-studio-paint
 
 - **Source**: homebrew
-- **Name**: Clip Studio Paint
-- **Description**: Software for drawing and painting
-- **Version**: 4.1.0
+- **Name**: clip-studio-paint
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `clip-studio-paint.yml`
-- **URL**: https://vd.clipstudio.net/clipcontent/paint/app/410/CSP_410m_app.pkg
+- **URL**: Generated from Homebrew API
 
-### Cold Turkey (cold-turkey-blocker)
+### cold-turkey-blocker
 
 - **Source**: homebrew
-- **Name**: Cold Turkey
-- **Description**: Block websites, games and applications
-- **Version**: 4.7
+- **Name**: cold-turkey-blocker
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `cold-turkey-blocker.yml`
-- **URL**: https://getcoldturkey.com/files/Cold_Turkey_Mac_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Concept2 Utility (concept2-utility)
+### concept2-utility
 
 - **Source**: homebrew
-- **Name**: Concept2 Utility
-- **Description**: Utilities for the Concept2 Performance Monitor
-- **Version**: 7.17.00
+- **Name**: concept2-utility
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `concept2-utility.yml`
-- **URL**: https://software.concept2.com/utility/Concept2Utility71700.pkg
+- **URL**: Generated from Homebrew API
 
-### container (container)
+### container
 
 - **Source**: homebrew
 - **Name**: container
-- **Description**: Create and run Linux containers using lightweight virtual machines
-- **Version**: 0.3.0
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `container.yml`
-- **URL**: https://github.com/apple/container/releases/download/0.3.0/container-0.3.0-installer-signed.pkg
+- **URL**: Generated from Homebrew API
 
-### AWS Corretto JDK (corretto)
+### corretto-11
 
 - **Source**: homebrew
-- **Name**: AWS Corretto JDK
-- **Description**: OpenJDK distribution from Amazon
-- **Version**: 24.0.2.12.1
+- **Name**: corretto-11
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `corretto-11.yml`
+- **URL**: Generated from Homebrew API
+
+### corretto-17
+
+- **Source**: homebrew
+- **Name**: corretto-17
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `corretto-17.yml`
+- **URL**: Generated from Homebrew API
+
+### corretto-21
+
+- **Source**: homebrew
+- **Name**: corretto-21
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `corretto-21.yml`
+- **URL**: Generated from Homebrew API
+
+### corretto-8
+
+- **Source**: homebrew
+- **Name**: corretto-8
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `corretto-8.yml`
+- **URL**: Generated from Homebrew API
+
+### corretto
+
+- **Source**: homebrew
+- **Name**: corretto
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `corretto.yml`
-- **URL**: https://corretto.aws/downloads/resources/24.0.2.12.1/amazon-corretto-24.0.2.12.1-macosx-aarch64.pkg
+- **URL**: Generated from Homebrew API
 
-### AWS Corretto JDK (corretto@11)
-
-- **Source**: homebrew
-- **Name**: AWS Corretto JDK
-- **Description**: OpenJDK distribution from Amazon
-- **Version**: 11.0.28.6.1
-- **File**: `corretto_11.yml`
-- **URL**: https://corretto.aws/downloads/resources/11.0.28.6.1/amazon-corretto-11.0.28.6.1-macosx-aarch64.pkg
-
-### AWS Corretto JDK (corretto@17)
+### daedalus-mainnet
 
 - **Source**: homebrew
-- **Name**: AWS Corretto JDK
-- **Description**: OpenJDK distribution from Amazon
-- **Version**: 17.0.16.8.1
-- **File**: `corretto_17.yml`
-- **URL**: https://corretto.aws/downloads/resources/17.0.16.8.1/amazon-corretto-17.0.16.8.1-macosx-aarch64.pkg
-
-### AWS Corretto JDK (corretto@21)
-
-- **Source**: homebrew
-- **Name**: AWS Corretto JDK
-- **Description**: OpenJDK distribution from Amazon
-- **Version**: 21.0.8.9.1
-- **File**: `corretto_21.yml`
-- **URL**: https://corretto.aws/downloads/resources/21.0.8.9.1/amazon-corretto-21.0.8.9.1-macosx-aarch64.pkg
-
-### Amazon Corretto JDK (corretto@8)
-
-- **Source**: homebrew
-- **Name**: Amazon Corretto JDK
-- **Description**: OpenJDK distribution from Amazon
-- **Version**: 8.462.08.1
-- **File**: `corretto_8.yml`
-- **URL**: https://corretto.aws/downloads/resources/8.462.08.1/amazon-corretto-8.462.08.1-macosx-aarch64.pkg
-
-### Daedalus Mainnet (daedalus-mainnet)
-
-- **Source**: homebrew
-- **Name**: Daedalus Mainnet
-- **Description**: Cryptocurrency wallet for ada on the Cardano blockchain
-- **Version**: 7.1.0,72909,5472147d9
+- **Name**: daedalus-mainnet
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `daedalus-mainnet.yml`
-- **URL**: https://update-cardano-mainnet.iohk.io/daedalus-7.1.0-72909-mainnet-5472147d9-x86_64-darwin.pkg
+- **URL**: Generated from Homebrew API
 
-### DEPNotify (depnotify)
+### depnotify
 
-- **Source**: installomator
-- **Name**: DEPNotify
-- **Description**: DEPNotify
+- **Source**: homebrew
+- **Name**: depnotify
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `depnotify.yml`
-- **URL**: https://files.jamfconnect.com/DEPNotify.pkg
+- **URL**: Generated from Homebrew API
 
-### desktoppr (desktoppr)
+### desktoppr
 
 - **Source**: homebrew
 - **Name**: desktoppr
-- **Description**: Command-line tool to set the desktop picture
-- **Version**: 0.5,218
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `desktoppr.yml`
-- **URL**: https://github.com/scriptingosx/desktoppr/releases/download/v0.5/desktoppr-0.5-218.pkg
+- **URL**: Generated from Homebrew API
 
-### digiKam (digikam)
+### digikam
 
 - **Source**: homebrew
-- **Name**: digiKam
-- **Description**: Digital photo manager
-- **Version**: 8.7.0
+- **Name**: digikam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `digikam.yml`
-- **URL**: https://download.kde.org/stable/digikam/8.7.0/digiKam-8.7.0-Qt6-MacOS-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### DisplayCAL (displaycal)
+### displaycal
 
 - **Source**: homebrew
-- **Name**: DisplayCAL
-- **Description**: Display calibration and characterization powered by ArgyllCMS
-- **Version**: 3.8.9.3
+- **Name**: displaycal
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `displaycal.yml`
-- **URL**: https://downloads.sourceforge.net/dispcalgui/release/3.8.9.3/DisplayCAL-3.8.9.3.pkg
+- **URL**: Generated from Homebrew API
 
-### DistroAV (distroav)
+### distroav
 
 - **Source**: homebrew
-- **Name**: DistroAV
-- **Description**: NDI integration for OBS Studio
-- **Version**: 6.1.1
+- **Name**: distroav
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `distroav.yml`
-- **URL**: https://github.com/DistroAV/DistroAV/releases/download/6.1.1/distroav-6.1.1-macos-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Docker Toolbox (docker-toolbox)
+### docker-toolbox
 
 - **Source**: homebrew
-- **Name**: Docker Toolbox
-- **Description**: Install Docker, Docker Machine, Docker Compose, and Kitematic
-- **Version**: 19.03.1
+- **Name**: docker-toolbox
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `docker-toolbox.yml`
-- **URL**: https://github.com/docker/toolbox/releases/download/v19.03.1/DockerToolbox-19.03.1.pkg
+- **URL**: Generated from Homebrew API
 
-### .Net Runtime (dotnet-runtime)
+### dotnet-runtime
 
 - **Source**: homebrew
-- **Name**: .Net Runtime
-- **Description**: Developer platform
-- **Version**: 9.0.8
+- **Name**: dotnet-runtime
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `dotnet-runtime.yml`
-- **URL**: https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.8/dotnet-runtime-9.0.8-osx-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### .NET SDK (dotnet-sdk)
+### dotnet-sdk-8
 
 - **Source**: homebrew
-- **Name**: .NET SDK
-- **Description**: Developer platform
-- **Version**: 9.0.304
+- **Name**: dotnet-sdk-8
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `dotnet-sdk-8.yml`
+- **URL**: Generated from Homebrew API
+
+### dotnet-sdk
+
+- **Source**: homebrew
+- **Name**: dotnet-sdk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `dotnet-sdk.yml`
-- **URL**: https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.304/dotnet-sdk-9.0.304-osx-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### .NET SDK (dotnet-sdk@8)
-
-- **Source**: homebrew
-- **Name**: .NET SDK
-- **Description**: Developer platform
-- **Version**: 8.0.413
-- **File**: `dotnet-sdk_8.yml`
-- **URL**: https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.413/dotnet-sdk-8.0.413-osx-arm64.pkg
-
-### DroidCam OBS (droidcam-obs)
+### droidcam-obs
 
 - **Source**: homebrew
-- **Name**: DroidCam OBS
-- **Description**: Use your phone as a camera directly in OBS Studio
-- **Version**: 2.4.0
+- **Name**: droidcam-obs
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `droidcam-obs.yml`
-- **URL**: https://github.com/dev47apps/droidcam-obs-plugin/releases/download/2.4.0/DroidCamOBS_2.4.0_macos.pkg
+- **URL**: Generated from Homebrew API
 
-### duckieTV (duckietv)
+### duckietv
 
 - **Source**: homebrew
-- **Name**: duckieTV
-- **Description**: Tool to track TV shows with semi-automagic torrent integration
-- **Version**: 1.1.5
+- **Name**: duckietv
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `duckietv.yml`
-- **URL**: https://github.com/SchizoDuckie/DuckieTV/releases/download/1.1.5/DuckieTV-1.1.5-OSX-x64.pkg
+- **URL**: Generated from Homebrew API
 
-### DuoConnect (duo-connect)
+### duo-connect
 
 - **Source**: homebrew
-- **Name**: DuoConnect
-- **Description**: Access your organisation’s SSH servers
-- **Version**: 2.0.7
+- **Name**: duo-connect
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `duo-connect.yml`
-- **URL**: https://dl.duosecurity.com/DuoConnect-2.0.7.pkg
+- **URL**: Generated from Homebrew API
 
-### Duo Desktop (duodesktop)
+### duodesktop
 
-- **Source**: installomator
-- **Name**: Duo Desktop
-- **Description**: Duo Desktop
+- **Source**: homebrew
+- **Name**: duodesktop
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `duodesktop.yml`
-- **URL**: https://dl.duosecurity.com/DuoDesktop-latest.pkg
+- **URL**: Generated from Homebrew API
 
-### Dyalog APL (dyalog)
+### dyalog
 
 - **Source**: homebrew
-- **Name**: Dyalog APL
-- **Description**: APL-based development environment
-- **Version**: 19.0.50027
+- **Name**: dyalog
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `dyalog.yml`
-- **URL**: https://www.dyalog.com/uploads/php/download.dyalog.com/download.php?file=19.0/mac_64_19.0.50027_unicode.pkg
+- **URL**: Generated from Homebrew API
 
-### Dymo Connect (dymo-connect)
+### dymo-connect
 
 - **Source**: homebrew
-- **Name**: Dymo Connect
-- **Description**: Software for DYMO LabelWriters
-- **Version**: 1.5.0.17
+- **Name**: dymo-connect
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `dymo-connect.yml`
-- **URL**: https://download.dymo.com/dymo/Software/Mac/DCDMac1.5.0.17.pkg
+- **URL**: Generated from Homebrew API
 
-### DYMO Connect (dymoconnectdesktop)
+### dymoconnectdesktop
 
-- **Source**: installomator
-- **Name**: DYMO Connect
-- **Description**: DYMO Connect
+- **Source**: homebrew
+- **Name**: dymoconnectdesktop
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `dymoconnectdesktop.yml`
-- **URL**: https://download.dymo.com/dymo/Software/Mac/DCDMac${appNewVersion}.pkg
+- **URL**: Generated from Homebrew API
 
-### Autodesk EAGLE (eagle)
+### eagle
 
 - **Source**: homebrew
-- **Name**: Autodesk EAGLE
-- **Description**: Electronic design automation software
-- **Version**: 9.6.2
+- **Name**: eagle
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `eagle.yml`
-- **URL**: https://trial2.autodesk.com/NET17SWDLD/2017/EGLPRM/ESD/Autodesk_EAGLE_9.6.2_English_Mac_64bit.pkg
+- **URL**: Generated from Homebrew API
 
-### Egnyte Connect (egnyte)
+### egnyte
 
-- **Source**: installomator
-- **Name**: Egnyte Connect
-- **Description**: Egnyte Connect
+- **Source**: homebrew
+- **Name**: egnyte
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `egnyte.yml`
-- **URL**: https://egnyte-cdn.egnyte.com/egnytedrive/mac/en-us/latest/EgnyteConnectMac.pkg
+- **URL**: Generated from Homebrew API
 
-### EgnyteWebEdit (egnytewebedit)
+### egnytewebedit
 
-- **Source**: installomator
-- **Name**: EgnyteWebEdit
-- **Description**: EgnyteWebEdit
+- **Source**: homebrew
+- **Name**: egnytewebedit
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `egnytewebedit.yml`
-- **URL**: https://egnyte-cdn.egnyte.com/webedit/mac/en-us/latest/EgnyteWebEdit.pkg
+- **URL**: Generated from Homebrew API
 
-### Elgato Camera Hub (elgato-camera-hub)
+### elgato-camera-hub
 
 - **Source**: homebrew
-- **Name**: Elgato Camera Hub
-- **Description**: Elgato FACECAM configuration tool
-- **Version**: 2.1.0.6409
+- **Name**: elgato-camera-hub
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `elgato-camera-hub.yml`
-- **URL**: https://edge.elgato.com/egc/macos/echm/2.1.0/CameraHub_2.1.0.6409.pkg
+- **URL**: Generated from Homebrew API
 
-### Elgato Stream Deck (elgato-stream-deck)
+### elgato-stream-deck
 
 - **Source**: homebrew
-- **Name**: Elgato Stream Deck
-- **Description**: Assign keys, and then decorate and label them
-- **Version**: 7.0.0.22005
+- **Name**: elgato-stream-deck
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `elgato-stream-deck.yml`
-- **URL**: https://edge.elgato.com/egc/macos/sd/Stream_Deck_7.0.0.22005.pkg
+- **URL**: Generated from Homebrew API
 
-### Elgato Wave Link (elgato-wave-link)
+### elgato-wave-link
 
 - **Source**: homebrew
-- **Name**: Elgato Wave Link
-- **Description**: Software custom-built for content creation
-- **Version**: 2.0.6.3780
+- **Name**: elgato-wave-link
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `elgato-wave-link.yml`
-- **URL**: https://edge.elgato.com/egc/macos/wavelink/2.0.6/WaveLink_2.0.6.3780.pkg
+- **URL**: Generated from Homebrew API
 
-### eM Client (emclient)
+### emclient-beta
 
 - **Source**: homebrew
-- **Name**: eM Client
-- **Description**: Email client
-- **Version**: 10.3.2622
+- **Name**: emclient-beta
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `emclient-beta.yml`
+- **URL**: Generated from Homebrew API
+
+### emclient
+
+- **Source**: homebrew
+- **Name**: emclient
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `emclient.yml`
-- **URL**: https://cdn-dist.emclient.com/dist/v10.3.2622_Mac/setup.pkg
+- **URL**: Generated from Homebrew API
 
-### eM Client (emclient@beta)
-
-- **Source**: homebrew
-- **Name**: eM Client
-- **Description**: Email client
-- **Version**: 10.0.2362
-- **File**: `emclient_beta.yml`
-- **URL**: https://cdn-dist.emclient.com/dist/v10.0.2362_Mac/setup.pkg
-
-### Enclave (enclave)
+### enclave
 
 - **Source**: homebrew
-- **Name**: Enclave
-- **Description**: Safely build private networks without configs, firewalls or access control lists
-- **Version**: 2025.6.2
+- **Name**: enclave
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `enclave.yml`
-- **URL**: https://release.enclave.io/enclave_osx-installer-x64-stable-2025.6.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Enpass (enpass)
+### enpass
 
 - **Source**: homebrew
-- **Name**: Enpass
-- **Description**: Password and credentials manager
-- **Version**: 6.11.13.2033
+- **Name**: enpass
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `enpass.yml`
-- **URL**: https://dl.enpass.io/stable/mac/package/6.11.13.2033/Enpass.pkg
+- **URL**: Generated from Homebrew API
 
-### entry (entry)
+### entry
 
 - **Source**: homebrew
 - **Name**: entry
-- **Description**: Block-based coding platform
-- **Version**: 2.1.29
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `entry.yml`
-- **URL**: https://playentry.org/uploads/data/installers/Entry-2.1.29.pkg
+- **URL**: Generated from Homebrew API
 
-### Epichrome (epichrome)
+### epichrome
 
 - **Source**: homebrew
-- **Name**: Epichrome
-- **Description**: Tool to create web-based applications that work like standalone apps
-- **Version**: 2.4.26
+- **Name**: epichrome
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `epichrome.yml`
-- **URL**: https://github.com/dmarmor/epichrome/releases/download/v2.4.26/epichrome-2.4.26.pkg
+- **URL**: Generated from Homebrew API
 
-### EpocCam (epoccam)
+### epoccam
 
 - **Source**: homebrew
-- **Name**: EpocCam
-- **Description**: Turn your phone into a webcam
-- **Version**: 3.4.1
+- **Name**: epoccam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `epoccam.yml`
-- **URL**: https://edge.elgato.com/egc/macos/epoccam/EpocCam_Installer_3_4_1.pkg
+- **URL**: Generated from Homebrew API
 
-### IIT Certification (eu)
+### eu
 
 - **Source**: homebrew
-- **Name**: IIT Certification
-- **Description**: Program of the EDI Provider of the State Tax Service of Ukraine
-- **Version**: 1.3.1,14
+- **Name**: eu
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `eu.yml`
-- **URL**: https://iit.com.ua/download/productfiles/EUInstall.pkg
+- **URL**: Generated from Homebrew API
 
-### IIT Certification Signature (eusamanager)
+### eusamanager
 
 - **Source**: homebrew
-- **Name**: IIT Certification Signature
-- **Description**: Program of the EDI Provider of the State Tax Service of Ukraine for web browsers
-- **Version**: 1.3.1,16
+- **Name**: eusamanager
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `eusamanager.yml`
-- **URL**: https://iit.com.ua/download/productfiles/EUSignWebInstall.pkg
+- **URL**: Generated from Homebrew API
 
-### Evercast (evercast)
+### evercast
 
-- **Source**: installomator
-- **Name**: Evercast
-- **Description**: Evercast
+- **Source**: homebrew
+- **Name**: evercast
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `evercast.yml`
-- **URL**: https://s3.amazonaws.com/files.evercast.us/Evercast.pkg
+- **URL**: Generated from Homebrew API
 
-### ExpressVPN (expressvpn)
+### expressvpn
 
 - **Source**: homebrew
-- **Name**: ExpressVPN
-- **Description**: VPN client for secure internet access and private browsing
-- **Version**: 11.70.0.90675
+- **Name**: expressvpn
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `expressvpn.yml`
-- **URL**: https://www.expressvpn.works/clients/mac/expressvpn_mac_11.70.0.90675_release.pkg
+- **URL**: Generated from Homebrew API
 
-### FinalShell (finalshell)
+### finalshell
 
 - **Source**: homebrew
-- **Name**: FinalShell
-- **Description**: SSH tool, server management and remote desktop acceleration software
-- **Version**: 4.6.3
+- **Name**: finalshell
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `finalshell.yml`
-- **URL**: https://dl.hostbuf.com/finalshell3/finalshell_macos_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Finch (finch)
+### finch
 
 - **Source**: homebrew
-- **Name**: Finch
-- **Description**: Open source container development tool
-- **Version**: 1.10.3
+- **Name**: finch
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `finch.yml`
-- **URL**: https://github.com/runfinch/finch/releases/download/v1.10.3/Finch-v1.10.3-aarch64.pkg
+- **URL**: Generated from Homebrew API
 
-### flox (flox)
+### flox
 
 - **Source**: homebrew
 - **Name**: flox
-- **Description**: Manages environments across the software lifecycle
-- **Version**: 1.6.1
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `flox.yml`
-- **URL**: https://downloads.flox.dev/by-env/stable/osx/flox-1.6.1.aarch64-darwin.pkg
+- **URL**: Generated from Homebrew API
 
-### FME Form (fme)
+### fme
 
 - **Source**: homebrew
-- **Name**: FME Form
-- **Description**: Platform for integrating spatial data
-- **Version**: 2024.1,24612
+- **Name**: fme
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `fme.yml`
-- **URL**: https://downloads.safe.com/fme/2024/macos-aarch64/fme-form-2024.1-b24612-macosx-aarch64.pkg
+- **URL**: Generated from Homebrew API
 
-### Folding@home (folding-at-home)
+### folding-at-home-beta
 
 - **Source**: homebrew
-- **Name**: Folding@home
-- **Description**: Graphical interface control for Folding
-- **Version**: 8.4.9
+- **Name**: folding-at-home-beta
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `folding-at-home-beta.yml`
+- **URL**: Generated from Homebrew API
+
+### folding-at-home
+
+- **Source**: homebrew
+- **Name**: folding-at-home
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `folding-at-home.yml`
-- **URL**: https://download.foldingathome.org/releases/public/fah-client/macos-12-universal/release/fah-client_8.4.9_universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Folding@home Client Beta (folding-at-home@beta)
-
-- **Source**: homebrew
-- **Name**: Folding@home Client Beta
-- **Description**: Protein folding simulation for scientific research
-- **Version**: 8.4.9
-- **File**: `folding-at-home_beta.yml`
-- **URL**: https://download.foldingathome.org/releases/beta/fah-client/macos-12-universal/release/fah-client_8.4.9_universal.pkg
-
-### Foxit PDF Editor (foxit-pdf-editor)
+### foxit-pdf-editor
 
 - **Source**: homebrew
-- **Name**: Foxit PDF Editor
-- **Description**: PDF Editor
-- **Version**: 13.1.7.63027
+- **Name**: foxit-pdf-editor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `foxit-pdf-editor.yml`
-- **URL**: https://cdn01.foxitsoftware.com/pub/foxit/phantomPDF/desktop/mac/13.x/13.1.7/FoxitPDFEditor1317.L10N.Setup.pkg
+- **URL**: Generated from Homebrew API
 
-### Foxit Reader (foxitreader)
+### foxitreader
 
 - **Source**: homebrew
-- **Name**: Foxit Reader
-- **Description**: PDF reader
-- **Version**: 2025.1.0.66692
+- **Name**: foxitreader
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `foxitreader.yml`
-- **URL**: https://cdn01.foxitsoftware.com/pub/foxit/phantomPDF/desktop/mac/2025.x/2025.1/FoxitPDFReader20251.L10N.Setup.pkg
+- **URL**: Generated from Homebrew API
 
-### FUJIFILM TETHER APP (fujifilm-tether-app)
+### fujifilm-tether-app
 
 - **Source**: homebrew
-- **Name**: FUJIFILM TETHER APP
-- **Description**: For Fujifilm GFX/X series camera tether shooting
-- **Version**: 1.34.0,ym6rhx10
+- **Name**: fujifilm-tether-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `fujifilm-tether-app.yml`
-- **URL**: https://dl.fujifilm-x.com/support/software/tether-app-mac1340-ym6rhx10/FUJIFILM_TetherApp_Mac1340.pkg
+- **URL**: Generated from Homebrew API
 
-### Fuse Studio (fuse)
-
-- **Source**: homebrew
-- **Name**: Fuse Studio
-- **Description**: Visual desktop tool suite for working with the Fuse framework
-- **Version**: 1.9.0
-- **File**: `fuse.yml`
-- **URL**: https://github.com/fuse-open/fuse-studio/releases/download/1.9.0/fuse_osx_1_9_0.pkg
-
-### FUSE-T (fuse-t)
+### fuse-t
 
 - **Source**: homebrew
-- **Name**: FUSE-T
-- **Description**: Kext-less implementation of FUSE
-- **Version**: 1.0.49
+- **Name**: fuse-t
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `fuse-t.yml`
-- **URL**: https://github.com/macos-fuse-t/fuse-t/releases/download/1.0.49/fuse-t-macos-installer-1.0.49.pkg
+- **URL**: Generated from Homebrew API
 
-### fx_cast Bridge (fx-cast-bridge)
+### fuse
 
 - **Source**: homebrew
-- **Name**: fx_cast Bridge
-- **Description**: Bridge helper for fx_cast Firefox extension to enable Chromecast support
-- **Version**: 0.3.0
+- **Name**: fuse
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `fuse.yml`
+- **URL**: Generated from Homebrew API
+
+### fx-cast-bridge
+
+- **Source**: homebrew
+- **Name**: fx-cast-bridge
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `fx-cast-bridge.yml`
-- **URL**: https://github.com/hensm/fx_cast/releases/download/v0.3.0/fx_cast_bridge-0.3.0-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### GalaxyBudsClient (galaxybudsclient)
+### galaxybudsclient
 
 - **Source**: homebrew
-- **Name**: GalaxyBudsClient
-- **Description**: Unofficial manager for the Buds, Buds+, Buds Live and Buds Pro
-- **Version**: 5.1.2
+- **Name**: galaxybudsclient
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `galaxybudsclient.yml`
-- **URL**: https://github.com/ThePBone/GalaxyBudsClient/releases/download/5.1.2/GalaxyBudsClient_macOS_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### GameMaker (gamemaker)
+### gamemaker
 
 - **Source**: homebrew
-- **Name**: GameMaker
-- **Description**: Complete development tool for making 2D games
-- **Version**: 2024.13.1.193
+- **Name**: gamemaker
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gamemaker.yml`
-- **URL**: https://gms.yoyogames.com/GameMaker-2024.13.1.193.pkg
+- **URL**: Generated from Homebrew API
 
-### GCC ARM Embedded (gcc-aarch64-embedded)
+### gcc-aarch64-embedded
 
 - **Source**: homebrew
-- **Name**: GCC ARM Embedded
-- **Description**: Pre-built GNU bare-metal toolchain for 64-bit Arm processors
-- **Version**: 14.3.rel1
+- **Name**: gcc-aarch64-embedded
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gcc-aarch64-embedded.yml`
-- **URL**: https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-darwin-arm64-aarch64-none-elf.pkg
+- **URL**: Generated from Homebrew API
 
-### GCC ARM Embedded (gcc-arm-embedded)
+### gcc-arm-embedded
 
 - **Source**: homebrew
-- **Name**: GCC ARM Embedded
-- **Description**: Pre-built GNU bare-metal toolchain for 32-bit Arm processors
-- **Version**: 14.3.rel1
+- **Name**: gcc-arm-embedded
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gcc-arm-embedded.yml`
-- **URL**: https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-darwin-arm64-arm-none-eabi.pkg
+- **URL**: Generated from Homebrew API
 
-### GPT fdisk (gdisk)
+### gdisk
 
 - **Source**: homebrew
-- **Name**: GPT fdisk
-- **Description**: Disk partitioning tool
-- **Version**: 1.0.10
+- **Name**: gdisk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gdisk.yml`
-- **URL**: https://downloads.sourceforge.net/gptfdisk/gdisk-1.0.10.pkg
+- **URL**: Generated from Homebrew API
 
-### Git Credential Manager (git-credential-manager)
+### git-credential-manager
 
 - **Source**: homebrew
-- **Name**: Git Credential Manager
-- **Description**: Cross-platform Git credential storage for multiple hosting providers
-- **Version**: 2.6.1
+- **Name**: git-credential-manager
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `git-credential-manager.yml`
-- **URL**: https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.6.1/gcm-osx-arm64-2.6.1.pkg
+- **URL**: Generated from Homebrew API
 
-### GLPI-agent (glpiagent)
+### glpiagent
 
-- **Source**: installomator
-- **Name**: GLPI-agent
-- **Description**: GLPI-agent
+- **Source**: homebrew
+- **Name**: glpiagent
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `glpiagent.yml`
-- **URL**: https://github.com/glpi-project/glpi-agent/releases/download/${appNewVersion}/GLPI-Agent-${appNewVersion}_"$(uname -m)".pkg
+- **URL**: Generated from Homebrew API
 
-### GOG Galaxy (gog-galaxy)
+### gog-galaxy
 
 - **Source**: homebrew
-- **Name**: GOG Galaxy
-- **Description**: Game client
-- **Version**: 2.0.86.13
+- **Name**: gog-galaxy
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gog-galaxy.yml`
-- **URL**: https://gog-cdn-fastly.gog.com/open/galaxy/client/galaxy_client_2.0.86.13.pkg
+- **URL**: Generated from Homebrew API
 
-### Google Chrome (googlechromeenterprise)
+### googlechromeenterprise
 
-- **Source**: installomator
-- **Name**: Google Chrome
-- **Description**: Google Chrome
+- **Source**: homebrew
+- **Name**: googlechromeenterprise
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `googlechromeenterprise.yml`
-- **URL**: https://dl.google.com/dl/chrome/mac/universal/stable/gcem/GoogleChrome.pkg
+- **URL**: Generated from Homebrew API
 
-### Google Chrome (googlechromepkg)
-
-- **Source**: installomator
-- **Name**: Google Chrome
-- **Description**: Google Chrome
-- **Version**: 
-- **File**: `googlechromepkg.yml`
-- **URL**: https://dl.google.com/chrome/mac/stable/accept_tos%3Dhttps%253A%252F%252Fwww.google.com%252Fintl%252Fen_ph%252Fchrome%252Fterms%252F%26_and_accept_tos%3Dhttps%253A%252F%252Fpolicies.google.com%252Fterms/googlechrome.pkg
-
-### GPG Sync (gpg-sync)
+### googlechromepkg
 
 - **Source**: homebrew
-- **Name**: GPG Sync
-- **Description**: 
-- **Version**: 0.3.6
-- **File**: `gpg-sync.yml`
-- **URL**: https://github.com/firstlookmedia/gpgsync/releases/download/v0.3.6/GPGSync-0.3.6.pkg
+- **Name**: googlechromepkg
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `googlechromepkg.yml`
+- **URL**: Generated from Homebrew API
 
-### gretl (gretl)
+### gpg-sync
+
+- **Source**: homebrew
+- **Name**: gpg-sync
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `gpg-sync.yml`
+- **URL**: Generated from Homebrew API
+
+### gretl
 
 - **Source**: homebrew
 - **Name**: gretl
-- **Description**: Software package for econometric analysis
-- **Version**: 2025b
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gretl.yml`
-- **URL**: https://downloads.sourceforge.net/gretl/gretl-2025b-macos-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### 구름 입력기 (gureumkim)
+### gureumkim
 
 - **Source**: homebrew
-- **Name**: 구름 입력기
-- **Description**: Libhangul-based keyboard input
-- **Version**: 1.13.2
+- **Name**: gureumkim
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gureumkim.yml`
-- **URL**: https://github.com/gureum/gureum/releases/download/1.13.2/Gureum-1.13.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Nota Gyazo GIF (gyazo)
+### gyazo
 
 - **Source**: homebrew
-- **Name**: Nota Gyazo GIF
-- **Description**: Screenshot and screen recording tool
-- **Version**: 9.12.0
+- **Name**: gyazo
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `gyazo.yml`
-- **URL**: https://files.gyazo.com/setup/Gyazo-9.12.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Hackolade (hackolade)
+### hackolade
 
 - **Source**: homebrew
-- **Name**: Hackolade
-- **Description**: Polyglot data modelling software
-- **Version**: 8.3.7
+- **Name**: hackolade
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `hackolade.yml`
-- **URL**: https://hackolade.s3.amazonaws.com/previous/v8.3.7/Hackolade-macARM64-setup-signed.pkg
+- **URL**: Generated from Homebrew API
 
-### Hancom Docs (hancom-docs)
+### hancom-docs
 
 - **Source**: homebrew
-- **Name**: Hancom Docs
-- **Description**: Word processor
-- **Version**: 12.30.0.5881
+- **Name**: hancom-docs
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `hancom-docs.yml`
-- **URL**: https://cdn.hancom.com/pds/hnc/DOWN/HancomDocs/HwpMac_HancomDocs.pkg
+- **URL**: Generated from Homebrew API
 
-### Hacom Word Processor (hancom-word)
+### hancom-word
 
 - **Source**: homebrew
-- **Name**: Hacom Word Processor
-- **Description**: Word processor
-- **Version**: 12.30.0.5881
+- **Name**: hancom-word
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `hancom-word.yml`
-- **URL**: https://cdn.hancom.com/pds/hnc/DOWN/HancomOfficeHWPGeneral.pkg
+- **URL**: Generated from Homebrew API
 
-### (Deep) HIARCS Chess Explorer (hiarcs-chess-explorer)
+### hiarcs-chess-explorer
 
 - **Source**: homebrew
-- **Name**: (Deep) HIARCS Chess Explorer
-- **Description**: Chess database, analysis and game playing program
-- **Version**: 1.13
+- **Name**: hiarcs-chess-explorer
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `hiarcs-chess-explorer.yml`
-- **URL**: https://www.hiarcs.com/hce/HIARCS-Chess-Explorer-Installer-v1.13.pkg
+- **URL**: Generated from Homebrew API
 
-### HoRNDIS (horndis)
+### horndis
 
 - **Source**: homebrew
-- **Name**: HoRNDIS
-- **Description**: Android USB tethering driver
-- **Version**: 9.2
+- **Name**: horndis
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `horndis.yml`
-- **URL**: https://github.com/jwise/HoRNDIS/releases/download/rel9.2/HoRNDIS-9.2.pkg
+- **URL**: Generated from Homebrew API
 
-### IBM Aspera Connect (ibm-aspera-connect)
+### ibm-aspera-connect
 
 - **Source**: homebrew
-- **Name**: IBM Aspera Connect
-- **Description**: Facilitate uploads and downloads with an Aspera transfer server
-- **Version**: 4.2.13.820
+- **Name**: ibm-aspera-connect
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ibm-aspera-connect.yml`
-- **URL**: https://delivery04-mul.dhe.ibm.com/sar/CMA/OSA/0csnb/0/ibm-aspera-connect_4.2.13.820_macOS_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### IBM Cloud CLI (ibm-cloud-cli)
+### ibm-cloud-cli
 
 - **Source**: homebrew
-- **Name**: IBM Cloud CLI
-- **Description**: Command-line API client
-- **Version**: 2.35.1
+- **Name**: ibm-cloud-cli
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ibm-cloud-cli.yml`
-- **URL**: https://download.clis.cloud.ibm.com/ibm-cloud-cli/2.35.1/IBM_Cloud_CLI_2.35.1_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### IEM Plug-in Suite (iem-plugin-suite)
+### iem-plugin-suite
 
 - **Source**: homebrew
-- **Name**: IEM Plug-in Suite
-- **Description**: Ambisonic audio plug-in suite up to 7th order as VST2, LV2 and Standalones
-- **Version**: 1.15.0
+- **Name**: iem-plugin-suite
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `iem-plugin-suite.yml`
-- **URL**: https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.15.0/IEMPluginSuite_v1.15.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Inkstitch (inkstitch)
+### inkstitch
 
 - **Source**: homebrew
-- **Name**: Inkstitch
-- **Description**: Inkscape extension for machine embroidery design
-- **Version**: 3.2.2
+- **Name**: inkstitch
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `inkstitch.yml`
-- **URL**: https://github.com/inkstitch/inkstitch/releases/download/v3.2.2/inkstitch-v3.2.2-osx-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Insta360 Link Controller (insta360-link-controller)
+### insta360-link-controller
 
 - **Source**: homebrew
-- **Name**: Insta360 Link Controller
-- **Description**: Controller for Insta360 webcams
-- **Version**: 2.0.5,build9,b5ebf27ff81b175d598f71fd68bb88cc
+- **Name**: insta360-link-controller
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `insta360-link-controller.yml`
-- **URL**: https://file.insta360.com/static/b5ebf27ff81b175d598f71fd68bb88cc/Insta360LinkController_2.0.5(build9).pkg
+- **URL**: Generated from Homebrew API
 
-### Company Portal (intune-company-portal)
+### intune-company-portal
 
 - **Source**: homebrew
-- **Name**: Company Portal
-- **Description**: App to manage access to corporate apps, data, and resources
-- **Version**: 5.2508.0
+- **Name**: intune-company-portal
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `intune-company-portal.yml`
-- **URL**: https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2508.0-Upgrade.pkg
+- **URL**: Generated from Homebrew API
 
-### Iriun (iriunwebcam)
+### iriunwebcam
 
 - **Source**: homebrew
-- **Name**: Iriun
-- **Description**: Use your phone's camera as a wireless webcam
-- **Version**: 2.8.12
+- **Name**: iriunwebcam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `iriunwebcam.yml`
-- **URL**: https://1758658189.rsc.cdn77.org/IriunWebcam-2.8.12.pkg
+- **URL**: Generated from Homebrew API
 
-### iSyncr Desktop (isyncr)
+### isyncr
 
 - **Source**: homebrew
-- **Name**: iSyncr Desktop
-- **Description**: Syncs iTunes to Android over a USB or WiFi connection
-- **Version**: 6.1.0
+- **Name**: isyncr
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `isyncr.yml`
-- **URL**: https://www.jrtstudio.com/files/iSyncr%20Desktop%206.1.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Jedit Ω (jedit-omega)
+### jedit-omega
 
 - **Source**: homebrew
-- **Name**: Jedit Ω
-- **Description**: Text editor
-- **Version**: 3.10
+- **Name**: jedit-omega
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `jedit-omega.yml`
-- **URL**: https://artman21.site/JeditOmega310.pkg
+- **URL**: Generated from Homebrew API
 
-### jgrasp (jgrasp)
+### jgrasp
 
 - **Source**: homebrew
 - **Name**: jgrasp
-- **Description**: IDE with visualisations for improving software comprehensibility
-- **Version**: 2.0.6_18
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `jgrasp.yml`
-- **URL**: https://jgrasp.org/dl4g/jgrasp/jgrasp206_18.pkg
+- **URL**: Generated from Homebrew API
 
-### Jitouch (jitouch)
+### jitouch
 
 - **Source**: homebrew
-- **Name**: Jitouch
-- **Description**: Multi-touch gestures editor
-- **Version**: 2.82.1
+- **Name**: jitouch
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `jitouch.yml`
-- **URL**: https://github.com/JitouchApp/Jitouch/releases/download/v2.82.1/Install-Jitouch.pkg
+- **URL**: Generated from Homebrew API
 
-### Jyutping (jyutping)
+### jyutping
 
 - **Source**: homebrew
-- **Name**: Jyutping
-- **Description**: Cantonese Jyutping Input Method
-- **Version**: 0.61.0
+- **Name**: jyutping
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `jyutping.yml`
-- **URL**: https://github.com/yuetyam/jyutping/releases/download/0.61.0/Jyutping-v0.61.0-Mac.pkg
+- **URL**: Generated from Homebrew API
 
-### kDrive (kdrive)
+### kdrive
 
 - **Source**: homebrew
-- **Name**: kDrive
-- **Description**: Client for the kDrive collaborative cloud storage service
-- **Version**: 3.7.3.20250728
+- **Name**: kdrive
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `kdrive.yml`
-- **URL**: https://download.storage.infomaniak.com/drive/desktopclient/kDrive-3.7.3.20250728.pkg
+- **URL**: Generated from Homebrew API
 
-### Kern (kern)
+### kern
 
 - **Source**: homebrew
-- **Name**: Kern
-- **Description**: Performance synthesiser
-- **Version**: 1.2.0
+- **Name**: kern
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `kern.yml`
-- **URL**: https://www.fullbucket.de/music/dl/kern_1_2_0_mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Kindle Create (kindle-create)
+### kindle-create
 
 - **Source**: homebrew
-- **Name**: Kindle Create
-- **Description**: Creating beautiful books has never been easier
-- **Version**: 1.103
+- **Name**: kindle-create
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `kindle-create.yml`
-- **URL**: https://d2bzeorukaqrvt.cloudfront.net/KindleCreateInstaller.pkg
+- **URL**: Generated from Homebrew API
 
-### Kindle Previewer (kindle-previewer)
+### kindle-previewer
 
 - **Source**: homebrew
-- **Name**: Kindle Previewer
-- **Description**: Preview and audit Kindle eBooks
-- **Version**: 3.96.0
+- **Name**: kindle-previewer
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `kindle-previewer.yml`
-- **URL**: https://d2bzeorukaqrvt.cloudfront.net/KindlePreviewerInstaller.pkg
+- **URL**: Generated from Homebrew API
 
-### KMPlayer (kmplayer)
+### kmplayer
 
 - **Source**: homebrew
-- **Name**: KMPlayer
-- **Description**: Video player
-- **Version**: 0.3.2
+- **Name**: kmplayer
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `kmplayer.yml`
-- **URL**: http://cdn.kmplayer.com/KMP/Download/KMPX/KMPlayer-0.3.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Krisp (krisp)
+### krisp
 
 - **Source**: homebrew
-- **Name**: Krisp
-- **Description**: Noise cancelling application
-- **Version**: 3.4.7
+- **Name**: krisp
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `krisp.yml`
-- **URL**: https://cdn.krisp.ai/mp/mn/3.4/mac/Krisp_3.4.7_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### libNDI (libndi)
+### libndi
 
 - **Source**: homebrew
-- **Name**: libNDI
-- **Description**: NDI SDK
-- **Version**: latest
+- **Name**: libndi
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `libndi.yml`
-- **URL**: https://downloads.ndi.tv/SDK/NDI_SDK_Mac/libNDI_for_Mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Linn Konfig (linn-konfig)
+### linn-konfig
 
 - **Source**: homebrew
-- **Name**: Linn Konfig
-- **Description**: Control software for audio equipment
-- **Version**: 4.37.172
+- **Name**: linn-konfig
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `linn-konfig.yml`
-- **URL**: https://cloud.linn.co.uk/applications/konfig/releases/Davaar/konfig_latest_osx.pkg
+- **URL**: Generated from Homebrew API
 
-### LiveReplayer (livereplayer)
+### livereplayer
 
-- **Source**: installomator
-- **Name**: LiveReplayer
-- **Description**: LiveReplayer
+- **Source**: homebrew
+- **Name**: livereplayer
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `livereplayer.yml`
-- **URL**: $(curl -fsL https://fsm-livereplayer.s3.amazonaws.com/update/stable/latest.json | grep package-url | grep -o "https:.*.pkg")
+- **URL**: Generated from Homebrew API
 
-### LogDNA Agent (logdna-agent)
+### logdna-agent
 
 - **Source**: homebrew
-- **Name**: LogDNA Agent
-- **Description**: Agent streams from log files to your LogDNA account
-- **Version**: 2.2.2
+- **Name**: logdna-agent
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `logdna-agent.yml`
-- **URL**: https://github.com/logdna/logdna-agent/releases/download/2.2.2/logdna-agent-2.2.2.pkg
+- **URL**: Generated from Homebrew API
 
-### LogDNA CLI (logdna-cli)
+### logdna-cli
 
 - **Source**: homebrew
-- **Name**: LogDNA CLI
-- **Description**: Command-line interface for LogDNA
-- **Version**: 2.0.0
+- **Name**: logdna-cli
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `logdna-cli.yml`
-- **URL**: https://github.com/logdna/logdna-cli/releases/download/2.0.0/logdna-cli.pkg
+- **URL**: Generated from Homebrew API
 
-### Logitech Camera Settings (logitech-camera-settings)
+### logitech-camera-settings
 
 - **Source**: homebrew
-- **Name**: Logitech Camera Settings
-- **Description**: Provides access to camera controls
-- **Version**: 3.0.23
+- **Name**: logitech-camera-settings
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `logitech-camera-settings.yml`
-- **URL**: https://download01.logi.com/web/ftp/pub/techsupport/cameras/Webcams/LogiCameraSettings_3.0.23.pkg
+- **URL**: Generated from Homebrew API
 
-### Looking Glass Studio (lookingglassstudio)
+### lookingglassstudio
 
 - **Source**: homebrew
-- **Name**: Looking Glass Studio
-- **Description**: View and edit 3D image and video formats on the Looking Glass
-- **Version**: 1.7.1
+- **Name**: lookingglassstudio
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `lookingglassstudio.yml`
-- **URL**: https://dhtk4bwj5r21z.cloudfront.net/HoloPlayStudio/PublicLinks/LookingGlassStudio-1.7.1-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Low Profile (low-profile)
+### low-profile
 
 - **Source**: homebrew
-- **Name**: Low Profile
-- **Description**: Utility to help inspect Apple Configuration Profile payloads
-- **Version**: 4.0.3
+- **Name**: low-profile
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `low-profile.yml`
-- **URL**: https://github.com/ninxsoft/LowProfile/releases/download/v4.0.3/Low.Profile.4.0.3.pkg
+- **URL**: Generated from Homebrew API
 
-### LTspice (ltspice)
+### ltspice
 
 - **Source**: homebrew
-- **Name**: LTspice
-- **Description**: SPICE simulation software, schematic capture and waveform viewer
-- **Version**: 17.2.4
+- **Name**: ltspice
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ltspice.yml`
-- **URL**: https://ltspice.analog.com/software/LTspice.pkg
+- **URL**: Generated from Homebrew API
 
-### Luniistore (luniistore)
+### luniistore
 
 - **Source**: homebrew
-- **Name**: Luniistore
-- **Description**: Utility for My Fabulous Storyteller
-- **Version**: 4.0.312
+- **Name**: luniistore
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `luniistore.yml`
-- **URL**: https://storage.googleapis.com/storage.lunii.fr/public/deploy/installers/macos/arm64/Lunii-4.0.312-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### LYNX Whiteboard by Clevertouch (lynx-whiteboard)
+### lynx-whiteboard
 
 - **Source**: homebrew
-- **Name**: LYNX Whiteboard by Clevertouch
-- **Description**: Cross platform presentation and productivity app
-- **Version**: 8.4.15.0
+- **Name**: lynx-whiteboard
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `lynx-whiteboard.yml`
-- **URL**: https://downloads.lynxcloud.app/lynx-whiteboard/releases/macx/lynx-whiteboard.pkg
+- **URL**: Generated from Homebrew API
 
-### MacTeX (mactex)
+### mactex-no-gui
 
-- **Source**: installomator
-- **Name**: MacTeX
-- **Description**: MacTeX
+- **Source**: homebrew
+- **Name**: mactex-no-gui
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `mactex-no-gui.yml`
+- **URL**: Generated from Homebrew API
+
+### mactex
+
+- **Source**: homebrew
+- **Name**: mactex
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `mactex.yml`
-- **URL**: https://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg
+- **URL**: Generated from Homebrew API
 
-### MacTeX (mactex-no-gui)
-
-- **Source**: homebrew
-- **Name**: MacTeX
-- **Description**: Full TeX Live distribution without GUI applications
-- **Version**: 2025.0308
-- **File**: `mactex-no-gui.yml`
-- **URL**: https://mirror.ctan.org/systems/mac/mactex/mactex-20250308.pkg
-
-### Mailbutler (mailbutler)
+### mailbutler
 
 - **Source**: homebrew
-- **Name**: Mailbutler
-- **Description**: Personal assistant and productivity tool for Apple Mail
-- **Version**: 8226,3630918
+- **Name**: mailbutler
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mailbutler.yml`
-- **URL**: https://downloads.mailbutler.io/sparkle/public/new-horizons/Mailbutler_8226-3630918.pkg
+- **URL**: Generated from Homebrew API
 
-### MailToOutlook (mailtooutlook)
+### mailtooutlook
 
-- **Source**: installomator
-- **Name**: MailToOutlook
-- **Description**: MailToOutlook
+- **Source**: homebrew
+- **Name**: mailtooutlook
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `mailtooutlook.yml`
-- **URL**: https://macadmins.software/tools/MailToOutlook_2.1.pkg
+- **URL**: Generated from Homebrew API
 
-### MailTrackerBlocker (mailtrackerblocker)
+### mailtrackerblocker
 
 - **Source**: homebrew
-- **Name**: MailTrackerBlocker
-- **Description**: Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
-- **Version**: 0.8.9
+- **Name**: mailtrackerblocker
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mailtrackerblocker.yml`
-- **URL**: https://github.com/apparition47/MailTrackerBlocker/releases/download/0.8.9/MailTrackerBlocker.pkg
+- **URL**: Generated from Homebrew API
 
-### Malwarebytes for Mac (malwarebytes)
+### malwarebytes
 
 - **Source**: homebrew
-- **Name**: Malwarebytes for Mac
-- **Description**: Scan and remove malware, spyware, and viruses
-- **Version**: 5.16.1.3237
+- **Name**: malwarebytes
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `malwarebytes.yml`
-- **URL**: https://data-cdn.mbamupdates.com/web/mb5_mac/Malwarebytes-Mac-5.16.1.3237.pkg
+- **URL**: Generated from Homebrew API
 
-### MAMP (mamp)
+### mamp
 
 - **Source**: homebrew
-- **Name**: MAMP
-- **Description**: Web development solution with Apache, Nginx, PHP & MySQL
-- **Version**: 7.2
+- **Name**: mamp
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mamp.yml`
-- **URL**: https://downloads.mamp.info/MAMP-PRO/macOS/MAMP-PRO/MAMP-MAMP-PRO-7.2-Apple-chip.pkg
+- **URL**: Generated from Homebrew API
 
-### Mbed Studio (mbed-studio)
+### mbed-studio
 
 - **Source**: homebrew
-- **Name**: Mbed Studio
-- **Description**: IDE for Mbed OS application and library development
-- **Version**: 1.5.0
+- **Name**: mbed-studio
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mbed-studio.yml`
-- **URL**: https://studio.mbed.com/installers/latest/mac/MbedStudio.pkg
+- **URL**: Generated from Homebrew API
 
-### Addigy MDM Watchdog (mdmwatchdog)
+### mdmwatchdog
 
-- **Source**: installomator
-- **Name**: Addigy MDM Watchdog
-- **Description**: Addigy MDM Watchdog
+- **Source**: homebrew
+- **Name**: mdmwatchdog
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `mdmwatchdog.yml`
-- **URL**: https://agents.addigy.com/tools/mdm-watchdog/latest/mdm-watchdog.pkg
+- **URL**: Generated from Homebrew API
 
-### MEGA (mega)
+### mega
 
 - **Source**: homebrew
-- **Name**: MEGA
-- **Description**: Molecular evolution statistical analysis and construction of phylogenetic trees
-- **Version**: 11.0.13
+- **Name**: mega
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mega.yml`
-- **URL**: https://megasoftware.net/do_force_download/MEGA_11.0.13_installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Auto Update (microsoft-auto-update)
+### microsoft-auto-update
 
 - **Source**: homebrew
-- **Name**: Microsoft Auto Update
-- **Description**: Provides updates to various Microsoft products
-- **Version**: 4.79.25033028
+- **Name**: microsoft-auto-update
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-auto-update.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.79.25033028_Updater.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Excel (microsoft-excel)
+### microsoft-excel
 
 - **Source**: homebrew
-- **Name**: Microsoft Excel
-- **Description**: Spreadsheet software
-- **Version**: 16.100.25081015
+- **Name**: microsoft-excel
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-excel.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.100.25081015_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Office (microsoft-office)
-
-- **Source**: homebrew
-- **Name**: Microsoft Office
-- **Description**: Office suite
-- **Version**: 16.99.25071321
-- **File**: `microsoft-office.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.99.25071321_Installer.pkg
-
-### Microsoft Office BusinessPro (microsoft-office-businesspro)
+### microsoft-office-businesspro
 
 - **Source**: homebrew
-- **Name**: Microsoft Office BusinessPro
-- **Description**: Office suite
-- **Version**: 16.99.25071321
+- **Name**: microsoft-office-businesspro
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-office-businesspro.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.99.25071321_BusinessPro_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft OneNote (microsoft-onenote)
+### microsoft-office
 
 - **Source**: homebrew
-- **Name**: Microsoft OneNote
-- **Description**: Digital note taking app
-- **Version**: 16.100.25081015
+- **Name**: microsoft-office
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `microsoft-office.yml`
+- **URL**: Generated from Homebrew API
+
+### microsoft-onenote
+
+- **Source**: homebrew
+- **Name**: microsoft-onenote
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-onenote.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.100.25081015_Updater.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Build of OpenJDK (microsoft-openjdk)
+### microsoft-openjdk-11
 
 - **Source**: homebrew
-- **Name**: Microsoft Build of OpenJDK
-- **Description**: OpenJDK distribution from Microsoft
-- **Version**: 21.0.8
+- **Name**: microsoft-openjdk-11
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `microsoft-openjdk-11.yml`
+- **URL**: Generated from Homebrew API
+
+### microsoft-openjdk-17
+
+- **Source**: homebrew
+- **Name**: microsoft-openjdk-17
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `microsoft-openjdk-17.yml`
+- **URL**: Generated from Homebrew API
+
+### microsoft-openjdk
+
+- **Source**: homebrew
+- **Name**: microsoft-openjdk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-openjdk.yml`
-- **URL**: https://aka.ms/download-jdk/microsoft-jdk-21.0.8-macos-aarch64.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Build of OpenJDK (microsoft-openjdk@11)
-
-- **Source**: homebrew
-- **Name**: Microsoft Build of OpenJDK
-- **Description**: OpenJDK distribution from Microsoft
-- **Version**: 11.0.28
-- **File**: `microsoft-openjdk_11.yml`
-- **URL**: https://aka.ms/download-jdk/microsoft-jdk-11.0.28-macos-aarch64.pkg
-
-### Microsoft Build of OpenJDK (microsoft-openjdk@17)
+### microsoft-outlook
 
 - **Source**: homebrew
-- **Name**: Microsoft Build of OpenJDK
-- **Description**: OpenJDK distribution from Microsoft
-- **Version**: 17.0.16
-- **File**: `microsoft-openjdk_17.yml`
-- **URL**: https://aka.ms/download-jdk/microsoft-jdk-17.0.16-macos-aarch64.pkg
-
-### Microsoft Outlook (microsoft-outlook)
-
-- **Source**: homebrew
-- **Name**: Microsoft Outlook
-- **Description**: Email client
-- **Version**: 16.100.25081015
+- **Name**: microsoft-outlook
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-outlook.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.100.25081015_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft PowerPoint (microsoft-powerpoint)
+### microsoft-powerpoint
 
 - **Source**: homebrew
-- **Name**: Microsoft PowerPoint
-- **Description**: Presentation software
-- **Version**: 16.100.25081015
+- **Name**: microsoft-powerpoint
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-powerpoint.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.100.25081015_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Teams (microsoft-teams)
+### microsoft-teams
 
 - **Source**: homebrew
-- **Name**: Microsoft Teams
-- **Description**: Meet, chat, call, and collaborate in just one place
-- **Version**: 25198.1302.3822.1091
+- **Name**: microsoft-teams
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-teams.yml`
-- **URL**: https://statics.teams.cdn.office.net/production-osx/25198.1302.3822.1091/MicrosoftTeams.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Word (microsoft-word)
+### microsoft-word
 
 - **Source**: homebrew
-- **Name**: Microsoft Word
-- **Description**: Word processor
-- **Version**: 16.100.25081015
+- **Name**: microsoft-word
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `microsoft-word.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.100.25081015_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Microsoft Teams (microsoftteams-rollingout)
+### microsoftteams-rollingout
 
-- **Source**: installomator
-- **Name**: Microsoft Teams
-- **Description**: Microsoft Teams
+- **Source**: homebrew
+- **Name**: microsoftteams-rollingout
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `microsoftteams-rollingout.yml`
-- **URL**: https://statics.teams.cdn.office.net/production-osx/${appNewVersion}/MicrosoftTeams.pkg
+- **URL**: Generated from Homebrew API
 
-### Mihomo Party (mihomo-party)
+### mihomo-party
 
 - **Source**: homebrew
-- **Name**: Mihomo Party
-- **Description**: Another Mihomo GUI
-- **Version**: 1.8.3
+- **Name**: mihomo-party
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mihomo-party.yml`
-- **URL**: https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.3/mihomo-party-macos-1.8.3-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Miniconda3-latest-MacOSX-x86_64 (miniconda)
+### miniconda
 
-- **Source**: installomator
-- **Name**: Miniconda3-latest-MacOSX-x86_64
-- **Description**: Miniconda3-latest-MacOSX-x86_64
+- **Source**: homebrew
+- **Name**: miniconda
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `miniconda.yml`
-- **URL**: https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg
+- **URL**: Generated from Homebrew API
 
-### Mipony (mipony)
+### mipony
 
 - **Source**: homebrew
-- **Name**: Mipony
-- **Description**: Download manager
-- **Version**: 1.13,0
+- **Name**: mipony
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mipony.yml`
-- **URL**: https://download.mipony.net/downloads/mac/Mipony-Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Mist (mist)
+### mist
 
 - **Source**: homebrew
-- **Name**: Mist
-- **Description**: Utility that automatically downloads firmwares and installers
-- **Version**: 0.20.1
+- **Name**: mist
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mist.yml`
-- **URL**: https://github.com/ninxsoft/Mist/releases/download/v0.20.1/Mist.0.20.1.pkg
+- **URL**: Generated from Homebrew API
 
-### mmhmm (mmhmm-desktop)
+### mmhmm-desktop
 
-- **Source**: installomator
-- **Name**: mmhmm
-- **Description**: mmhmm
+- **Source**: homebrew
+- **Name**: mmhmm-desktop
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `mmhmm-desktop.yml`
-- **URL**: https://updates.mmhmm.app/mac/hybrid/mmhmm.pkg
+- **URL**: Generated from Homebrew API
 
-### mmhmm Studio (mmhmm-studio)
+### mmhmm-studio
 
-- **Source**: installomator
-- **Name**: mmhmm Studio
-- **Description**: mmhmm Studio
+- **Source**: homebrew
+- **Name**: mmhmm-studio
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `mmhmm-studio.yml`
-- **URL**: https://updates.mmhmm.app/mac/mmhmmStudio.pkg
+- **URL**: Generated from Homebrew API
 
-### Monity Helper (monity-helper)
+### monity-helper
 
 - **Source**: homebrew
-- **Name**: Monity Helper
-- **Description**: Helper app for Monity to provide system stats
-- **Version**: 1.2.5
+- **Name**: monity-helper
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `monity-helper.yml`
-- **URL**: https://monityapp.com/download/MonityHelper.pkg
+- **URL**: Generated from Homebrew API
 
-### Mono (mono-mdk)
+### mono-mdk
 
 - **Source**: homebrew
-- **Name**: Mono
-- **Description**: Open source implementation of Microsoft's .NET Framework
-- **Version**: 6.12.0.206
+- **Name**: mono-mdk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mono-mdk.yml`
-- **URL**: https://download.mono-project.com/archive/6.12.0/macos-10-universal/MonoFramework-MDK-6.12.0.206.macos10.xamarin.universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Mora Downloader (moradownloader)
+### moradownloader
 
 - **Source**: homebrew
-- **Name**: Mora Downloader
-- **Description**: Online music and video store for the Japanese market
-- **Version**: 2.0.0.8
+- **Name**: moradownloader
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `moradownloader.yml`
-- **URL**: https://downloader.mora.jp/mac/MoraDownloader.pkg
+- **URL**: Generated from Homebrew API
 
-### Mosaic (mosaic)
+### mosaic
 
 - **Source**: homebrew
-- **Name**: Mosaic
-- **Description**: Resize and reposition apps
-- **Version**: 1.4
+- **Name**: mosaic
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mosaic.yml`
-- **URL**: https://lightpillar.com/appdata/mosaic/archive/Mosaic_1_4.pkg
+- **URL**: Generated from Homebrew API
 
-### Moscow ML (moscow-ml)
+### moscow-ml
 
 - **Source**: homebrew
-- **Name**: Moscow ML
-- **Description**: Light-weight implementation of Standard ML
-- **Version**: 2.10.1
+- **Name**: moscow-ml
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `moscow-ml.yml`
-- **URL**: https://github.com/kfl/mosml/releases/download/ver-2.10.1/mosml-2.10.1.pkg
+- **URL**: Generated from Homebrew API
 
-### Motu M-Series (motu-m-series)
+### motu-m-series
 
 - **Source**: homebrew
-- **Name**: Motu M-Series
-- **Description**: Audio interface driver for Motu M-Series (M2, M4, M6) audio interfaces
-- **Version**: 96480
+- **Name**: motu-m-series
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `motu-m-series.yml`
-- **URL**: https://cdn-data.motu.com/downloads/audio/mseries/driver/RC/MOTU%20M%20Series%20Installer%20(96480).pkg
+- **URL**: Generated from Homebrew API
 
-### Mozilla VPN (mozilla-vpn)
+### mozilla-vpn
 
 - **Source**: homebrew
-- **Name**: Mozilla VPN
-- **Description**: VPN client
-- **Version**: 2.30.0
+- **Name**: mozilla-vpn
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mozilla-vpn.yml`
-- **URL**: https://archive.mozilla.org/pub/vpn/releases/2.30.0/mac/MozillaVPN.pkg
+- **URL**: Generated from Homebrew API
 
-### Mullvad VPN (mullvad-vpn)
+### mullvad-vpn-beta
 
 - **Source**: homebrew
-- **Name**: Mullvad VPN
-- **Description**: VPN client
-- **Version**: 2025.7
+- **Name**: mullvad-vpn-beta
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `mullvad-vpn-beta.yml`
+- **URL**: Generated from Homebrew API
+
+### mullvad-vpn
+
+- **Source**: homebrew
+- **Name**: mullvad-vpn
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `mullvad-vpn.yml`
-- **URL**: https://cdn.mullvad.net/app/desktop/releases/2025.7/MullvadVPN-2025.7.pkg
+- **URL**: Generated from Homebrew API
 
-### Mullvad VPN (mullvad-vpn@beta)
-
-- **Source**: homebrew
-- **Name**: Mullvad VPN
-- **Description**: VPN client
-- **Version**: 2025.8-beta3
-- **File**: `mullvad-vpn_beta.yml`
-- **URL**: https://cdn.mullvad.net/app/desktop/releases/2025.8-beta3/MullvadVPN-2025.8-beta3.pkg
-
-### Multipass (multipass)
+### multipass
 
 - **Source**: homebrew
-- **Name**: Multipass
-- **Description**: Orchestrates virtual Ubuntu instances
-- **Version**: 1.16.0
+- **Name**: multipass
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `multipass.yml`
-- **URL**: https://github.com/canonical/multipass/releases/download/v1.16.0/multipass-1.16.0+mac-Darwin.pkg
+- **URL**: Generated from Homebrew API
 
-### Munki (munki)
+### munki
 
 - **Source**: homebrew
-- **Name**: Munki
-- **Description**: Software installation manager
-- **Version**: 6.6.5.4711
+- **Name**: munki
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `munki.yml`
-- **URL**: https://github.com/munki/munki/releases/download/v6.6.5/munkitools-6.6.5.4711.pkg
+- **URL**: Generated from Homebrew API
 
-### NAPS2 (naps2)
+### naps2
 
 - **Source**: homebrew
-- **Name**: NAPS2
-- **Description**: Document scanning application
-- **Version**: 8.2.0
+- **Name**: naps2
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `naps2.yml`
-- **URL**: https://github.com/cyanfish/naps2/releases/download/v8.2.0/naps2-8.2.0-mac-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### NDI Tools (ndi-tools)
+### ndi-tools
 
 - **Source**: homebrew
-- **Name**: NDI Tools
-- **Description**: Tools & plugins for NDI
-- **Version**: 6.2.0.3
+- **Name**: ndi-tools
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ndi-tools.yml`
-- **URL**: https://downloads.ndi.tv/Tools/NDIToolsInstaller.pkg
+- **URL**: Generated from Homebrew API
 
-### NetBeans IDE (netbeans)
+### netbeans
 
 - **Source**: homebrew
-- **Name**: NetBeans IDE
-- **Description**: Development environment, tooling platform and application framework
-- **Version**: 26,26-build1
+- **Name**: netbeans
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `netbeans.yml`
-- **URL**: https://github.com/Friends-of-Apache-NetBeans/netbeans-installers/releases/download/v26-build1/Apache-NetBeans-26-aarch64.pkg
+- **URL**: Generated from Homebrew API
 
-### Video DownloadHelper Companion App (netdownloadhelpercoapp)
+### netdownloadhelpercoapp
 
 - **Source**: homebrew
-- **Name**: Video DownloadHelper Companion App
-- **Description**: Allows video downloads from the Web
-- **Version**: 2.0.19
+- **Name**: netdownloadhelpercoapp
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `netdownloadhelpercoapp.yml`
-- **URL**: https://github.com/aclap-dev/vdhcoapp/releases/download/v2.0.19/vdhcoapp-mac-arm64-installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Nexon Plug (nexonplug)
+### nexonplug
 
 - **Source**: homebrew
-- **Name**: Nexon Plug
-- **Description**: Launcher for Nexon games
-- **Version**: latest
+- **Name**: nexonplug
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `nexonplug.yml`
-- **URL**: https://platform.nexon.com/NGM/Bin/Install_NexonPlug.pkg
+- **URL**: Generated from Homebrew API
 
-### Nextcloud (nextcloud)
-
-- **Source**: homebrew
-- **Name**: Nextcloud
-- **Description**: Desktop sync client for Nextcloud software products
-- **Version**: 3.16.6
-- **File**: `nextcloud.yml`
-- **URL**: https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-3.16.6.pkg
-
-### Nextcloud Virtual Files (nextcloud-vfs)
+### nextcloud-vfs
 
 - **Source**: homebrew
-- **Name**: Nextcloud Virtual Files
-- **Description**: Desktop sync client for Nextcloud software products
-- **Version**: 3.16.6
+- **Name**: nextcloud-vfs
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `nextcloud-vfs.yml`
-- **URL**: https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-3.16.6-macOS-vfs.pkg
+- **URL**: Generated from Homebrew API
 
-### Ninja Download Manager (ninja-download-manager-ndm)
+### nextcloud
 
 - **Source**: homebrew
-- **Name**: Ninja Download Manager
-- **Description**: File download organiser and accelerator
-- **Version**: 46
+- **Name**: nextcloud
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `nextcloud.yml`
+- **URL**: Generated from Homebrew API
+
+### ninja-download-manager-ndm
+
+- **Source**: homebrew
+- **Name**: ninja-download-manager-ndm
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ninja-download-manager-ndm.yml`
-- **URL**: https://ninjadownloadmanager.com/downloads/ndm_46.pkg
+- **URL**: Generated from Homebrew API
 
-### nodejs (nodejs)
+### nodejs
 
-- **Source**: installomator
+- **Source**: homebrew
 - **Name**: nodejs
-- **Description**: nodejs
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `nodejs.yml`
-- **URL**: https://nodejs.org/dist/latest/node-$(curl -s -L https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p').pkg
+- **URL**: Generated from Homebrew API
 
-### nodejs (nodejslts)
+### nodejslts
 
-- **Source**: installomator
-- **Name**: nodejs
-- **Description**: nodejs
+- **Source**: homebrew
+- **Name**: nodejslts
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `nodejslts.yml`
-- **URL**: https://nodejs.org/dist/$appNewVersion/node-$appNewVersion.pkg
+- **URL**: Generated from Homebrew API
 
-### NoMAD (nomad)
+### nomad-menu
 
-- **Source**: installomator
-- **Name**: NoMAD
-- **Description**: NoMAD
+- **Source**: homebrew
+- **Name**: nomad-menu
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `nomad-menu.yml`
+- **URL**: Generated from Homebrew API
+
+### nomad
+
+- **Source**: homebrew
+- **Name**: nomad
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `nomad.yml`
-- **URL**: https://files.jamfconnect.com/NoMAD.pkg
+- **URL**: Generated from Homebrew API
 
-### NoMAD (nomad-menu)
+### nomadlogin
 
 - **Source**: homebrew
-- **Name**: NoMAD
-- **Description**: 
-- **Version**: 1.2.2
-- **File**: `nomad-menu.yml`
-- **URL**: https://files.nomad.menu/NoMAD.pkg
-
-### NoMAD Login (nomadlogin)
-
-- **Source**: installomator
-- **Name**: NoMAD Login
-- **Description**: NoMAD Login
+- **Name**: nomadlogin
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `nomadlogin.yml`
-- **URL**: https://files.nomad.menu/NoMAD-Login-AD.pkg
+- **URL**: Generated from Homebrew API
 
-### NordLayer (nordlayer)
+### nordlayer
 
-- **Source**: installomator
-- **Name**: NordLayer
-- **Description**: NordLayer
+- **Source**: homebrew
+- **Name**: nordlayer
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `nordlayer.yml`
-- **URL**: https://downloads.nordlayer.com/mac/latest/NordLayer.pkg
+- **URL**: Generated from Homebrew API
 
-### NordLocker (nordlocker)
+### nordlocker
 
 - **Source**: homebrew
-- **Name**: NordLocker
-- **Description**: Store and sync files securely
-- **Version**: 4.26.1
+- **Name**: nordlocker
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `nordlocker.yml`
-- **URL**: https://downloads.nordcdn.com/apps/macos/generic/NordLocker/latest11plus/latest/NordLocker.pkg
+- **URL**: Generated from Homebrew API
 
-### NordVPN (nordvpn)
+### nordvpn
 
-- **Source**: installomator
-- **Name**: NordVPN
-- **Description**: NordVPN
+- **Source**: homebrew
+- **Name**: nordvpn
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `nordvpn.yml`
-- **URL**: https://downloads.nordcdn.com/apps/macos/generic/NordVPN-OpenVPN/latest/NordVPN.pkg
+- **URL**: Generated from Homebrew API
 
-### nPerf (nperf)
+### nperf
 
 - **Source**: homebrew
-- **Name**: nPerf
-- **Description**: Internet speed test utility
-- **Version**: 2.15.4
+- **Name**: nperf
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `nperf.yml`
-- **URL**: https://repo.nperf.com/macos/nperf/nPerf-arm64-2.15.4.pkg
+- **URL**: Generated from Homebrew API
 
-### Nudge (nudge)
+### nudge
 
 - **Source**: homebrew
-- **Name**: Nudge
-- **Description**: Application for enforcing OS updates
-- **Version**: 2.0.12.81807
+- **Name**: nudge
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `nudge.yml`
-- **URL**: https://github.com/macadmins/nudge/releases/download/v2.0.12.81807/Nudge-2.0.12.81807.pkg
+- **URL**: Generated from Homebrew API
 
-### Objective Sharpie (objectivesharpie)
+### objectivesharpie
 
 - **Source**: homebrew
-- **Name**: Objective Sharpie
-- **Description**: Tool used to generate C# interfaces starting from objective-c code
-- **Version**: 3.5.116,3a748cc2-780d-403c-88ba-700aa9a2d299,88cbfd86e85f56b4c61e092d0f0b9ad9
+- **Name**: objectivesharpie
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `objectivesharpie.yml`
-- **URL**: https://download.visualstudio.microsoft.com/download/pr/3a748cc2-780d-403c-88ba-700aa9a2d299/88cbfd86e85f56b4c61e092d0f0b9ad9/objectivesharpie-3.5.116.pkg
+- **URL**: Generated from Homebrew API
 
-### OBS Advanced Scene Switcher (obs-advanced-scene-switcher)
+### obs-advanced-scene-switcher
 
 - **Source**: homebrew
-- **Name**: OBS Advanced Scene Switcher
-- **Description**: Automated scene switcher for OBS Studio
-- **Version**: 1.31.0
+- **Name**: obs-advanced-scene-switcher
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `obs-advanced-scene-switcher.yml`
-- **URL**: https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.31.0/advanced-scene-switcher-1.31.0-macos-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### OBS Background Removal (obs-backgroundremoval)
+### obs-backgroundremoval
 
 - **Source**: homebrew
-- **Name**: OBS Background Removal
-- **Description**: Virtual Green-screen and Low-Light Enhancement OBS Plugin
-- **Version**: 1.1.13
+- **Name**: obs-backgroundremoval
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `obs-backgroundremoval.yml`
-- **URL**: https://github.com/occ-ai/obs-backgroundremoval/releases/download/1.1.13/obs-backgroundremoval-1.1.13-macos-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### OBS Virtual Camera (obs-virtualcam)
+### obs-virtualcam
 
 - **Source**: homebrew
-- **Name**: OBS Virtual Camera
-- **Description**: 
-- **Version**: 1.3.1,5bf3231
+- **Name**: obs-virtualcam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `obs-virtualcam.yml`
-- **URL**: https://github.com/johnboiles/obs-mac-virtualcam/releases/download/v1.3.1/obs-mac-virtualcam-5bf3231-v1.3.1.pkg
+- **URL**: Generated from Homebrew API
 
-### odrive (odrive)
+### odrive
 
 - **Source**: homebrew
 - **Name**: odrive
-- **Description**: Tool to make any cloud storage unified, synchronised, shareable, and encrypted
-- **Version**: 7514
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `odrive.yml`
-- **URL**: https://d3huse1s6vwzq6.cloudfront.net/odrivesync.7514.pkg
+- **URL**: Generated from Homebrew API
 
-### Okta Advanced Server Access (okta-advanced-server-access)
+### okta-advanced-server-access
 
 - **Source**: homebrew
-- **Name**: Okta Advanced Server Access
-- **Description**: Identity and access management
-- **Version**: 1.93.0
+- **Name**: okta-advanced-server-access
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `okta-advanced-server-access.yml`
-- **URL**: https://dist.scaleft.com/repos/macos/stable/all/macos-client/v1.93.0/ScaleFT-1.93.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Okta Verify (oktaverify)
+### oktaverify
 
-- **Source**: installomator
-- **Name**: Okta Verify
-- **Description**: Okta Verify
+- **Source**: homebrew
+- **Name**: oktaverify
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `oktaverify.yml`
-- **URL**: https://okta.okta.com/api/v1/artifacts/OKTA_VERIFY_MACOS/download?releaseChannel=GA&packageType=PKG
+- **URL**: Generated from Homebrew API
 
-### OneDrive (onedrive)
+### onedrive
 
 - **Source**: homebrew
-- **Name**: OneDrive
-- **Description**: Cloud storage client
-- **Version**: 25.130.0706.0004
+- **Name**: onedrive
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `onedrive.yml`
-- **URL**: https://oneclient.sfx.ms/Mac/Installers/25.130.0706.0004/universal/OneDrive.pkg
+- **URL**: Generated from Homebrew API
 
-### OpenCloud Desktop (opencloud)
+### opencloud
 
 - **Source**: homebrew
-- **Name**: OpenCloud Desktop
-- **Description**: Desktop syncing client for OpenCloud
-- **Version**: 2.0.0
+- **Name**: opencloud
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `opencloud.yml`
-- **URL**: https://github.com/opencloud-eu/desktop/releases/download/v2.0.0/OpenCloud_Desktop-v2.0.0-macos-clang-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### OpenCore Legacy Patcher (opencore-patcher)
+### opencore-patcher
 
 - **Source**: homebrew
-- **Name**: OpenCore Legacy Patcher
-- **Description**: Boot loader to inject/patch current features for unsupported Macs
-- **Version**: 2.4.0
+- **Name**: opencore-patcher
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `opencore-patcher.yml`
-- **URL**: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.4.0/OpenCore-Patcher.pkg
+- **URL**: Generated from Homebrew API
 
-### OpenCPN (opencpn)
+### opencpn
 
 - **Source**: homebrew
-- **Name**: OpenCPN
-- **Description**: Full-featured and concise ChartPlotter/Navigator
-- **Version**: 5.12.2,-universal+14584.efdcaa63f-14
+- **Name**: opencpn
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `opencpn.yml`
-- **URL**: https://github.com/OpenCPN/OpenCPN/releases/download/Release_5.12.2/OpenCPN_5.12.2-universal+14584.efdcaa63f-14.pkg
+- **URL**: Generated from Homebrew API
 
-### OpenSong (opensong)
+### opensong
 
 - **Source**: homebrew
-- **Name**: OpenSong
-- **Description**: Presentation software
-- **Version**: 3.4.8
+- **Name**: opensong
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `opensong.yml`
-- **URL**: https://downloads.sourceforge.net/opensong/OpenSong/V3.4.8%20Beta/OpenSong%203.4.8.pkg
+- **URL**: Generated from Homebrew API
 
-### OpenToonz (opentoonz)
+### opentoonz
 
 - **Source**: homebrew
-- **Name**: OpenToonz
-- **Description**: Open-source full-featured 2D animation creation software
-- **Version**: 1.7.1
+- **Name**: opentoonz
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `opentoonz.yml`
-- **URL**: https://github.com/opentoonz/opentoonz/releases/download/v1.7.1/OpenToonz.pkg
+- **URL**: Generated from Homebrew API
 
-### OpenZFS on OS X (openzfs)
+### openzfs
 
 - **Source**: homebrew
-- **Name**: OpenZFS on OS X
-- **Description**: ZFS driver and utilities
-- **Version**: 2.3.0
+- **Name**: openzfs
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `openzfs.yml`
-- **URL**: https://github.com/openzfsonosx/openzfs-fork/releases/download/zfs-macOS-2.3.0/OpenZFSonOsX-2.3.0-Sequoia-15-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Orka CLI (orka)
-
-- **Source**: homebrew
-- **Name**: Orka CLI
-- **Description**: Orchestration with Kubernetes on Apple
-- **Version**: 2.4.0
-- **File**: `orka.yml`
-- **URL**: https://cli-builds-public.s3.amazonaws.com/official/2.4.0/macos/orka.pkg
-
-### Orka VM TOOLS (orka-vm-tools)
+### orka-vm-tools
 
 - **Source**: homebrew
-- **Name**: Orka VM TOOLS
-- **Description**: Orchestration with Kubernetes on Apple
-- **Version**: 3.3.0
+- **Name**: orka-vm-tools
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `orka-vm-tools.yml`
-- **URL**: https://orka-tools.s3.amazonaws.com/orka-vm-tools/official/3.3.0/orka-vm-tools.pkg
+- **URL**: Generated from Homebrew API
 
-### Orka3 CLI (orka3)
+### orka
 
 - **Source**: homebrew
-- **Name**: Orka3 CLI
-- **Description**: Orchestration with Kubernetes on Apple
-- **Version**: 3.4.0
-- **File**: `orka3.yml`
-- **URL**: https://cli-builds-public.s3.amazonaws.com/official/3.4.0/orka3/macos/arm64/orka3.pkg
+- **Name**: orka
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `orka.yml`
+- **URL**: Generated from Homebrew API
 
-### osquery (osquery)
+### orka3
+
+- **Source**: homebrew
+- **Name**: orka3
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `orka3.yml`
+- **URL**: Generated from Homebrew API
+
+### osquery
 
 - **Source**: homebrew
 - **Name**: osquery
-- **Description**: SQL powered operating system instrumentation and analytics
-- **Version**: 5.18.1
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `osquery.yml`
-- **URL**: https://github.com/osquery/osquery/releases/download/5.18.1/osquery-5.18.1.pkg
+- **URL**: Generated from Homebrew API
 
-### outset (outset)
+### outset
 
 - **Source**: homebrew
 - **Name**: outset
-- **Description**: Process packages and scripts during boot, login, or on demand
-- **Version**: 4.2.0.21973
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `outset.yml`
-- **URL**: https://github.com/macadmins/outset/releases/download/v4.2.0.21973/Outset-4.2.0.21973.pkg
+- **URL**: Generated from Homebrew API
 
-### ownCloud (owncloud)
+### owncloud
 
-- **Source**: installomator
-- **Name**: ownCloud
-- **Description**: ownCloud
+- **Source**: homebrew
+- **Name**: owncloud
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `owncloud.yml`
-- **URL**: ${downloadPage}ownCloud-${appNewVersion}-x86_64.pkg
+- **URL**: Generated from Homebrew API
 
-### Parallels Client (parallels-client)
+### parallels-client
 
 - **Source**: homebrew
-- **Name**: Parallels Client
-- **Description**: RDP client
-- **Version**: 19.4.3,25221
+- **Name**: parallels-client
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `parallels-client.yml`
-- **URL**: https://download.parallels.com/ras/v19/19.4.3.25221/RasClient-Mac-Notarized-19.4.3-25221.pkg
+- **URL**: Generated from Homebrew API
 
-### Parsec (parsec)
+### parsec
 
-- **Source**: installomator
-- **Name**: Parsec
-- **Description**: Parsec
+- **Source**: homebrew
+- **Name**: parsec
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `parsec.yml`
-- **URL**: https://builds.parsecgaming.com/package/parsec-macos.pkg
+- **URL**: Generated from Homebrew API
 
-### Particulars (particulars)
+### particulars
 
-- **Source**: installomator
-- **Name**: Particulars
-- **Description**: Particulars
+- **Source**: homebrew
+- **Name**: particulars
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `particulars.yml`
-- **URL**: https://particulars.app/_downloads/Particulars-latest.pkg
+- **URL**: Generated from Homebrew API
 
-### Perimeter 81 (perimeter81)
+### perimeter81
 
 - **Source**: homebrew
-- **Name**: Perimeter 81
-- **Description**: Zero trust network as a service client
-- **Version**: 11.7.0.5477
+- **Name**: perimeter81
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `perimeter81.yml`
-- **URL**: https://static.perimeter81.com/agents/mac/Harmony_SASE_11.7.0.5477.pkg
+- **URL**: Generated from Homebrew API
 
-### Philips Hue Sync (philips-hue-sync)
+### philips-hue-sync
 
 - **Source**: homebrew
-- **Name**: Philips Hue Sync
-- **Description**: Control your smart light system
-- **Version**: 1.12.4.74,6e0c1322-16b4-4753-acb4-86b8a73179d0,74
+- **Name**: philips-hue-sync
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `philips-hue-sync.yml`
-- **URL**: https://firmware.meethue.com/storage/huesyncmac/74/6e0c1322-16b4-4753-acb4-86b8a73179d0/HueSyncInstaller_1.12.4.74.pkg
+- **URL**: Generated from Homebrew API
 
-### Photo Ninja (photoninja)
+### photoninja
 
 - **Source**: homebrew
-- **Name**: Photo Ninja
-- **Description**: Professional RAW converter
-- **Version**: 1.4.0d
+- **Name**: photoninja
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `photoninja.yml`
-- **URL**: https://picturecode.cachefly.net/photoninja/downloads/PhotoNinja_1.4.0d_sse42.pkg
+- **URL**: Generated from Homebrew API
 
-### PicoScope (picoscope)
+### picoscope-beta
 
 - **Source**: homebrew
-- **Name**: PicoScope
-- **Description**: Test and measurement oscilloscope software for PicoScope oscilloscopes
-- **Version**: 7.1.50.5777
+- **Name**: picoscope-beta
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `picoscope-beta.yml`
+- **URL**: Generated from Homebrew API
+
+### picoscope
+
+- **Source**: homebrew
+- **Name**: picoscope
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `picoscope.yml`
-- **URL**: https://www.picotech.com/download/software/sr/PicoScope_7_TandM_7.1.50.5777.pkg
+- **URL**: Generated from Homebrew API
 
-### PicoScope beta (picoscope@beta)
-
-- **Source**: homebrew
-- **Name**: PicoScope beta
-- **Description**: Test and measurement oscilloscope software for PicoScope oscilloscopes
-- **Version**: 7.1.58.6335
-- **File**: `picoscope_beta.yml`
-- **URL**: https://www.picotech.com/download/software/beta/PicoScope_7_TandM_Early_Access_7.1.58.6335.pkg
-
-### PingID (pingid)
+### pingid
 
 - **Source**: homebrew
-- **Name**: PingID
-- **Description**: Cloud-based, multi-factor authentication
-- **Version**: 1.8.0
+- **Name**: pingid
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `pingid.yml`
-- **URL**: https://downloads.pingidentity.com/pingid/mac-client/PingID.pkg
+- **URL**: Generated from Homebrew API
 
-### pivy (pivy-app)
+### pivy-app
 
 - **Source**: homebrew
-- **Name**: pivy
-- **Description**: Client for PIV cards
-- **Version**: 0.12.0
+- **Name**: pivy-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `pivy-app.yml`
-- **URL**: https://github.com/joyent/pivy/releases/download/v0.12.0/pivy-0.12.0-macos12.pkg
+- **URL**: Generated from Homebrew API
 
-### PlugData (plugdata)
+### plugdata-nightly
 
 - **Source**: homebrew
-- **Name**: PlugData
-- **Description**: Plugin wrapper for PureData
-- **Version**: 0.9.1
+- **Name**: plugdata-nightly
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `plugdata-nightly.yml`
+- **URL**: Generated from Homebrew API
+
+### plugdata
+
+- **Source**: homebrew
+- **Name**: plugdata
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `plugdata.yml`
-- **URL**: https://github.com/plugdata-team/plugdata/releases/download/v0.9.1/plugdata-macOS-Universal.pkg
+- **URL**: Generated from Homebrew API
 
-### PlugData (plugdata@nightly)
-
-- **Source**: homebrew
-- **Name**: PlugData
-- **Description**: Plugin wrapper for PureData
-- **Version**: latest
-- **File**: `plugdata_nightly.yml`
-- **URL**: https://plugdata-nightly.s3.amazonaws.com/plugdata-macOS-Universal.pkg
-
-### Software for Pololu AVR Programmer v2 (pololu-avr-programmer-v2)
+### pololu-avr-programmer-v2
 
 - **Source**: homebrew
-- **Name**: Software for Pololu AVR Programmer v2
-- **Description**: Drivers for the Pololu AVR Programmer v2
-- **Version**: 0J1120,1.1.0
+- **Name**: pololu-avr-programmer-v2
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `pololu-avr-programmer-v2.yml`
-- **URL**: https://www.pololu.com/file/0J1120/pololu-usb-avr-programmer-v2-1.1.0-macos.pkg
+- **URL**: Generated from Homebrew API
 
-### CyberPower PowerPanel Personal (powerpanel)
+### powerpanel
 
 - **Source**: homebrew
-- **Name**: CyberPower PowerPanel Personal
-- **Description**: Manage and control UPS systems
-- **Version**: 2.6.1
+- **Name**: powerpanel
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `powerpanel.yml`
-- **URL**: https://dl4jz3rbrsfum.cloudfront.net/software/PPP_Mac_v2.6.1.pkg
+- **URL**: Generated from Homebrew API
 
-### PowerShell (powershell)
+### powershell-preview
 
 - **Source**: homebrew
-- **Name**: PowerShell
-- **Description**: Command-line shell and scripting language
-- **Version**: 7.5.2
+- **Name**: powershell-preview
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `powershell-preview.yml`
+- **URL**: Generated from Homebrew API
+
+### powershell
+
+- **Source**: homebrew
+- **Name**: powershell
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `powershell.yml`
-- **URL**: https://github.com/PowerShell/PowerShell/releases/download/v7.5.2/powershell-7.5.2-osx-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### PowerShell (powershell@preview)
-
-- **Source**: homebrew
-- **Name**: PowerShell
-- **Description**: Command-line shell and scripting language
-- **Version**: 7.6.0-preview.4
-- **File**: `powershell_preview.yml`
-- **URL**: https://github.com/PowerShell/PowerShell/releases/download/v7.6.0-preview.4/powershell-7.6.0-preview.4-osx-arm64.pkg
-
-### Présentation (presentation)
+### presentation
 
 - **Source**: homebrew
-- **Name**: Présentation
-- **Description**: Tool for pdf slides
-- **Version**: 3.3.1
+- **Name**: presentation
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `presentation.yml`
-- **URL**: http://iihm.imag.fr/blanch/software/osx-presentation/releases/osx-presentation-3.3.1.pkg
+- **URL**: Generated from Homebrew API
 
-### Privileges (privileges)
+### privileges
 
 - **Source**: homebrew
-- **Name**: Privileges
-- **Description**: Admin rights switcher
-- **Version**: 2.4.0
+- **Name**: privileges
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `privileges.yml`
-- **URL**: https://github.com/SAP/macOS-enterprise-privileges/releases/download/2.4.0/Privileges_2.4.0.pkg
+- **URL**: Generated from Homebrew API
 
-### PTP Webcam (ptpwebcam)
+### ptpwebcam
 
 - **Source**: homebrew
-- **Name**: PTP Webcam
-- **Description**: DSLR live view video plugin
-- **Version**: 1.3.2
+- **Name**: ptpwebcam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ptpwebcam.yml`
-- **URL**: https://github.com/dognotdog/ptpwebcam/releases/download/v1.3.2/PTP_Webcam-v1.3.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Harzing Publish or Perish (publish-or-perish)
+### publish-or-perish
 
 - **Source**: homebrew
-- **Name**: Harzing Publish or Perish
-- **Description**: Retrieves and analyzes academic citations
-- **Version**: 8.18.5091.9307
+- **Name**: publish-or-perish
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `publish-or-perish.yml`
-- **URL**: https://harzing.com/download/PoP8Mac.pkg
+- **URL**: Generated from Homebrew API
 
-### PureVPN (purevpn)
+### purevpn
 
 - **Source**: homebrew
-- **Name**: PureVPN
-- **Description**: VPN client
-- **Version**: 9.35.0
+- **Name**: purevpn
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `purevpn.yml`
-- **URL**: https://dzglif4kkvz04.cloudfront.net/mac-2.0/packages/Production/PureVPN.pkg
+- **URL**: Generated from Homebrew API
 
-### quarto (quarto)
+### quarto
 
 - **Source**: homebrew
 - **Name**: quarto
-- **Description**: Scientific and technical publishing system built on Pandoc
-- **Version**: 1.7.33
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `quarto.yml`
-- **URL**: https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.33/quarto-1.7.33-macos.pkg
+- **URL**: Generated from Homebrew API
 
-### Quick App IDE (quick-app-ide)
+### quick-app-ide
 
 - **Source**: homebrew
-- **Name**: Quick App IDE
-- **Description**: Quickapp Development Tool
-- **Version**: 6.7.2
+- **Name**: quick-app-ide
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `quick-app-ide.yml`
-- **URL**: https://statres.quickapp.cn/quickapp/show/ide/quickapp-ide-6.7.2.pkg
+- **URL**: Generated from Homebrew API
 
-### R (r-app)
+### r-app
 
 - **Source**: homebrew
-- **Name**: R
-- **Description**: Environment for statistical computing and graphics
-- **Version**: 4.5.1
+- **Name**: r-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `r-app.yml`
-- **URL**: https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.5.1-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Radio Silence (radio-silence)
+### radio-silence
 
 - **Source**: homebrew
-- **Name**: Radio Silence
-- **Description**: Network monitor and firewall
-- **Version**: 3.3
+- **Name**: radio-silence
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `radio-silence.yml`
-- **URL**: https://radiosilenceapp.com/downloads/Radio_Silence_3.3.pkg
+- **URL**: Generated from Homebrew API
 
-### REALFORCE for Mac (realforce)
+### realforce
 
 - **Source**: homebrew
-- **Name**: REALFORCE for Mac
-- **Description**: Software for Realforce keyboards and mice
-- **Version**: 3.3.2
+- **Name**: realforce
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `realforce.yml`
-- **URL**: https://www.realforce.co.jp/support/download/software/mac/files/REALFORCE%20CONNECT%20Software_3-3-2.pkg
+- **URL**: Generated from Homebrew API
 
-### RealVNC Connect (realvnc-connect)
+### realvnc-connect
 
 - **Source**: homebrew
-- **Name**: RealVNC Connect
-- **Description**: Remote desktop client and server application
-- **Version**: 8.1.0
+- **Name**: realvnc-connect
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `realvnc-connect.yml`
-- **URL**: https://downloads.realvnc.com/download/file/realvnc-connect/RealVNC-Connect-8.1.0-MacOSX-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Red Canary Mac Monitor (red-canary-mac-monitor)
+### red-canary-mac-monitor
 
 - **Source**: homebrew
-- **Name**: Red Canary Mac Monitor
-- **Description**: Analysis tool for security research and malware triage
-- **Version**: 1.0.5
+- **Name**: red-canary-mac-monitor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `red-canary-mac-monitor.yml`
-- **URL**: https://github.com/redcanaryco/mac-monitor/releases/download/v1.0.5/Red-Canary-Mac-Monitor-GoldCardinal-1-0-5.pkg
+- **URL**: Generated from Homebrew API
 
-### REDCINE-X PRO (redcine-x-pro)
+### redcine-x-pro
 
 - **Source**: homebrew
-- **Name**: REDCINE-X PRO
-- **Description**: Transcode and manipulate REDCODE RAW footage
-- **Version**: 64.0.25
+- **Name**: redcine-x-pro
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `redcine-x-pro.yml`
-- **URL**: https://downloads.red.com/software/rcx/mac/release/64.0.25/REDCINE-X_PRO_Build_64.0.25.pkg
+- **URL**: Generated from Homebrew API
 
-### RedQuits (redquits)
+### redquits
 
 - **Source**: homebrew
-- **Name**: RedQuits
-- **Description**: Quit an app when closing the last window
-- **Version**: 2.0
+- **Name**: redquits
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `redquits.yml`
-- **URL**: https://redquits.s3.amazonaws.com/RedQuits_v2.pkg
+- **URL**: Generated from Homebrew API
 
-### RepoZ (repoz)
+### repoz
 
 - **Source**: homebrew
-- **Name**: RepoZ
-- **Description**: Zero-conf git repository hub
-- **Version**: 5.5
+- **Name**: repoz
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `repoz.yml`
-- **URL**: https://github.com/awaescher/RepoZ/releases/download/v5.5/RepoZ.5.5.pkg
+- **URL**: Generated from Homebrew API
 
-### RestApia (restapia)
+### restapia
 
 - **Source**: homebrew
-- **Name**: RestApia
-- **Description**: HTTP API client
-- **Version**: 0.8.14
+- **Name**: restapia
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `restapia.yml`
-- **URL**: https://github.com/RestApia/Releases.Osx.Stable/releases/download/v0.8.14-osx-stable/RestApia-osx-stable-Setup.pkg
+- **URL**: Generated from Homebrew API
 
-### RingCentral (ringcentral)
+### ringcentral
 
 - **Source**: homebrew
-- **Name**: RingCentral
-- **Description**: Team messaging, video meetings, and business phone
-- **Version**: 25.2.20
+- **Name**: ringcentral
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ringcentral.yml`
-- **URL**: https://app.ringcentral.com/download/RingCentral-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### RingCentral (ringcentralapp)
+### ringcentralapp
 
-- **Source**: installomator
-- **Name**: RingCentral
-- **Description**: RingCentral
+- **Source**: homebrew
+- **Name**: ringcentralapp
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `ringcentralapp.yml`
-- **URL**: https://app.ringcentral.com/download/RingCentral.pkg
+- **URL**: Generated from Homebrew API
 
-### Ring Central Meetings (ringcentralmeetings)
+### ringcentralmeetings
 
-- **Source**: installomator
-- **Name**: Ring Central Meetings
-- **Description**: Ring Central Meetings
+- **Source**: homebrew
+- **Name**: ringcentralmeetings
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `ringcentralmeetings.yml`
-- **URL**: http://dn.ringcentral.com/data/web/download/RCMeetings/1210/RCMeetingsClientSetup.pkg
+- **URL**: Generated from Homebrew API
 
-### RWTS PDFwriter (rwts-pdfwriter)
+### rwts-pdfwriter
 
 - **Source**: homebrew
-- **Name**: RWTS PDFwriter
-- **Description**: Print driver for printing documents directly to a pdf file
-- **Version**: 3.1a
+- **Name**: rwts-pdfwriter
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `rwts-pdfwriter.yml`
-- **URL**: https://github.com/rodyager/RWTS-PDFwriter/releases/download/v3.1a/RWTS-PDFwriter.pkg
+- **URL**: Generated from Homebrew API
 
-### Salesforce CLI (salesforcecli)
+### salesforcecli
 
-- **Source**: installomator
-- **Name**: Salesforce CLI
-- **Description**: Salesforce CLI
+- **Source**: homebrew
+- **Name**: salesforcecli
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `salesforcecli.yml`
-- **URL**: https://developer.salesforce.com/media/salesforce-cli/sf/channels/stable/sf-x64.pkg
+- **URL**: Generated from Homebrew API
 
-### Salt (salt)
+### salt
 
 - **Source**: homebrew
-- **Name**: Salt
-- **Description**: Automation and infrastructure management engine
-- **Version**: 3007.6
+- **Name**: salt
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `salt.yml`
-- **URL**: https://packages.broadcom.com/artifactory/saltproject-generic/macos/3007.6/salt-3007.6-py3-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Samsung Magician Software (samsung-magician)
+### samsung-magician
 
 - **Source**: homebrew
-- **Name**: Samsung Magician Software
-- **Description**: Manage Samsung internal and portable SSDs, memory cards, and USB flash drives
-- **Version**: 8.3.0.810
+- **Name**: samsung-magician
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `samsung-magician.yml`
-- **URL**: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_8.3.0.810.pkg
+- **URL**: Generated from Homebrew API
 
-### ScaleFT (scaleft)
+### scaleft
 
-- **Source**: installomator
-- **Name**: ScaleFT
-- **Description**: ScaleFT
+- **Source**: homebrew
+- **Name**: scaleft
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `scaleft.yml`
-- **URL**: https://dist.scaleft.com/repos/macos/stable/all/macos-client/$(curl -s "https://dist.scaleft.com/repos/macos/stable/all/macos-client/" | grep -o 'v[0-9]\+\.[0-9]\+\.[0-9]\+' | sort -V | tail -n 1)/ScaleFT-$(curl -s "https://dist.scaleft.com/repos/macos/stable/all/macos-client/" | grep -o 'v[0-9]\+\.[0-9]\+\.[0-9]\+' | sort -V | tail -n 1 | sed 's/^v//').pkg
+- **URL**: Generated from Homebrew API
 
-### Seadrive (seadrive)
+### seadrive
 
 - **Source**: homebrew
-- **Name**: Seadrive
-- **Description**: Manual for Seafile server
-- **Version**: 3.0.15
+- **Name**: seadrive
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `seadrive.yml`
-- **URL**: https://download.seadrive.org/seadrive-3.0.15.pkg
+- **URL**: Generated from Homebrew API
 
-### SecureSafe (securesafe)
+### securesafe
 
 - **Source**: homebrew
-- **Name**: SecureSafe
-- **Description**: Highly secure online storage with password manager
-- **Version**: 2.25.0
+- **Name**: securesafe
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `securesafe.yml`
-- **URL**: https://app.securesafe.com/app/download/securesafe-2.25.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Segger J-Link Command Line Tools (segger-jlink)
+### segger-jlink
 
 - **Source**: homebrew
-- **Name**: Segger J-Link Command Line Tools
-- **Description**: Software and Documentation pack for Segger J-Link debug probes
-- **Version**: 8.58
+- **Name**: segger-jlink
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `segger-jlink.yml`
-- **URL**: https://www.segger.com/downloads/jlink/JLink_MacOSX_V858_universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Segger Ozone J-Link Debugger (segger-ozone)
+### segger-ozone
 
 - **Source**: homebrew
-- **Name**: Segger Ozone J-Link Debugger
-- **Description**: Software and Documentation pack for Segger Ozone J-Link debugger
-- **Version**: 3.38g
+- **Name**: segger-ozone
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `segger-ozone.yml`
-- **URL**: https://www.segger.com/downloads/jlink/Ozone_MacOSX_V338g_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### IBM Semeru Runtime (JDK) Open Edition (semeru-jdk-open)
+### semeru-jdk-open-11
 
 - **Source**: homebrew
-- **Name**: IBM Semeru Runtime (JDK) Open Edition
-- **Description**: Production-ready JDK with the OpenJDK class libraries and the Eclipse OpenJ9 JVM
-- **Version**: 23.0.2,7,openj9-0.49.0
+- **Name**: semeru-jdk-open-11
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `semeru-jdk-open-11.yml`
+- **URL**: Generated from Homebrew API
+
+### semeru-jdk-open-17
+
+- **Source**: homebrew
+- **Name**: semeru-jdk-open-17
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `semeru-jdk-open-17.yml`
+- **URL**: Generated from Homebrew API
+
+### semeru-jdk-open-21
+
+- **Source**: homebrew
+- **Name**: semeru-jdk-open-21
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `semeru-jdk-open-21.yml`
+- **URL**: Generated from Homebrew API
+
+### semeru-jdk-open-8
+
+- **Source**: homebrew
+- **Name**: semeru-jdk-open-8
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `semeru-jdk-open-8.yml`
+- **URL**: Generated from Homebrew API
+
+### semeru-jdk-open
+
+- **Source**: homebrew
+- **Name**: semeru-jdk-open
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `semeru-jdk-open.yml`
-- **URL**: https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_23.0.2_7_openj9-0.49.0.pkg
+- **URL**: Generated from Homebrew API
 
-### IBM Semeru Runtime (JDK 11) Open Edition (semeru-jdk-open@11)
-
-- **Source**: homebrew
-- **Name**: IBM Semeru Runtime (JDK 11) Open Edition
-- **Description**: Production-ready JDK with the OpenJDK class libraries and the Eclipse OpenJ9 JVM
-- **Version**: 11.0.28+6,openj9-0.53.0
-- **File**: `semeru-jdk-open_11.yml`
-- **URL**: https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.28+6_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_mac_11.0.28_6_openj9-0.53.0.pkg
-
-### IBM Semeru Runtime (JDK 17) Open Edition (semeru-jdk-open@17)
+### senadevicemanager
 
 - **Source**: homebrew
-- **Name**: IBM Semeru Runtime (JDK 17) Open Edition
-- **Description**: Production-ready JDK with the OpenJDK class libraries and the Eclipse OpenJ9 JVM
-- **Version**: 17.0.16+8,openj9-0.53.0
-- **File**: `semeru-jdk-open_17.yml`
-- **URL**: https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.16+8_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_mac_17.0.16_8_openj9-0.53.0.pkg
-
-### IBM Semeru Runtime (JDK 21) Open Edition (semeru-jdk-open@21)
-
-- **Source**: homebrew
-- **Name**: IBM Semeru Runtime (JDK 21) Open Edition
-- **Description**: Production-ready JDK with the OpenJDK class libraries and the Eclipse OpenJ9 JVM
-- **Version**: 21.0.8+9,openj9-0.53.0
-- **File**: `semeru-jdk-open_21.yml`
-- **URL**: https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.8+9_openj9-0.53.0/ibm-semeru-open-jdk_aarch64_mac_21.0.8_9_openj9-0.53.0.pkg
-
-### IBM Semeru Runtime (JDK 8) Open Edition (semeru-jdk-open@8)
-
-- **Source**: homebrew
-- **Name**: IBM Semeru Runtime (JDK 8) Open Edition
-- **Description**: Production-ready JDK with the OpenJDK class libraries and the Eclipse OpenJ9 JVM
-- **Version**: 8u462-b08,openj9-0.53.0
-- **File**: `semeru-jdk-open_8.yml`
-- **URL**: https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u462-b08_openj9-0.53.0/ibm-semeru-open-jdk_x64_mac_8u462b08_openj9-0.53.0.pkg
-
-### Sena Bluetooth Device Manager (senadevicemanager)
-
-- **Source**: homebrew
-- **Name**: Sena Bluetooth Device Manager
-- **Description**: Manager for SENA devices
-- **Version**: 4.4.15
+- **Name**: senadevicemanager
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `senadevicemanager.yml`
-- **URL**: https://firmware.sena.com/senabluetoothmanager/SENADeviceManagerForMAC-v4.4.15.pkg
+- **URL**: Generated from Homebrew API
 
-### Send to Kindle (send-to-kindle)
+### send-to-kindle
 
 - **Source**: homebrew
-- **Name**: Send to Kindle
-- **Description**: Tool for sending personal documents to Kindles from Macs
-- **Version**: 1.1.1.258
+- **Name**: send-to-kindle
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `send-to-kindle.yml`
-- **URL**: https://sendtokindle.s3.amazonaws.com/SendToKindleForMac-installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Session Manager Plugin for the AWS CLI (session-manager-plugin)
+### session-manager-plugin
 
 - **Source**: homebrew
-- **Name**: Session Manager Plugin for the AWS CLI
-- **Description**: Plugin for AWS CLI to start and end sessions that connect to managed instances
-- **Version**: 1.2.707.0
+- **Name**: session-manager-plugin
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `session-manager-plugin.yml`
-- **URL**: https://session-manager-downloads.s3.amazonaws.com/plugin/1.2.707.0/mac_arm64/session-manager-plugin.pkg
+- **URL**: Generated from Homebrew API
 
-### Salesforce DX CLI (sfdx)
+### sfdx
 
 - **Source**: homebrew
-- **Name**: Salesforce DX CLI
-- **Description**: SalesForce CLI tools
-- **Version**: 7.209.6
+- **Name**: sfdx
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `sfdx.yml`
-- **URL**: https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Shutter Encoder (shutter-encoder)
+### shutter-encoder
 
 - **Source**: homebrew
-- **Name**: Shutter Encoder
-- **Description**: Video, audio and image converter
-- **Version**: 19.3
+- **Name**: shutter-encoder
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `shutter-encoder.yml`
-- **URL**: https://www.shutterencoder.com/Shutter%20Encoder%2019.3%20Apple%20Silicon.pkg
+- **URL**: Generated from Homebrew API
 
-### Standard ML of New Jersey (smlnj)
+### smlnj
 
 - **Source**: homebrew
-- **Name**: Standard ML of New Jersey
-- **Description**: Compiler for the Standard ML '97 programming language
-- **Version**: 110.99.8
+- **Name**: smlnj
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `smlnj.yml`
-- **URL**: http://smlnj.cs.uchicago.edu/dist/working/110.99.8/smlnj-amd64-110.99.8.pkg
+- **URL**: Generated from Homebrew API
 
-### SnowSQL (snowflake-snowsql)
+### snowflake-snowsql
 
 - **Source**: homebrew
-- **Name**: SnowSQL
-- **Description**: Command-line client for connecting to Snowflake
-- **Version**: 1.4.4
+- **Name**: snowflake-snowsql
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `snowflake-snowsql.yml`
-- **URL**: https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.4/darwin_arm64/snowsql-1.4.4-darwin_arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### SoftMaker FreeOffice (softmaker-freeoffice)
+### softmaker-freeoffice
 
 - **Source**: homebrew
-- **Name**: SoftMaker FreeOffice
-- **Description**: Office suite
-- **Version**: 2024,1224
+- **Name**: softmaker-freeoffice
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `softmaker-freeoffice.yml`
-- **URL**: https://www.softmaker.net/down/softmaker-freeoffice-2024.pkg
+- **URL**: Generated from Homebrew API
 
-### Softube Central (softube-central)
+### softube-central
 
 - **Source**: homebrew
-- **Name**: Softube Central
-- **Description**: Installer for installation and license activation of Softube products
-- **Version**: 2.0.1
+- **Name**: softube-central
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `softube-central.yml`
-- **URL**: https://softubestorage.b-cdn.net/softubecentraldata/softubecentral/Softube%20Central-2.0.1-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Softube Central (softubecentral)
+### softubecentral
 
-- **Source**: installomator
-- **Name**: Softube Central
-- **Description**: Softube Central
+- **Source**: homebrew
+- **Name**: softubecentral
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `softubecentral.yml`
-- **URL**: https://softubestorage.b-cdn.net/softubecentraldata/softubecentral/Softube%20Central-${appNewVersion}-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### SokIM (sokim)
+### sokim
 
 - **Source**: homebrew
-- **Name**: SokIM
-- **Description**: Korean-English Input Method Editor
-- **Version**: 1.2.0
+- **Name**: sokim
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `sokim.yml`
-- **URL**: https://github.com/kiding/SokIM/releases/download/v1.2.0/SokIM.pkg
+- **URL**: Generated from Homebrew API
 
-### PS Remote Play (sony-ps-remote-play)
+### sony-ps-remote-play
 
 - **Source**: homebrew
-- **Name**: PS Remote Play
-- **Description**: Application to control your PlayStation 4 or PlayStation 5
-- **Version**: 8.0.0
+- **Name**: sony-ps-remote-play
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `sony-ps-remote-play.yml`
-- **URL**: https://remoteplay.dl.playstation.net/remoteplay/module/mac/RemotePlayInstaller.pkg
+- **URL**: Generated from Homebrew API
 
-### Soothe 2 (soothe2)
+### soothe2
 
 - **Source**: homebrew
-- **Name**: Soothe 2
-- **Description**: Dynamic resonance suppressor
-- **Version**: 1.3.3
+- **Name**: soothe2
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `soothe2.yml`
-- **URL**: https://oeksound.ams3.cdn.digitaloceanspaces.com/soothe2_v133_Mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Placeit (soundly-placeit)
+### soundly-placeit
 
-- **Source**: installomator
-- **Name**: Placeit
-- **Description**: Placeit
+- **Source**: homebrew
+- **Name**: soundly-placeit
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `soundly-placeit.yml`
-- **URL**: https://storage.googleapis.com/soundly-plugins/Placeit.pkg
+- **URL**: Generated from Homebrew API
 
-### Spyder (spyder)
+### spyder
 
 - **Source**: homebrew
-- **Name**: Spyder
-- **Description**: Scientific Python IDE
-- **Version**: 6.0.7
+- **Name**: spyder
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `spyder.yml`
-- **URL**: https://github.com/spyder-ide/spyder/releases/download/v6.0.7/Spyder-macOS-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Squirrel (squirrel-app)
+### squirrel-app
 
 - **Source**: homebrew
-- **Name**: Squirrel
-- **Description**: Rime input method engine
-- **Version**: 1.0.3
+- **Name**: squirrel-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `squirrel-app.yml`
-- **URL**: https://github.com/rime/squirrel/releases/download/1.0.3/Squirrel-1.0.3.pkg
+- **URL**: Generated from Homebrew API
 
-### SteelSeries Engine 3 (steelseries-engine)
+### steelseries-engine
 
 - **Source**: homebrew
-- **Name**: SteelSeries Engine 3
-- **Description**: Settings for SteelSeries peripherals and accessories
-- **Version**: 3.22.0
+- **Name**: steelseries-engine
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `steelseries-engine.yml`
-- **URL**: https://downloads.steelseriescdn.com/drivers/engine/SteelSeriesEngine3.22.0.pkg
+- **URL**: Generated from Homebrew API
 
-### SteelSeries GG 92 (steelseries-gg)
+### steelseries-gg
 
 - **Source**: homebrew
-- **Name**: SteelSeries GG 92
-- **Description**: Settings for SteelSeries peripherals and accessories
-- **Version**: 92.0.0
+- **Name**: steelseries-gg
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `steelseries-gg.yml`
-- **URL**: https://engine.steelseriescdn.com/SteelSeriesGG92.0.0.pkg
+- **URL**: Generated from Homebrew API
 
-### Suite (suitestudio)
+### suitestudio
 
-- **Source**: installomator
-- **Name**: Suite
-- **Description**: Suite
+- **Source**: homebrew
+- **Name**: suitestudio
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `suitestudio.yml`
-- **URL**: https://saturn-installer-prd-124359286071-bucket.s3.amazonaws.com/suite-installer-osx-x64.pkg
+- **URL**: Generated from Homebrew API
 
-### Synology Image Assistant (synology-image-assistant)
+### synology-image-assistant
 
 - **Source**: homebrew
-- **Name**: Synology Image Assistant
-- **Description**: Assistant to generate image previews of formats like HEIC and HEVC
-- **Version**: 1.0.2-56
+- **Name**: synology-image-assistant
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `synology-image-assistant.yml`
-- **URL**: https://global.download.synology.com/download/Utility/SynologyImageAssistant/1.0.2-56/Mac/SynologyImageAssistant-1.0.2-56-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### SYS PC Tool (sys-pc-tool)
+### sys-pc-tool
 
 - **Source**: homebrew
-- **Name**: SYS PC Tool
-- **Description**: Software for Syride instruments
-- **Version**: 6.33
+- **Name**: sys-pc-tool
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `sys-pc-tool.yml`
-- **URL**: https://www.syride.com/downloads/SYS_PC_Tool_setup_mac-6.33.pkg
+- **URL**: Generated from Homebrew API
 
-### Tableau Public (tableau-public)
+### tableau-public
 
 - **Source**: homebrew
-- **Name**: Tableau Public
-- **Description**: Explore, create and publicly share data visualisations online
-- **Version**: 2025.2.1
+- **Name**: tableau-public
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `tableau-public.yml`
-- **URL**: https://downloads.tableau.com/esdalt/2025.2.1/TableauPublic-2025-2-1-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Tableau Reader (tableau-reader)
+### tableau-reader
 
 - **Source**: homebrew
-- **Name**: Tableau Reader
-- **Description**: Open and interact with data visualisations built in Tableau Desktop
-- **Version**: 2025.2.1
+- **Name**: tableau-reader
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `tableau-reader.yml`
-- **URL**: https://downloads.tableau.com/esdalt/2025.2.1/TableauReader-2025-2-1-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Tailscale (tailscale-app)
+### tailscale-app
 
 - **Source**: homebrew
-- **Name**: Tailscale
-- **Description**: Mesh VPN based on WireGuard
-- **Version**: 1.86.4
+- **Name**: tailscale-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `tailscale-app.yml`
-- **URL**: https://pkgs.tailscale.com/stable/Tailscale-1.86.4-macos.pkg
+- **URL**: Generated from Homebrew API
 
-### TeamViewer (teamviewer)
+### teamviewer
 
 - **Source**: homebrew
-- **Name**: TeamViewer
-- **Description**: Remote access and connectivity software focused on security
-- **Version**: 15.68.5
+- **Name**: teamviewer
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `teamviewer.yml`
-- **URL**: https://dl.teamviewer.com/download/version_15x/update/15.68.5/TeamViewer.pkg
+- **URL**: Generated from Homebrew API
 
-### TeladocProviderInstaller (teladocproviderinstaller)
+### teladocproviderinstaller
 
-- **Source**: installomator
-- **Name**: TeladocProviderInstaller
-- **Description**: TeladocProviderInstaller
+- **Source**: homebrew
+- **Name**: teladocproviderinstaller
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `teladocproviderinstaller.yml`
-- **URL**: https://update.intouchreports.com/cdn/prod/ida/provider/mac/x64/manual/TeladocProviderInstaller.pkg
+- **URL**: Generated from Homebrew API
 
-### Teleport (teleport-suite)
+### teleport-suite
 
 - **Source**: homebrew
-- **Name**: Teleport
-- **Description**: Modern SSH server for teams managing distributed infrastructure
-- **Version**: 18.1.4
+- **Name**: teleport-suite
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `teleport-suite.yml`
-- **URL**: https://cdn.teleport.dev/teleport-18.1.4.pkg
+- **URL**: Generated from Homebrew API
 
-### Eclipse Temurin Java Development Kit (temurin)
+### temurin-11
 
 - **Source**: homebrew
-- **Name**: Eclipse Temurin Java Development Kit
-- **Description**: JDK from the Eclipse Foundation (Adoptium)
-- **Version**: 24.0.2,12
+- **Name**: temurin-11
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `temurin-11.yml`
+- **URL**: Generated from Homebrew API
+
+### temurin-17
+
+- **Source**: homebrew
+- **Name**: temurin-17
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `temurin-17.yml`
+- **URL**: Generated from Homebrew API
+
+### temurin-21
+
+- **Source**: homebrew
+- **Name**: temurin-21
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `temurin-21.yml`
+- **URL**: Generated from Homebrew API
+
+### temurin-8
+
+- **Source**: homebrew
+- **Name**: temurin-8
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `temurin-8.yml`
+- **URL**: Generated from Homebrew API
+
+### temurin
+
+- **Source**: homebrew
+- **Name**: temurin
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `temurin.yml`
-- **URL**: https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jdk_aarch64_mac_hotspot_24.0.2_12.pkg
+- **URL**: Generated from Homebrew API
 
-### Eclipse Temurin 11 (temurin@11)
-
-- **Source**: homebrew
-- **Name**: Eclipse Temurin 11
-- **Description**: JDK from the Eclipse Foundation (Adoptium)
-- **Version**: 11.0.28,6
-- **File**: `temurin_11.yml`
-- **URL**: https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.28_6.pkg
-
-### Eclipse Temurin Java Development Kit (temurin@17)
+### thonny
 
 - **Source**: homebrew
-- **Name**: Eclipse Temurin Java Development Kit
-- **Description**: JDK from the Eclipse Foundation (Adoptium)
-- **Version**: 17.0.16,8
-- **File**: `temurin_17.yml`
-- **URL**: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.16_8.pkg
-
-### Eclipse Temurin 21 (temurin@21)
-
-- **Source**: homebrew
-- **Name**: Eclipse Temurin 21
-- **Description**: JDK from the Eclipse Foundation (Adoptium)
-- **Version**: 21.0.8,9
-- **File**: `temurin_21.yml`
-- **URL**: https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.8_9.pkg
-
-### Eclipse Temurin 8 (temurin@8)
-
-- **Source**: homebrew
-- **Name**: Eclipse Temurin 8
-- **Description**: JDK from the Eclipse Foundation (Adoptium)
-- **Version**: 8,462,08
-- **File**: `temurin_8.yml`
-- **URL**: https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u462-b08/OpenJDK8U-jdk_x64_mac_hotspot_8u462b08.pkg
-
-### Thonny (thonny)
-
-- **Source**: homebrew
-- **Name**: Thonny
-- **Description**: Python IDE for beginners
-- **Version**: 4.1.7
+- **Name**: thonny
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `thonny.yml`
-- **URL**: https://github.com/thonny/thonny/releases/download/v4.1.7/thonny-4.1.7.pkg
+- **URL**: Generated from Homebrew API
 
-### TimeMachineEditor (timemachineeditor)
+### timemachineeditor
 
 - **Source**: homebrew
-- **Name**: TimeMachineEditor
-- **Description**: Utility to change the default backup interval of Time Machine
-- **Version**: 5.2.2
+- **Name**: timemachineeditor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `timemachineeditor.yml`
-- **URL**: https://tclementdev.com/timemachineeditor/TimeMachineEditor.pkg
+- **URL**: Generated from Homebrew API
 
-### tiptoi Manager (tiptoi-manager)
+### tiptoi-manager
 
 - **Source**: homebrew
-- **Name**: tiptoi Manager
-- **Description**: Manage the data on children's Ravensburger tip toi audio pen
-- **Version**: 5.2
+- **Name**: tiptoi-manager
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `tiptoi-manager.yml`
-- **URL**: https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Topaz Gigapixel AI (topaz-gigapixel-ai)
+### topaz-gigapixel-ai
 
 - **Source**: homebrew
-- **Name**: Topaz Gigapixel AI
-- **Description**: AI image upscaler
-- **Version**: 8.4.2
+- **Name**: topaz-gigapixel-ai
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `topaz-gigapixel-ai.yml`
-- **URL**: https://downloads.topazlabs.com/deploy/TopazGigapixelAI/8.4.2/TopazGigapixelAI-8.4.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Topaz Photo AI (topaz-photo-ai)
+### topaz-photo-ai
 
 - **Source**: homebrew
-- **Name**: Topaz Photo AI
-- **Description**: AI image enhancer
-- **Version**: 4.0.2
+- **Name**: topaz-photo-ai
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `topaz-photo-ai.yml`
-- **URL**: https://downloads.topazlabs.com/deploy/TopazPhotoAI/4.0.2/TopazPhotoAI-4.0.2.pkg
+- **URL**: Generated from Homebrew API
 
-### Trusted QSL (tqsl)
+### tqsl
 
 - **Source**: homebrew
-- **Name**: Trusted QSL
-- **Description**: Sign and upload QSO records to Logbook of The World (LoTW)
-- **Version**: 2.8.1
+- **Name**: tqsl
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `tqsl.yml`
-- **URL**: https://www.arrl.org/tqsl/tqsl-2.8.1.pkg
+- **URL**: Generated from Homebrew API
 
-### TREZOR Bridge (trezor-bridge-app)
+### trezor-bridge-app
 
 - **Source**: homebrew
-- **Name**: TREZOR Bridge
-- **Description**: Facilitates communication between the Trezor device and supported browsers
-- **Version**: 2.0.27
+- **Name**: trezor-bridge-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `trezor-bridge-app.yml`
-- **URL**: https://data.trezor.io/bridge/2.0.27/trezor-bridge-2.0.27.pkg
+- **URL**: Generated from Homebrew API
 
-### Teleport TSH (v13) (tsh@13)
+### tsh-13
 
 - **Source**: homebrew
-- **Name**: Teleport TSH (v13)
-- **Description**: SSH server for teams managing distributed infrastructure
-- **Version**: 13.4.26
-- **File**: `tsh_13.yml`
-- **URL**: https://cdn.teleport.dev/tsh-13.4.26.pkg
+- **Name**: tsh-13
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `tsh-13.yml`
+- **URL**: Generated from Homebrew API
 
-### Twingate (twingate)
+### twingate
 
-- **Source**: installomator
-- **Name**: Twingate
-- **Description**: Twingate
+- **Source**: homebrew
+- **Name**: twingate
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `twingate.yml`
-- **URL**: https://api.twingate.com/download/darwin?installer=pkg
+- **URL**: Generated from Homebrew API
 
-### Twonky Server (twonkyserver)
+### twonkyserver
 
 - **Source**: homebrew
-- **Name**: Twonky Server
-- **Description**: DLNA/UPnP media server
-- **Version**: 8.5.2
+- **Name**: twonkyserver
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `twonkyserver.yml`
-- **URL**: https://download.twonky.com/8.5.2/TwonkyServerInstaller-8.5.2.pkg
+- **URL**: Generated from Homebrew API
 
-### UI Desktop (ui)
+### ui
 
 - **Source**: homebrew
-- **Name**: UI Desktop
-- **Description**: Corporate Wi-Fi, VPN, SSO, and HR Application
-- **Version**: 0.89.1,7ee8d102-d6c2-472d-9d0b-38b3627d11be,6ae9
+- **Name**: ui
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `ui.yml`
-- **URL**: https://fw-download.ubnt.com/data/uid-ui-desktop-app/6ae9-macOS-0.89.1-7ee8d102-d6c2-472d-9d0b-38b3627d11be.pkg
+- **URL**: Generated from Homebrew API
 
-### Unity Editor (unity)
-
-- **Source**: homebrew
-- **Name**: Unity Editor
-- **Description**: Platform for 3D content
-- **Version**: 2023.2.20f1,0e25a174756c
-- **File**: `unity.yml`
-- **URL**: https://download.unity3d.com/download_unity/0e25a174756c/MacEditorInstallerArm64/Unity-2023.2.20f1.pkg
-
-### Unity Android Build Support (unity-android-support-for-editor)
+### unity-android-support-for-editor
 
 - **Source**: homebrew
-- **Name**: Unity Android Build Support
-- **Description**: Android target support for Unity
-- **Version**: 2023.2.20f1,0e25a174756c
+- **Name**: unity-android-support-for-editor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `unity-android-support-for-editor.yml`
-- **URL**: https://download.unity3d.com/download_unity/0e25a174756c/MacEditorTargetInstaller/UnitySetup-Android-Support-for-Editor-2023.2.20f1.pkg
+- **URL**: Generated from Homebrew API
 
-### Unity iOS Build Support (unity-ios-support-for-editor)
+### unity-ios-support-for-editor
 
 - **Source**: homebrew
-- **Name**: Unity iOS Build Support
-- **Description**: iOS target support for Unity
-- **Version**: 2023.2.20f1,0e25a174756c
+- **Name**: unity-ios-support-for-editor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `unity-ios-support-for-editor.yml`
-- **URL**: https://download.unity3d.com/download_unity/0e25a174756c/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-2023.2.20f1.pkg
+- **URL**: Generated from Homebrew API
 
-### Unity WebGL Build Support (unity-webgl-support-for-editor)
+### unity-webgl-support-for-editor
 
 - **Source**: homebrew
-- **Name**: Unity WebGL Build Support
-- **Description**: WebGL target support for Unity
-- **Version**: 2023.2.20f1,0e25a174756c
+- **Name**: unity-webgl-support-for-editor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `unity-webgl-support-for-editor.yml`
-- **URL**: https://download.unity3d.com/download_unity/0e25a174756c/MacEditorTargetInstaller/UnitySetup-WebGL-Support-for-Editor-2023.2.20f1.pkg
+- **URL**: Generated from Homebrew API
 
-### Unity Windows (Mono) Build Support (unity-windows-support-for-editor)
+### unity-windows-support-for-editor
 
 - **Source**: homebrew
-- **Name**: Unity Windows (Mono) Build Support
-- **Description**: Windows (Mono) target support for Unity
-- **Version**: 2023.2.20f1,0e25a174756c
+- **Name**: unity-windows-support-for-editor
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `unity-windows-support-for-editor.yml`
-- **URL**: https://download.unity3d.com/download_unity/0e25a174756c/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2023.2.20f1.pkg
+- **URL**: Generated from Homebrew API
 
-### Utterly (utterly)
+### unity
 
 - **Source**: homebrew
-- **Name**: Utterly
-- **Description**: Remove background noise during your calls in any audio or video conferencing app
-- **Version**: 1.5.0
+- **Name**: unity
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `unity.yml`
+- **URL**: Generated from Homebrew API
+
+### utterly
+
+- **Source**: homebrew
+- **Name**: utterly
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `utterly.yml`
-- **URL**: https://www.utterly.app/Utterly-Elevate.pkg
+- **URL**: Generated from Homebrew API
 
-### VCam (vcam)
+### vcam
 
 - **Source**: homebrew
-- **Name**: VCam
-- **Description**: Webcam background tool
-- **Version**: 5.0.2
+- **Name**: vcam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `vcam.yml`
-- **URL**: https://installers.vcam.ai/VCam_5.0.2.pkg
+- **URL**: Generated from Homebrew API
 
-### VCV Rack (vcv-rack)
+### vcv-rack
 
 - **Source**: homebrew
-- **Name**: VCV Rack
-- **Description**: Open-source virtual modular synthesiser
-- **Version**: 2.6.4
+- **Name**: vcv-rack
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `vcv-rack.yml`
-- **URL**: https://vcvrack.com/downloads/RackFree-2.6.4-mac-x64+arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Videostream (videostream)
+### videostream
 
 - **Source**: homebrew
-- **Name**: Videostream
-- **Description**: Stream media from your computer to Chromecast
-- **Version**: 0.4.3
+- **Name**: videostream
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `videostream.yml`
-- **URL**: https://cdn.getvideostream.com/videostream-native-updates/macOS/Videostream.pkg
+- **URL**: Generated from Homebrew API
 
-### VirtualDJ (virtualdj)
+### virtualdj
 
 - **Source**: homebrew
-- **Name**: VirtualDJ
-- **Description**: DJ Software
-- **Version**: 2025,8678,11B237C8
+- **Name**: virtualdj
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `virtualdj.yml`
-- **URL**: https://download.virtualdj.com/b8678/11B237C8/install_virtualdj_2025_b8678_mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Real VNC Server (vnc-server)
+### vnc-server
 
 - **Source**: homebrew
-- **Name**: Real VNC Server
-- **Description**: Remote desktop server application
-- **Version**: 7.13.1
+- **Name**: vnc-server
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `vnc-server.yml`
-- **URL**: https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.13.1-MacOSX-universal.pkg
+- **URL**: Generated from Homebrew API
 
-### Warsaw (warsaw)
+### warsaw
 
 - **Source**: homebrew
-- **Name**: Warsaw
-- **Description**: Security software for online banking in Brazil
-- **Version**: latest
+- **Name**: warsaw
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `warsaw.yml`
-- **URL**: https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup.pkg
+- **URL**: Generated from Homebrew API
 
-### Weasis (weasis)
+### weasis
 
 - **Source**: homebrew
-- **Name**: Weasis
-- **Description**: Free DICOM viewer for displaying and analyzing medical images
-- **Version**: 4.6.2
+- **Name**: weasis
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `weasis.yml`
-- **URL**: https://github.com/nroduit/Weasis/releases/download/v4.6.2/Weasis-4.6.2-aarch64.pkg
+- **URL**: Generated from Homebrew API
 
-### Webex Meetings (webex-meetings)
+### webex-meetings
 
 - **Source**: homebrew
-- **Name**: Webex Meetings
-- **Description**: Video communication and virtual meeting platform
-- **Version**: latest
+- **Name**: webex-meetings
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `webex-meetings.yml`
-- **URL**: https://akamaicdn.webex.com/client/Cisco_Webex_Meetings.pkg
+- **URL**: Generated from Homebrew API
 
-### WhatSize (whatsize)
+### whatsize
 
 - **Source**: homebrew
-- **Name**: WhatSize
-- **Description**: File system utility used to view and reclaim disk space
-- **Version**: 8.2.3
+- **Name**: whatsize
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `whatsize.yml`
-- **URL**: https://www.whatsizemac.com/software/whatsize8/whatsize_8.2.3.pkg
+- **URL**: Generated from Homebrew API
 
-### WiFi Explorer Pro (wifi-explorer-pro)
+### wifi-explorer-pro
 
 - **Source**: homebrew
-- **Name**: WiFi Explorer Pro
-- **Description**: Scan, monitor, and troubleshoot wireless networks
-- **Version**: 3.7.4
+- **Name**: wifi-explorer-pro
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `wifi-explorer-pro.yml`
-- **URL**: https://www.intuitibits.com/downloads/WiFiExplorerPro_3.7.4.pkg
+- **URL**: Generated from Homebrew API
 
-### WiFiman Desktop (wifiman)
+### wifiman
 
 - **Source**: homebrew
-- **Name**: WiFiman Desktop
-- **Description**: Network monitoring and troubleshooting tool
-- **Version**: 1.1.3
+- **Name**: wifiman
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `wifiman.yml`
-- **URL**: https://desktop.wifiman.com/wifiman-desktop-1.1.3-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Windows App (windows-app)
+### windows-app
 
 - **Source**: homebrew
-- **Name**: Windows App
-- **Description**: Connect to Windows
-- **Version**: 11.2.0
+- **Name**: windows-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `windows-app.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.2.0_installer.pkg
+- **URL**: Generated from Homebrew API
 
-### Wire (wire)
+### wire
 
 - **Source**: homebrew
-- **Name**: Wire
-- **Description**: Collaboration platform focusing on security
-- **Version**: 3.40.5285
+- **Name**: wire
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `wire.yml`
-- **URL**: https://github.com/wireapp/wire-desktop/releases/download/macos%2F3.40.5285/Wire.pkg
+- **URL**: Generated from Homebrew API
 
-### wkhtmltopdf (wkhtmltopdf)
+### wkhtmltopdf
 
 - **Source**: homebrew
 - **Name**: wkhtmltopdf
-- **Description**: HTML to PDF renderer
-- **Version**: 0.12.6-2
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `wkhtmltopdf.yml`
-- **URL**: https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-2/wkhtmltox-0.12.6-2.macos-cocoa.pkg
+- **URL**: Generated from Homebrew API
 
-### Workspace ONE Intelligent Hub (workspace-one-intelligent-hub)
+### workspace-one-intelligent-hub
 
 - **Source**: homebrew
-- **Name**: Workspace ONE Intelligent Hub
-- **Description**: VMware workspace
-- **Version**: 24.11.3
+- **Name**: workspace-one-intelligent-hub
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `workspace-one-intelligent-hub.yml`
-- **URL**: https://packages.omnissa.com/wsone/WorkspaceONEIntelligentHub.pkg
+- **URL**: Generated from Homebrew API
 
-### Xamarin Profiler (xamarin-profiler)
+### xamarin-profiler
 
 - **Source**: homebrew
-- **Name**: Xamarin Profiler
-- **Description**: Mono log profiler graphical interface
-- **Version**: 1.6.13,11
+- **Name**: xamarin-profiler
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `xamarin-profiler.yml`
-- **URL**: https://dl.xamarin.com/profiler/profiler-mac-1.6.13-11.pkg
+- **URL**: Generated from Homebrew API
 
-### Xamarin Workbooks (xamarin-workbooks)
+### xamarin-workbooks
 
 - **Source**: homebrew
-- **Name**: Xamarin Workbooks
-- **Description**: C# documentation and coding materials
-- **Version**: 1.5.0
+- **Name**: xamarin-workbooks
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `xamarin-workbooks.yml`
-- **URL**: https://github.com/Microsoft/workbooks/releases/download/v1.5.0/XamarinInteractive-1.5.0.pkg
+- **URL**: Generated from Homebrew API
 
-### XCreds (xcreds)
+### xcreds
 
-- **Source**: installomator
-- **Name**: XCreds
-- **Description**: XCreds
+- **Source**: homebrew
+- **Name**: xcreds
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `xcreds.yml`
-- **URL**: https://twocanoes-software-updates.s3.amazonaws.com/XCreds.pkg
+- **URL**: Generated from Homebrew API
 
-### XQuartz (xquartz)
+### xquartz
 
 - **Source**: homebrew
-- **Name**: XQuartz
-- **Description**: Open-source version of the X.Org X Window System
-- **Version**: 2.8.5
+- **Name**: xquartz
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `xquartz.yml`
-- **URL**: https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.5/XQuartz-2.8.5.pkg
+- **URL**: Generated from Homebrew API
 
-### XSplit VCam (xsplit-vcam)
+### xsplit-vcam
 
 - **Source**: homebrew
-- **Name**: XSplit VCam
-- **Description**: Webcam background tool
-- **Version**: 4.0.2206.0801
+- **Name**: xsplit-vcam
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `xsplit-vcam.yml`
-- **URL**: https://cdn2.xsplit.com/download/vc/macos/builds/4.0.2206.0801/XSplit_VCam_4.0.2206.0801_arm.pkg
+- **URL**: Generated from Homebrew API
 
-### Yggdrasil (yggdrasil)
+### yggdrasil
 
 - **Source**: homebrew
-- **Name**: Yggdrasil
-- **Description**: End-to-end encrypted IPv6 networking to connect worlds
-- **Version**: 0.5.12
+- **Name**: yggdrasil
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `yggdrasil.yml`
-- **URL**: https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.5.12/yggdrasil-0.5.12-macos-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### Yo Scheduler (yo-app)
+### yo-app
 
 - **Source**: homebrew
-- **Name**: Yo Scheduler
-- **Description**: Utility to emit Notification Center messages from the command-line
-- **Version**: 2.0.1
+- **Name**: yo-app
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `yo-app.yml`
-- **URL**: https://github.com/sheagcraig/yo/releases/download/2.0.1/yo-2.0.1.pkg
+- **URL**: Generated from Homebrew API
 
-### Yubikey Manager (yubico-yubikey-manager)
+### yubico-yubikey-manager
 
 - **Source**: homebrew
-- **Name**: Yubikey Manager
-- **Description**: Application for configuring any YubiKey
-- **Version**: 1.2.5
+- **Name**: yubico-yubikey-manager
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `yubico-yubikey-manager.yml`
-- **URL**: https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-1.2.5-mac.pkg
+- **URL**: Generated from Homebrew API
 
-### YubiHSM 2 SDK (yubihsm2-sdk)
+### yubihsm2-sdk
 
 - **Source**: homebrew
-- **Name**: YubiHSM 2 SDK
-- **Description**: Libraries and utilities to interact with a YubiHSM 2 natively and via PKCS#11
-- **Version**: 2025-06b
+- **Name**: yubihsm2-sdk
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `yubihsm2-sdk.yml`
-- **URL**: https://developers.yubico.com/YubiHSM2/Releases/yubihsm2-sdk-2025-06b-darwin-arm64.pkg
+- **URL**: Generated from Homebrew API
 
-### YubiKey Manager GUI (yubikeymanagerqt)
+### yubikeymanagerqt
 
-- **Source**: installomator
-- **Name**: YubiKey Manager GUI
-- **Description**: YubiKey Manager GUI
+- **Source**: homebrew
+- **Name**: yubikeymanagerqt
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `yubikeymanagerqt.yml`
-- **URL**: https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-latest-mac.pkg
+- **URL**: Generated from Homebrew API
 
-### Zenbeats (zenbeats)
+### zenbeats
 
 - **Source**: homebrew
-- **Name**: Zenbeats
-- **Description**: Music creation app
-- **Version**: 3.1.12
+- **Name**: zenbeats
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `zenbeats.yml`
-- **URL**: https://static.roland.com/assets/media/pkg/Zenbeats_Installer.pkg
+- **URL**: Generated from Homebrew API
 
-### ZeroTier%20One (zerotier)
+### zerotier-one
 
-- **Source**: installomator
-- **Name**: ZeroTier%20One
-- **Description**: ZeroTier%20One
+- **Source**: homebrew
+- **Name**: zerotier-one
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `zerotier-one.yml`
+- **URL**: Generated from Homebrew API
+
+### zerotier
+
+- **Source**: homebrew
+- **Name**: zerotier
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `zerotier.yml`
-- **URL**: https://download.zerotier.com/dist/ZeroTier%20One.pkg
+- **URL**: Generated from Homebrew API
 
-### ZeroTier One (zerotier-one)
-
-- **Source**: homebrew
-- **Name**: ZeroTier One
-- **Description**: Mesh VPN client
-- **Version**: 1.14.2
-- **File**: `zerotier-one.yml`
-- **URL**: https://download.zerotier.com/RELEASES/1.14.2/dist/ZeroTier%20One.pkg
-
-### Zoho Cliq (zoho-cliq)
+### zoho-cliq
 
 - **Source**: homebrew
-- **Name**: Zoho Cliq
-- **Description**: Team communication and collaboration platform
-- **Version**: 1.7.6
+- **Name**: zoho-cliq
+- **Description**: Generated from Homebrew cask
+- **Version**: 
 - **File**: `zoho-cliq.yml`
-- **URL**: https://downloads.zohocdn.com/chat-desktop/mac/Cliq-arm64-1.7.6.pkg
+- **URL**: Generated from Homebrew API
 
-### zoom.us (zoom)
+### zoom-for-it-admins
 
-- **Source**: installomator
-- **Name**: zoom.us
-- **Description**: zoom.us
+- **Source**: homebrew
+- **Name**: zoom-for-it-admins
+- **Description**: Generated from Homebrew cask
+- **Version**: 
+- **File**: `zoom-for-it-admins.yml`
+- **URL**: Generated from Homebrew API
+
+### zoom
+
+- **Source**: homebrew
+- **Name**: zoom
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `zoom.yml`
-- **URL**: https://zoom.us/client/latest/ZoomInstallerIT.pkg
+- **URL**: Generated from Homebrew API
 
-### Zoom for IT Admins (zoom-for-it-admins)
+### zoomgov
 
 - **Source**: homebrew
-- **Name**: Zoom for IT Admins
-- **Description**: Video communication and virtual meeting platform
-- **Version**: 6.5.9.61929
-- **File**: `zoom-for-it-admins.yml`
-- **URL**: https://cdn.zoom.us/prod/6.5.9.61929/ZoomInstallerIT.pkg
-
-### zoom.us (zoomgov)
-
-- **Source**: installomator
-- **Name**: zoom.us
-- **Description**: zoom.us
+- **Name**: zoomgov
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `zoomgov.yml`
-- **URL**: https://www.zoomgov.com/client/latest/ZoomInstallerIT.pkg
+- **URL**: Generated from Homebrew API
 
-### Zoom Outlook Plugin (zoomoutlookplugin)
+### zoomoutlookplugin
 
-- **Source**: installomator
-- **Name**: Zoom Outlook Plugin
-- **Description**: Zoom Outlook Plugin
+- **Source**: homebrew
+- **Name**: zoomoutlookplugin
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `zoomoutlookplugin.yml`
-- **URL**: https://zoom.us/client/latest/ZoomMacOutlookPlugin.pkg
+- **URL**: Generated from Homebrew API
 
-### ZoomPresence (zoomrooms)
+### zoomrooms
 
-- **Source**: installomator
-- **Name**: ZoomPresence
-- **Description**: ZoomPresence
+- **Source**: homebrew
+- **Name**: zoomrooms
+- **Description**: Generated from Homebrew cask
 - **Version**: 
 - **File**: `zoomrooms.yml`
-- **URL**: https://zoom.us/client/latest/ZoomRooms.pkg
+- **URL**: Generated from Homebrew API
 
