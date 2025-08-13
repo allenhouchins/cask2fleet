@@ -49,17 +49,35 @@ jobs:
       run: go build -o generate_fleet_yaml main.go
 
     - name: Run generate_fleet_yaml
-      run: ./generate_fleet_yaml
+      run: |
+        # Clean up any existing files to avoid conflicts
+        rm -rf fleet_yaml_files/
+        rm -rf winget-pkgs/
+        
+        # Run the application
+        ./generate_fleet_yaml
 
     - name: Count generated files
       id: count-files
       run: |
-        echo "macos_count=$(ls fleet_yaml_files/macOS/*.yml 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
-        echo "windows_count=$(ls fleet_yaml_files/Windows/*.yml 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
-        echo "file_count=$(( $(ls fleet_yaml_files/macOS/*.yml 2>/dev/null | wc -l) + $(ls fleet_yaml_files/Windows/*.yml 2>/dev/null | wc -l) ))" >> $GITHUB_OUTPUT
+        # Ensure directories exist before counting
+        mkdir -p fleet_yaml_files/macOS fleet_yaml_files/Windows
+        
+        # Count files with error handling
+        macos_count=$(find fleet_yaml_files/macOS -name "*.yml" 2>/dev/null | wc -l || echo "0")
+        windows_count=$(find fleet_yaml_files/Windows -name "*.yml" 2>/dev/null | wc -l || echo "0")
+        file_count=$((macos_count + windows_count))
+        
+        echo "macos_count=$macos_count" >> $GITHUB_OUTPUT
+        echo "windows_count=$windows_count" >> $GITHUB_OUTPUT
+        echo "file_count=$file_count" >> $GITHUB_OUTPUT
 
     - name: Create update metadata
       run: |
+        # Ensure directory exists and has proper permissions
+        mkdir -p fleet_yaml_files
+        chmod 755 fleet_yaml_files
+        
         cat > fleet_yaml_files/UPDATE_METADATA.md << EOF
         # Fleet YAML Files Update Metadata
 
@@ -95,6 +113,10 @@ jobs:
 
     - name: Generate summary file
       run: |
+        # Ensure directory exists and has proper permissions
+        mkdir -p fleet_yaml_files
+        chmod 755 fleet_yaml_files
+        
         # Create the header
         echo "# Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet" > fleet_yaml_files/SUMMARY.md
         echo "" >> fleet_yaml_files/SUMMARY.md
@@ -114,9 +136,9 @@ jobs:
         echo "" >> fleet_yaml_files/SUMMARY.md
         if [ -d "fleet_yaml_files/macOS" ]; then
           for file in fleet_yaml_files/macOS/*.yml; do
-            if [ -f "$file" ]; then
+            if [ -f "$file" ] && [ -r "$file" ]; then
               filename=$(basename "$file" .yml)
-              url=$(grep "^url:" "$file" | sed 's/url: //' | tr -d ' ')
+              url=$(grep "^url:" "$file" 2>/dev/null | sed 's/url: //' | tr -d ' ' || echo "URL not found")
               echo "#### $filename" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
               echo "- **Source**: homebrew/installomator" >> fleet_yaml_files/SUMMARY.md
@@ -135,9 +157,9 @@ jobs:
         echo "" >> fleet_yaml_files/SUMMARY.md
         if [ -d "fleet_yaml_files/Windows" ]; then
           for file in fleet_yaml_files/Windows/*.yml; do
-            if [ -f "$file" ]; then
+            if [ -f "$file" ] && [ -r "$file" ]; then
               filename=$(basename "$file" .yml)
-              url=$(grep "^url:" "$file" | sed 's/url: //' | tr -d ' ')
+              url=$(grep "^url:" "$file" 2>/dev/null | sed 's/url: //' | tr -d ' ' || echo "URL not found")
               echo "#### $filename" >> fleet_yaml_files/SUMMARY.md
               echo "" >> fleet_yaml_files/SUMMARY.md
               echo "- **Source**: winget" >> fleet_yaml_files/SUMMARY.md
@@ -150,6 +172,14 @@ jobs:
             fi
           done
         fi
+
+    - name: Set proper permissions
+      run: |
+        # Set proper permissions on all generated files
+        chmod -R 644 fleet_yaml_files/*.yml 2>/dev/null || true
+        chmod -R 644 fleet_yaml_files/macOS/*.yml 2>/dev/null || true
+        chmod -R 644 fleet_yaml_files/Windows/*.yml 2>/dev/null || true
+        chmod 644 fleet_yaml_files/*.md 2>/dev/null || true
 
     - name: Update README if needed
       run: |
