@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-13 06:05:08 UTC
+Generated on: 2025-08-13 18:05:27 UTC
 
 ## Summary
 
@@ -1225,7 +1225,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `foxit-pdf-editor.yml`
-- **URL**: https://cdn01.foxitsoftware.com/pub/foxit/phantomPDF/desktop/mac/13.x/13.1.7/FoxitPDFEditor1317.L10N.Setup.pkg
+- **URL**: https://cdn01.foxitsoftware.com/pub/foxit/phantomPDF/desktop/mac/14.x/14.0.0/FoxitPDFEditor1400.L10N.Setup.pkg
 
 #### foxitreader
 
@@ -1234,7 +1234,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `foxitreader.yml`
-- **URL**: https://cdn01.foxitsoftware.com/pub/foxit/phantomPDF/desktop/mac/2025.x/2025.1/FoxitPDFReader20251.L10N.Setup.pkg
+- **URL**: https://cdn01.foxitsoftware.com/pub/foxit/phantomPDF/desktop/mac/2025.x/2025.2/FoxitPDFReader20252.L10N.Setup.pkg
 
 #### fujifilm-tether-app
 
@@ -1558,7 +1558,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `kdrive.yml`
-- **URL**: https://download.storage.infomaniak.com/drive/desktopclient/kDrive-3.7.3.20250728.pkg
+- **URL**: https://download.storage.infomaniak.com/drive/desktopclient/kDrive-3.7.5.20250812.pkg
 
 #### kern
 
@@ -1918,7 +1918,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `mihomo-party.yml`
-- **URL**: https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.3/mihomo-party-macos-1.8.3-arm64.pkg
+- **URL**: https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.4/mihomo-party-macos-1.8.4-arm64.pkg
 
 #### miniconda
 
@@ -2116,7 +2116,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `nextcloud-vfs.yml`
-- **URL**: https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-3.16.6-macOS-vfs.pkg
+- **URL**: https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-3.17.0-macOS-vfs.pkg
 
 #### nextcloud
 
@@ -2125,7 +2125,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `nextcloud.yml`
-- **URL**: https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-3.16.6.pkg
+- **URL**: https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-3.17.0.pkg
 
 #### ninja-download-manager-ndm
 
@@ -2215,7 +2215,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `nperf.yml`
-- **URL**: https://repo.nperf.com/macos/nperf/nPerf-arm64-2.15.4.pkg
+- **URL**: https://repo.nperf.com/macos/nperf/nPerf-arm64-2.15.5.pkg
 
 #### nudge
 
@@ -2791,7 +2791,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `segger-jlink.yml`
-- **URL**: https://www.segger.com/downloads/jlink/JLink_MacOSX_V858_universal.pkg
+- **URL**: https://www.segger.com/downloads/jlink/JLink_MacOSX_V860_universal.pkg
 
 #### segger-ozone
 
@@ -2845,7 +2845,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `semeru-jdk-open.yml`
-- **URL**: https://github.com/ibmruntimes/semeru23-binaries/releases/download/jdk-23.0.2%2B7_openj9-0.49.0/ibm-semeru-open-jdk_aarch64_mac_23.0.2_7_openj9-0.49.0.pkg
+- **URL**: https://github.com/ibmruntimes/semeru24-binaries/releases/download/jdk-24.0.2%2B12_openj9-0.54.0/ibm-semeru-open-jdk_aarch64_mac_24.0.2_12_openj9-0.54.0.pkg
 
 #### senadevicemanager
 
@@ -3070,7 +3070,7 @@ Total entries processed: 6410
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `teamviewer.yml`
-- **URL**: https://dl.teamviewer.com/download/version_15x/update/15.68.5/TeamViewer.pkg
+- **URL**: https://dl.teamviewer.com/download/version_15x/update/15.68.6/TeamViewer.pkg
 
 #### teladocproviderinstaller
 
@@ -4386,7 +4386,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `adobe-dngconverter.yml`
-- **URL**: https://download.adobe.com/pub/adobe/dng/win/AdobeDNGConverter_x64_17_4_2.exe
+- **URL**: https://download.adobe.com/pub/adobe/dng/win/AdobeDNGConverter_x64_17_5.exe
 
 #### adobe-workfrontproof
 
@@ -12513,7 +12513,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `cinnyapp-cinny-desktop.yml`
-- **URL**: https://github.com/cinnyapp/cinny-desktop/releases/download/v4.8.1/Cinny_desktop-x86_64.msi
+- **URL**: https://github.com/cinnyapp/cinny-desktop/releases/download/v4.9.0/Cinny_desktop-x86_64.msi
 
 #### circuitdiagram-circuitdiagram
 
@@ -19749,7 +19749,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `funroutine-workflowy.yml`
-- **URL**: https://github.com/workflowy/desktop/releases/download/v4.3.2508121540/WorkFlowy-Installer.exe
+- **URL**: https://github.com/workflowy/desktop/releases/download/v4.3.2508130913/WorkFlowy-Installer.exe
 
 #### fupdec-mediachips
 
@@ -21117,7 +21117,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/addqmlhtl4334ygma7ob4peucr2q_141.0.7353.0/141.0.7353.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/lj2net3jb735r6vrkgu3zjgh3e_141.0.7354.0/141.0.7354.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -21729,7 +21729,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `greynut-luxafor.yml`
-- **URL**: https://api.luxafor.com/versioning/download/luxafor_blz159is6sp00pugtpqi0fvq/2.4.2.2/LuxaforApp-Installer-2.4.2.2-nonet.msi
+- **URL**: https://api.luxafor.com/versioning/download/luxafor_blz159is6sp00pugtpqi0fvq/2.5.7.2/LuxaforApp-Installer-2.5.7.2-nonet.msi
 
 #### greynut-luxaforpomodorotimer
 
@@ -26400,7 +26400,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `k6-k6.yml`
-- **URL**: https://github.com/grafana/k6/releases/download/v1.1.0/k6-v1.1.0-windows-amd64.msi
+- **URL**: https://github.com/grafana/k6/releases/download/v1.2.1/k6-v1.2.1-windows-amd64.msi
 
 #### k8stooling-kubazulo
 
@@ -27129,7 +27129,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-kstars.yml`
-- **URL**: https://www.indilib.org/jdownloads/kstars/kstars-3.7.7.exe
+- **URL**: https://www.indilib.org/jdownloads/kstars/kstars-3.7.8.exe
 
 #### kde-ksudoku
 
@@ -28119,7 +28119,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kwaroran-risuai.yml`
-- **URL**: https://github.com/kwaroran/RisuAI/releases/download/v166.2.3/RisuAI_166.2.3_x64-setup.exe
+- **URL**: https://github.com/kwaroran/RisuAI/releases/download/v166.3.0/RisuAI_166.3.0_x64-setup.exe
 
 #### kydronepilot-spaceeye
 
@@ -31737,7 +31737,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `microsoft-onedrive.yml`
-- **URL**: https://oneclient.sfx.ms/Win/Installers/25.130.0706.0004/amd64/OneDriveSetup.exe
+- **URL**: https://oneclient.sfx.ms/Win/Installers/25.137.0715.0001/amd64/OneDriveSetup.exe
 
 #### microsoft-openjdk-11
 
@@ -32538,7 +32538,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `mihomo-party-mihomo-party.yml`
-- **URL**: https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.3/mihomo-party-windows-1.8.3-x64-setup.exe
+- **URL**: https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.4/mihomo-party-windows-1.8.4-x64-setup.exe
 
 #### mikefarah-yq
 
@@ -38190,7 +38190,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `netbird-netbird.yml`
-- **URL**: https://github.com/netbirdio/netbird/releases/download/v0.54.0/netbird_installer_0.54.0_windows_amd64.msi
+- **URL**: https://github.com/netbirdio/netbird/releases/download/v0.54.0/netbird_installer_0.54.0_windows_amd64.exe
 
 #### netease-cloudmusic
 
@@ -38991,7 +38991,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `nodirtemirkhodjaev-fortfirewall.yml`
-- **URL**: https://github.com/tnodir/fort/releases/download/v3.18.9/FortFirewall-3.18.9-windows10-x86_64.exe
+- **URL**: https://github.com/tnodir/fort/releases/download/v3.19.0/FortFirewall-3.19.0-windows10-x86_64.exe
 
 #### nodist-nodist
 
@@ -40251,7 +40251,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `onlyoffice-desktopeditors.yml`
-- **URL**: https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.0.3/DesktopEditors_x64.msi
+- **URL**: https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.0.4/DesktopEditors_x64.msi
 
 #### onoff-onlook
 
@@ -48936,7 +48936,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `spotify-spotify.yml`
-- **URL**: https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.70.407.g122a4669-364.exe
+- **URL**: https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.70.409.gd4fa4141-417.exe
 
 #### springlobby-springlobby
 
@@ -54480,7 +54480,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `vivaldi-vivaldi.yml`
-- **URL**: https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.58.x64.exe
+- **URL**: https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.62.x64.exe
 
 #### vivi-vivi
 
@@ -57009,7 +57009,7 @@ Total entries processed: 6410
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp-nightly.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.11.034503/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.12.233030/yt-dlp.exe
 
 #### yt-dlp-yt-dlp
 
