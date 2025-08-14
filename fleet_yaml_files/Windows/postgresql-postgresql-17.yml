@@ -1,4 +1,4 @@
-url: https://get.enterprisedb.com/postgresql/postgresql-17.5-3-windows-x64.exe
+url: https://get.enterprisedb.com/postgresql/postgresql-17.6-1-windows-x64.exe
 automatic_install: false
 self_service: false
 categories: []

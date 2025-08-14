@@ -1,4 +1,4 @@
-url: https://get.enterprisedb.com/postgresql/postgresql-14.18-2-windows-x64.exe
+url: https://get.enterprisedb.com/postgresql/postgresql-14.19-1-windows-x64.exe
 automatic_install: false
 self_service: false
 categories: []
