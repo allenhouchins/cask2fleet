@@ -1,4 +1,4 @@
-url: https://dl.k8s.io/release/v1.33.3/bin/windows/amd64/kubectl.exe
+url: https://dl.k8s.io/release/v1.33.4/bin/windows/amd64/kubectl.exe
 automatic_install: false
 self_service: false
 categories: []

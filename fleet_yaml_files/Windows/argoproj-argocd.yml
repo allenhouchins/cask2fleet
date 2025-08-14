@@ -1,4 +1,4 @@
-url: https://github.com/argoproj/argo-cd/releases/download/v3.0.6/argocd-windows-amd64.exe
+url: https://github.com/argoproj/argo-cd/releases/download/v3.1.0/argocd-windows-amd64.exe
 automatic_install: false
 self_service: false
 categories: []

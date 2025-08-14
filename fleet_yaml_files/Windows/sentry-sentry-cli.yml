@@ -1,4 +1,4 @@
-url: https://github.com/getsentry/sentry-cli/releases/download/2.51.1/sentry-cli-Windows-x86_64.exe
+url: https://github.com/getsentry/sentry-cli/releases/download/2.52.0/sentry-cli-Windows-x86_64.exe
 automatic_install: false
 self_service: false
 categories: []
