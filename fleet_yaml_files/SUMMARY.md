@@ -1,12 +1,12 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-15 06:04:56 UTC
+Generated on: 2025-08-15 18:05:02 UTC
 
 ## Summary
 
-Total entries processed: 6422
+Total entries processed: 6424
 - macOS files: 398
-- Windows files: 6024
+- Windows files: 6026
 
 ## Generated Files
 
@@ -4782,7 +4782,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `aircall-aircallworkspace.yml`
-- **URL**: https://download-electron.aircall.io/aircall-workspace/Aircall-Workspace-1.7.2-x64.exe
+- **URL**: https://download-electron.aircall.io/aircall-workspace/Aircall-Workspace-1.8.1-x64.exe
 
 #### airdroid-airdroid
 
@@ -6213,7 +6213,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `amazon-kiro.yml`
-- **URL**: https://prod.download.desktop.kiro.dev/releases/202508110105-Kiro-win32-x64.exe
+- **URL**: https://prod.download.desktop.kiro.dev/releases/202508150626-Kiro-win32-x64.exe
 
 #### amazon-nosqlworkbench
 
@@ -7968,7 +7968,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `azeus-convene.yml`
-- **URL**: https://www.azeusconvene.com/installers/winos/standard/convene_setup.9.0.212992-64bit.exe
+- **URL**: https://www.azeusconvene.com/installers/winos/standard/convene_setup.9.0.213067-64bit.exe
 
 #### azul-icedtea-web
 
@@ -9687,7 +9687,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `betterbird-betterbird.yml`
-- **URL**: https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-128.13.0esr-bb31.en-US.win64.installer.exe
+- **URL**: https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-128.14.0esr-bb32.en-US.win64.installer.exe
 
 #### beyond-all-reason-beyond-all-reason
 
@@ -14423,6 +14423,15 @@ Total entries processed: 6422
 - **File**: `cyberscarecrow-cyberscarecrow.yml`
 - **URL**: https://update.digitalscarecrow.com/release/cyber_scarecrow_installer_0.1.6.exe
 
+#### cybertimon-rapidraw
+
+- **Source**: winget
+- **Name**: cybertimon-rapidraw
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `cybertimon-rapidraw.yml`
+- **URL**: https://github.com/CyberTimon/RapidRAW/releases/download/v1.3.8/01_RapidRAW_v1.3.8_windows_x64.msi
+
 #### cyclonedx-cdxgen
 
 - **Source**: winget
@@ -15420,7 +15429,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `devolutions-serverconsole.yml`
-- **URL**: https://cdn.devolutions.net/download/Setup.DVLS.Console.2025.2.8.0.exe
+- **URL**: https://cdn.devolutions.net/download/Setup.DVLS.Console.2025.2.9.0.exe
 
 #### devolutions-workspace
 
@@ -17184,7 +17193,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `edrawsoft-edrawmax-cn.yml`
-- **URL**: https://cc-download.edrawsoft.cn/cbs_down/edraw-max_cn_64bit_14.6.0_full5374.exe
+- **URL**: https://cc-download.edrawsoft.cn/cbs_down/edraw-max_cn_64bit_14.6.1_full5374.exe
 
 #### edrawsoft-edrawmax
 
@@ -19155,7 +19164,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `florianheidenreich-mp3tag.yml`
-- **URL**: https://download.mp3tag.de/mp3tagv330-x64-setup.exe
+- **URL**: https://download.mp3tag.de/mp3tagv331-x64-setup.exe
 
 #### flos-freeware-notepad2
 
@@ -19444,6 +19453,15 @@ Total entries processed: 6422
 - **Version**: 
 - **File**: `foundrylabs-devbook.yml`
 - **URL**: https://download.todesktop.com/2102273jsy18baz/Devbook%20Setup%200.1.18.exe
+
+#### foxit-phantompdf-subscription
+
+- **Source**: winget
+- **Name**: foxit-phantompdf-subscription
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `foxit-phantompdf-subscription.yml`
+- **URL**: https://cdn01.foxitsoftware.com/product/phantomPDF/desktop/win/2025.2.0/FoxitPDFEditor20252_L10N_Setup_Website_x64.exe
 
 #### framer-framer
 
@@ -22890,7 +22908,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `huawei-huaweimobilecloud.yml`
-- **URL**: https://cloudres-drcn.dbankcdn.cn/pcresource/HuaweiCloud_15.7.0.301_x64.exe
+- **URL**: https://cloudres-drcn.dbankcdn.cn/pcresource/HuaweiCloud_15.8.0.300_x64.exe
 
 #### huawei-ideashare
 
@@ -26103,7 +26121,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `jonatanheyman-heynote.yml`
-- **URL**: https://github.com/heyman/heynote/releases/download/v2.4.0/Heynote_2.4.0.exe
+- **URL**: https://github.com/heyman/heynote/releases/download/v2.5.0/Heynote_2.5.0.exe
 
 #### joncampbell123-dosbox-x
 
@@ -27156,7 +27174,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-ksudoku.yml`
-- **URL**: https://cdn.kde.org/ci-builds/games/ksudoku/master/windows/ksudoku-master-862-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/games/ksudoku/master/windows/ksudoku-master-869-windows-cl-msvc2022-x86_64.exe
 
 #### kde-ktimetracker
 
@@ -28101,7 +28119,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kuingsmile-piclist.yml`
-- **URL**: https://github.com/Kuingsmile/PicList/releases/download/v2.9.9/PicList-Setup-2.9.9.exe
+- **URL**: https://github.com/Kuingsmile/PicList/releases/download/v3.0.0/PicList-Setup-3.0.0.exe
 
 #### kumospace-kumospace
 
@@ -31872,7 +31890,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `microsoft-powertoys.yml`
-- **URL**: https://github.com/microsoft/PowerToys/releases/download/v0.92.1/PowerToysUserSetup-0.92.1-x64.exe
+- **URL**: https://github.com/microsoft/PowerToys/releases/download/v0.93.0/PowerToysUserSetup-0.93.0-x64.exe
 
 #### microsoft-printmetadatatroubleshooter
 
@@ -39855,7 +39873,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `octopusdeploy-tentacle.yml`
-- **URL**: https://download.octopusdeploy.com/octopus/Octopus.Tentacle.8.3.3103-x64.msi
+- **URL**: https://download.octopusdeploy.com/octopus/Octopus.Tentacle.8.3.3123-x64.msi
 
 #### oda-odadrawingsexplorer
 
@@ -39864,7 +39882,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `oda-odadrawingsexplorer.yml`
-- **URL**: https://www.opendesign.com/guestfiles/get?filename=ODADrawingsExplorer_QT6_vc16_amd64dll_26.5.msi
+- **URL**: https://www.opendesign.com/guestfiles/get?filename=ODADrawingsExplorer_QT6_vc16_amd64dll_26.7.msi
 
 #### oda-odafileconverter
 
@@ -39873,7 +39891,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `oda-odafileconverter.yml`
-- **URL**: https://www.opendesign.com/guestfiles/get?filename=ODAFileConverter_QT6_vc16_amd64dll_26.5.msi
+- **URL**: https://www.opendesign.com/guestfiles/get?filename=ODAFileConverter_QT6_vc16_amd64dll_26.7.msi
 
 #### oda-odaviewer
 
@@ -39882,7 +39900,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `oda-odaviewer.yml`
-- **URL**: https://www.opendesign.com/guestfiles/get?filename=ODAViewer_QT6_vc16_amd64dll_26.5.msi
+- **URL**: https://www.opendesign.com/guestfiles/get?filename=ODAViewer_QT6_vc16_amd64dll_26.7.msi
 
 #### odamex-odamex
 
@@ -44796,7 +44814,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `redhat-podman.yml`
-- **URL**: https://github.com/containers/podman/releases/download/v5.5.2/podman-5.5.2-setup.exe
+- **URL**: https://github.com/containers/podman/releases/download/v5.6.0/podman-5.6.0-setup.exe
 
 #### redhat-virtviewer
 
@@ -51339,7 +51357,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `tencent-codebuddy.yml`
-- **URL**: https://codebuddy-1328495429.cos.accelerate.myqcloud.com/aiide/win32-x64-user/CodeBuddy-win32-x64-user-0.1.16.3801649-9584b68f.exe
+- **URL**: https://codebuddy-1328495429.cos.accelerate.myqcloud.com/aiide/win32-x64-user/CodeBuddy-win32-x64-user-0.1.20.4381318-f0518222.exe
 
 #### tencent-cosbrowser
 
@@ -51555,7 +51573,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `tencent-yuanbao.yml`
-- **URL**: https://cdn-hybrid-prod.hunyuan.tencent.com/Desktop/official/457bc83d8ca2cdf9fa86cee399e85075/yuanbao_2.34.0.604_x64.exe
+- **URL**: https://cdn-hybrid-prod.hunyuan.tencent.com/Desktop/official/fd1fd44a3bad113a406b344a100b76e5/yuanbao_2.35.0.612_x64.exe
 
 #### tenpi-musicplayer
 
@@ -54300,7 +54318,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `veyonsolutions-veyon.yml`
-- **URL**: https://github.com/veyon/veyon/releases/download/v4.9.6.1/veyon-4.9.6.1-win64-setup.exe
+- **URL**: https://github.com/veyon/veyon/releases/download/v4.9.7/veyon-4.9.7.0-win64-setup.exe
 
 #### vgn-vgnhub
 
@@ -54381,7 +54399,7 @@ Total entries processed: 6422
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `videolan-vlc-nightly.yml`
-- **URL**: https://artifacts.videolan.org/vlc/nightly-win64/20250806-0421/vlc-4.0.0-dev-win64-231f5d40.msi
+- **URL**: https://artifacts.videolan.org/vlc/nightly-win64/20250815-0421/vlc-4.0.0-dev-win64-307e6485.msi
 
 #### videolan-vlc
 

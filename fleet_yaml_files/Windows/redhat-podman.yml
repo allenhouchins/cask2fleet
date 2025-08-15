@@ -1,4 +1,4 @@
-url: https://github.com/containers/podman/releases/download/v5.5.2/podman-5.5.2-setup.exe
+url: https://github.com/containers/podman/releases/download/v5.6.0/podman-5.6.0-setup.exe
 automatic_install: false
 self_service: false
 categories: []
