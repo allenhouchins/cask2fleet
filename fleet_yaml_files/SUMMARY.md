@@ -1,12 +1,12 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-15 18:05:02 UTC
+Generated on: 2025-08-16 06:04:37 UTC
 
 ## Summary
 
-Total entries processed: 6424
+Total entries processed: 6427
 - macOS files: 398
-- Windows files: 6026
+- Windows files: 6029
 
 ## Generated Files
 
@@ -1405,7 +1405,7 @@ Total entries processed: 6424
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `hackolade.yml`
-- **URL**: https://hackolade.s3.amazonaws.com/previous/v8.3.7/Hackolade-macARM64-setup-signed.pkg
+- **URL**: https://hackolade.s3.amazonaws.com/previous/v8.3.8/Hackolade-macARM64-setup-signed.pkg
 
 #### hancom-docs
 
@@ -3349,7 +3349,7 @@ Total entries processed: 6424
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `weasis.yml`
-- **URL**: https://github.com/nroduit/Weasis/releases/download/v4.6.2/Weasis-4.6.2-aarch64.pkg
+- **URL**: https://github.com/nroduit/Weasis/releases/download/v4.6.3/Weasis-4.6.3-aarch64.pkg
 
 #### webex-meetings
 
@@ -3394,7 +3394,7 @@ Total entries processed: 6424
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `windows-app.yml`
-- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.2.0_installer.pkg
+- **URL**: https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.2.1_installer.pkg
 
 #### wire
 
@@ -5322,7 +5322,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `alist-alistdesktop.yml`
-- **URL**: https://github.com/AlistGo/desktop-release/releases/download/v3.48.0/alist-desktop_3.48.0_x64-setup.exe
+- **URL**: https://github.com/AlistGo/desktop-release/releases/download/v3.50.0/alist-desktop_3.50.0_x64-setup.exe
 
 #### allentown521-saladict
 
@@ -7959,7 +7959,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `azaharemu-azahar.yml`
-- **URL**: https://github.com/azahar-emu/azahar/releases/download/2122.1/azahar-2122.1-windows-msvc-installer.exe
+- **URL**: https://github.com/azahar-emu/azahar/releases/download/2123/azahar-2123-windows-msvc-installer.exe
 
 #### azeus-convene
 
@@ -15780,7 +15780,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `discord-discord-canary.yml`
-- **URL**: https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.696/DiscordCanarySetup.exe
+- **URL**: https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.697/DiscordCanarySetup.exe
 
 #### discord-discord-development
 
@@ -15798,7 +15798,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `discord-discord-ptb.yml`
-- **URL**: https://ptb.dl2.discordapp.net/distro/app/ptb/win/x64/1.0.1155/DiscordPTBSetup.exe
+- **URL**: https://ptb.dl2.discordapp.net/distro/app/ptb/win/x64/1.0.1156/DiscordPTBSetup.exe
 
 #### discord-discord
 
@@ -19454,6 +19454,33 @@ Total entries processed: 6424
 - **File**: `foundrylabs-devbook.yml`
 - **URL**: https://download.todesktop.com/2102273jsy18baz/Devbook%20Setup%200.1.18.exe
 
+#### foxit-foxitreader-inno
+
+- **Source**: winget
+- **Name**: foxit-foxitreader-inno
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `foxit-foxitreader-inno.yml`
+- **URL**: https://cdn01.foxitsoftware.com/product/reader/desktop/win/2025.2.0/FoxitPDFReader20252_L10N_Setup_Prom_x64.exe
+
+#### foxit-foxitreader
+
+- **Source**: winget
+- **Name**: foxit-foxitreader
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `foxit-foxitreader.yml`
+- **URL**: https://cdn01.foxitsoftware.com/product/reader/desktop/win/2025.2.0/FoxitPDFReader20252_L10N_Setup_x64.exe
+
+#### foxit-phantompdf-subscription-msi
+
+- **Source**: winget
+- **Name**: foxit-phantompdf-subscription-msi
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `foxit-phantompdf-subscription-msi.yml`
+- **URL**: https://cdn01.foxitsoftware.com/product/phantomPDF/desktop/win/2025.2.0/FoxitPDFEditor20252_L10N_Setup.msi
+
 #### foxit-phantompdf-subscription
 
 - **Source**: winget
@@ -21144,7 +21171,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/acuymazatvlflwsi7m5h4m2r7e5a_141.0.7356.0/141.0.7356.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/acx3zmoebi5yxi3fqqkg7t57x6tq_141.0.7358.0/141.0.7358.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -23691,7 +23718,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `ima-menu.yml`
-- **URL**: https://github.com/iMAboud/iMA-Menu-Plugins/releases/download/1.0.0/iMA.Menu.exe
+- **URL**: https://github.com/iMAboud/iMA-Menu-Plugins/releases/download/1.0.1/iMA.Menu.exe
 
 #### imagemagick-imagemagick-q16
 
@@ -23943,7 +23970,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `integrit-hackolade.yml`
-- **URL**: https://s3-eu-west-1.amazonaws.com/hackolade/previous/v8.3.7/Hackolade-win64-setup-signed.exe
+- **URL**: https://s3-eu-west-1.amazonaws.com/hackolade/previous/v8.3.8/Hackolade-win64-setup-signed.exe
 
 #### intel-fortrancompiler
 
@@ -26643,7 +26670,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-akregator.yml`
-- **URL**: https://cdn.kde.org/ci-builds/pim/akregator/master/windows/akregator-master-2282-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/pim/akregator/master/windows/akregator-master-2315-windows-cl-msvc2022-x86_64.exe
 
 #### kde-ark
 
@@ -32583,7 +32610,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `mikf-gallery-dl-nightly.yml`
-- **URL**: https://github.com/gdl-org/builds/releases/download/2025.08.14/gallery-dl_windows.exe
+- **URL**: https://github.com/gdl-org/builds/releases/download/2025.08.15/gallery-dl_windows.exe
 
 #### mikrotik-thedude
 
@@ -33069,7 +33096,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `moises-moises.yml`
-- **URL**: https://download.todesktop.com/220410vabqjud82/Moises%20Setup%201.2.2%20-%20Build%202506090s7xjm1qz-x64.exe
+- **URL**: https://download.todesktop.com/220410vabqjud82/Moises%20Setup%201.2.4%20-%20Build%20250815f3yhl6oe8-x64.exe
 
 #### molotovtv-molotov
 
@@ -38262,7 +38289,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `netease-uuremote.yml`
-- **URL**: https://a56.gdl.netease.com/UURemote_Setup_4.3.1.4805_0813214547_gwqd.exe
+- **URL**: https://a56.gdl.netease.com/UURemote_Setup_4.3.2.4836_0815220020_gwqd.exe
 
 #### netease-youdaonote
 
@@ -43158,7 +43185,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `prestonn-freetube.yml`
-- **URL**: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.6-beta/freetube-0.23.6-beta-setup-x64.exe
+- **URL**: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.7-beta/freetube-0.23.7-beta-setup-x64.exe
 
 #### prestosoft-examdiff-pro
 
@@ -46992,7 +47019,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `scootersoftware-beyondcompare-5.yml`
-- **URL**: https://www.scootersoftware.com/files/BCompare-5.1.2.31185.exe
+- **URL**: https://www.scootersoftware.com/files/BCompare-5.1.3.31238.exe
 
 #### scopefun-scopefun
 
@@ -49593,7 +49620,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `stnkl-everythingtoolbar.yml`
-- **URL**: https://github.com/srwi/EverythingToolbar/releases/download/2.0.2/EverythingToolbar-2.0.2.exe
+- **URL**: https://github.com/srwi/EverythingToolbar/releases/download/2.0.3/EverythingToolbar-2.0.3.exe
 
 #### stoplight-prism
 
@@ -52320,7 +52347,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `throneproj-throne.yml`
-- **URL**: https://github.com/throneproj/Throne/releases/download/1.0.0/Throne-1.0.0-windows64-installer.exe
+- **URL**: https://github.com/throneproj/Throne/releases/download/1.0.1/Throne-1.0.1-windows64-installer.exe
 
 #### ths-futures
 
@@ -55173,7 +55200,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `weasisteam-weasis.yml`
-- **URL**: https://github.com/nroduit/Weasis/releases/download/v4.6.2/Weasis-4.6.2-x86-64.msi
+- **URL**: https://github.com/nroduit/Weasis/releases/download/v4.6.3/Weasis-4.6.3-x86-64.msi
 
 #### webalexeu-winbgp
 
@@ -57216,7 +57243,7 @@ Total entries processed: 6424
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yubico-yubikeysmartcardminidriver.yml`
-- **URL**: https://downloads.yubico.com/support/YubiKey-Minidriver-4.6.3.252-x64.msi
+- **URL**: https://downloads.yubico.com/support/YubiKey-Minidriver-5.0.1.272-x64.msi
 
 #### yuejing-kocard
 

@@ -1,10 +1,7 @@
-url: https://github.com/gdl-org/builds/releases/download/2025.08.15/gallery-dl_windows.exe
+url: https://cdn01.foxitsoftware.com/product/phantomPDF/desktop/win/2025.2.0/FoxitPDFEditor20252_L10N_Setup.msi
 automatic_install: false
 self_service: false
 categories: []
-install_script: '# TODO: Add install script for this EXE'
-uninstall_script: '# TODO: Add uninstall script for this EXE'
 
 # Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
 # This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
-# Note: Any exe requires an install script and uninstall script to be defined
