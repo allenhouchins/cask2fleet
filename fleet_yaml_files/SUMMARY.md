@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-16 06:04:37 UTC
+Generated on: 2025-08-16 18:04:29 UTC
 
 ## Summary
 
@@ -2458,7 +2458,7 @@ Total entries processed: 6427
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `picoscope-beta.yml`
-- **URL**: https://www.picotech.com/download/software/beta/PicoScope_7_TandM_Early_Access_7.1.58.6335.pkg
+- **URL**: https://www.picotech.com/download/software/beta/PicoScope_7_TandM_Early_Access_7.2.3.6884.x64.pkg
 
 #### picoscope
 
@@ -6348,7 +6348,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `amneziavpn-amnezia.yml`
-- **URL**: https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.1/AmneziaVPN_4.8.9.1_windows_x64.exe
+- **URL**: https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.2/AmneziaVPN_4.8.9.2_windows_x64.exe
 
 #### amrdeveloper-fileql
 
@@ -14196,7 +14196,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `crystaldewworld-crystalmarkretro-aoiedition.yml`
-- **URL**: https://sourceforge.net/projects/crystalmarkretro/files/2.0.4/CrystalMarkRetro2_0_4AoiAds.exe
+- **URL**: https://sourceforge.net/projects/crystalmarkretro/files/2.0.5/CrystalMarkRetro2_0_5AoiAds.exe
 
 #### crystaldewworld-crystalmarkretro-shizukuedition
 
@@ -14205,7 +14205,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `crystaldewworld-crystalmarkretro-shizukuedition.yml`
-- **URL**: https://sourceforge.net/projects/crystalmarkretro/files/2.0.4/CrystalMarkRetro2_0_4ShizukuAds.exe
+- **URL**: https://sourceforge.net/projects/crystalmarkretro/files/2.0.5/CrystalMarkRetro2_0_5ShizukuAds.exe
 
 #### crystaldewworld-crystalmarkretro
 
@@ -14214,7 +14214,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `crystaldewworld-crystalmarkretro.yml`
-- **URL**: https://sourceforge.net/projects/crystalmarkretro/files/2.0.4/CrystalMarkRetro2_0_4Ads.exe
+- **URL**: https://sourceforge.net/projects/crystalmarkretro/files/2.0.5/CrystalMarkRetro2_0_5Ads.exe
 
 #### crystalideasoftware-uninstalltool
 
@@ -19065,7 +19065,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `flameshot-flameshot.yml`
-- **URL**: https://github.com/flameshot-org/flameshot/releases/download/v13.0.1/Flameshot-13.0.1-win64.msi
+- **URL**: https://github.com/flameshot-org/flameshot/releases/download/v13.1.0/Flameshot-13.1.0-win64.msi
 
 #### flawiddsouza-restfox
 
@@ -21171,7 +21171,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/acx3zmoebi5yxi3fqqkg7t57x6tq_141.0.7358.0/141.0.7358.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/cqbjjwdlr3rubthagtiu7yaqnm_141.0.7359.0/141.0.7359.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -27435,7 +27435,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kenkun-aviutlexedit2.yml`
-- **URL**: https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta6_setup.exe
+- **URL**: https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta7_setup.exe
 
 #### kerinlin-orangeplayer
 
@@ -52608,7 +52608,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `timokoessler-2faguard.yml`
-- **URL**: https://github.com/timokoessler/2FAGuard/releases/download/v1.5.7/2FAGuard-Installer-1.5.7.exe
+- **URL**: https://github.com/timokoessler/2FAGuard/releases/download/v1.6.0/2FAGuard-Installer-1.6.0.exe
 
 #### timschneeb-galaxybudsclient
 
@@ -52842,7 +52842,7 @@ Total entries processed: 6427
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `topalasoftwaresolutions-siw.yml`
-- **URL**: https://www.gtopala.com/download/20250713b/siwtrial-setup.exe
+- **URL**: https://www.gtopala.com/download/20250713d/siwtrial-setup.exe
 
 #### topazlabs-topazdenoiseai
 
