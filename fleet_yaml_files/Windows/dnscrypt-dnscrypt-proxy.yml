@@ -1,10 +1,7 @@
-url: https://github.com/kaedei/dandanplay/releases/download/windows-16.1.0.0/dandanplay-x64_16.1.0.exe
+url: https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/2.1.13/dnscrypt-proxy-x64-2.1.13.msi
 automatic_install: false
 self_service: false
 categories: []
-install_script: '# TODO: Add install script for this EXE'
-uninstall_script: '# TODO: Add uninstall script for this EXE'
 
 # Categories are currently limited to Browsers, Communication, Developer tools, and Productivity.
 # This is a minimum version of this file. All configurable parameters can be seen at https://fleetdm.com/docs/rest-api/rest-api#parameters139
-# Note: Any exe requires an install script and uninstall script to be defined

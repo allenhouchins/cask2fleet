@@ -1,4 +1,4 @@
-url: https://releases.crossplane.io/stable/v1.20.1/bin/windows_amd64/crossplane.exe
+url: https://releases.crossplane.io/stable/v2.0.2/bin/windows_amd64/crossplane.exe
 automatic_install: false
 self_service: false
 categories: []

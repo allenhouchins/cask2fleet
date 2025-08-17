@@ -1,4 +1,4 @@
-url: https://cdn.kde.org/ci-builds/pim/kalarm/master/windows/kalarm-master-2853-windows-cl-msvc2022-x86_64.exe
+url: https://github.com/DonutWare/Fladder/releases/download/nightly/Fladder-Windows-0.7.5-nightly-Setup.exe
 automatic_install: false
 self_service: false
 categories: []

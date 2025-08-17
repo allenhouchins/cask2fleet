@@ -1,4 +1,4 @@
-url: https://packages.chef.io/files/stable/chef/18.7.6/windows/10/chef-client-18.7.6-1-x64.msi
+url: https://packages.chef.io/files/stable/chef/18.8.9/windows/10/chef-client-18.8.9-1-x64.msi
 automatic_install: false
 self_service: false
 categories: []
