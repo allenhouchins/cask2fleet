@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-17 06:04:56 UTC
+Generated on: 2025-08-17 18:04:15 UTC
 
 ## Summary
 
@@ -11955,7 +11955,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `centstudio-centbrowser.yml`
-- **URL**: https://static.centbrowser.com/win_stable/5.2.1168.75/centbrowser_5.2.1168.75_x64.exe
+- **URL**: https://static.centbrowser.com/win_stable/5.2.1168.76/centbrowser_5.2.1168.76_x64.exe
 
 #### certifytheweb-certifysslmanager
 
@@ -14718,7 +14718,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `dataflare-dataflare.yml`
-- **URL**: https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-2.3.0.exe
+- **URL**: https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-2.3.1.exe
 
 #### datahammer-hammerpdf
 
@@ -21207,7 +21207,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/advysxwgivlxgsnihwamjqwemy6a_141.0.7360.0/141.0.7360.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/adgb3gs6uhnqaq2ytjbjazabtfja_141.0.7361.0/141.0.7361.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -41421,7 +41421,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `oxc-project-oxlint.yml`
-- **URL**: https://github.com/oxc-project/oxc/releases/download/oxlint_v1.11.2/oxlint-win32-x64.exe
+- **URL**: https://github.com/oxc-project/oxc/releases/download/oxlint_v1.12.0/oxlint-win32-x64.exe
 
 #### oxen-io-lokinet
 
@@ -48234,7 +48234,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `smartsoft-smartftp.yml`
-- **URL**: https://static.smartftp.com/static/Products/Client/10.0.3287.0/x64/SmartFTP.msi
+- **URL**: https://static.smartftp.com/static/Products/Client/10.0.3288.0/x64/SmartFTP.msi
 
 #### smath-smathstudio-enterprise
 
@@ -52878,7 +52878,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `topalasoftwaresolutions-siw.yml`
-- **URL**: https://www.gtopala.com/download/20250713d/siwtrial-setup.exe
+- **URL**: https://www.gtopala.com/download/20250817/siwtrial-setup.exe
 
 #### topazlabs-topazdenoiseai
 
@@ -57180,7 +57180,7 @@ Total entries processed: 6429
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp-nightly.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.13.233032/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.16.232932/yt-dlp.exe
 
 #### yt-dlp-yt-dlp
 
