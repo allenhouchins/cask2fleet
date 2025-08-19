@@ -1,12 +1,12 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-18 18:04:53 UTC
+Generated on: 2025-08-19 06:05:15 UTC
 
 ## Summary
 
-Total entries processed: 6428
+Total entries processed: 6434
 - macOS files: 397
-- Windows files: 6031
+- Windows files: 6037
 
 ## Generated Files
 
@@ -3079,7 +3079,7 @@ Total entries processed: 6428
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `teleport-suite.yml`
-- **URL**: https://cdn.teleport.dev/teleport-18.1.4.pkg
+- **URL**: https://cdn.teleport.dev/teleport-18.1.5.pkg
 
 #### temurin-11
 
@@ -7700,6 +7700,15 @@ Total entries processed: 6428
 - **File**: `autodesk-desktopapp.yml`
 - **URL**: https://emsfs.autodesk.com/utility/adskapp/landing/files/AdskappBootstrap/Autodesk_Desktop_App_Bootstrap.exe
 
+#### autodesk-desktopconnector
+
+- **Source**: winget
+- **Name**: autodesk-desktopconnector
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `autodesk-desktopconnector.yml`
+- **URL**: https://up.autodesk.com/2017/CDX/AB4AADCC-F890-4B4F-A7A6-B0FBD2386796/DesktopConnector-x64.exe
+
 #### autodesk-eagle
 
 - **Source**: winget
@@ -11489,6 +11498,15 @@ Total entries processed: 6428
 - **File**: `c3er-mdview.yml`
 - **URL**: https://github.com/c3er/mdview/releases/download/v3.2.0/mdview-3.2.0-x64.exe
 
+#### cabininteractive-hamrspro
+
+- **Source**: winget
+- **Name**: cabininteractive-hamrspro
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `cabininteractive-hamrspro.yml`
+- **URL**: https://hamrs-dist.s3.amazonaws.com/hamrs-pro-2.43.0-win-x64.exe
+
 #### cactusnetwork-cactusblockchaingui
 
 - **Source**: winget
@@ -11640,7 +11658,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `canva-canva-cn.yml`
-- **URL**: https://desktop-release.canva.cn/Canva%20Setup%201.112.0-cn.exe
+- **URL**: https://desktop-release.canva.cn/Canva%20Setup%201.113.0-cn.exe
 
 #### canva-canva
 
@@ -11649,7 +11667,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `canva-canva.yml`
-- **URL**: https://desktop-release.canva.com/Canva%20Setup%201.112.0.exe
+- **URL**: https://desktop-release.canva.com/Canva%20Setup%201.113.0.exe
 
 #### caobinrg-electron-office-tools
 
@@ -12459,7 +12477,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `chrox-readest.yml`
-- **URL**: https://github.com/readest/readest/releases/download/v0.9.71/Readest_0.9.71_x64-setup.exe
+- **URL**: https://github.com/readest/readest/releases/download/v0.9.72/Readest_0.9.72_x64-setup.exe
 
 #### chungzh-notepanda
 
@@ -12676,6 +12694,15 @@ Total entries processed: 6428
 - **Version**: 
 - **File**: `ckylinmc-pasteme.yml`
 - **URL**: https://github.com/CKylinMC/PasteMe/releases/download/v1.2.4/PasteMe_1.2.4_x64-setup.exe
+
+#### clanmonsterxd-cmd-game-menu
+
+- **Source**: winget
+- **Name**: clanmonsterxd-cmd-game-menu
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `clanmonsterxd-cmd-game-menu.yml`
+- **URL**: https://github.com/clanmonsterxd-cmd/Game-Menu/releases/download/v1.0.0.1/setup_game_menu.exe
 
 #### clashvergerev-clashvergerev
 
@@ -14691,7 +14718,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `datadog-agent.yml`
-- **URL**: https://s3.amazonaws.com/ddagent-windows-stable/ddagent-cli-7.69.0.msi
+- **URL**: https://s3.amazonaws.com/ddagent-windows-stable/ddagent-cli-7.69.1.msi
 
 #### datadog-dd-trace-dotnet
 
@@ -15798,7 +15825,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `discord-discord-development.yml`
-- **URL**: https://development.dl2.discordapp.net/distro/app/development/win/x64/1.0.932/DiscordDevelopmentSetup.exe
+- **URL**: https://development.dl2.discordapp.net/distro/app/development/win/x64/1.0.933/DiscordDevelopmentSetup.exe
 
 #### discord-discord-ptb
 
@@ -15889,6 +15916,15 @@ Total entries processed: 6428
 - **Version**: 
 - **File**: `dixa-dixa.yml`
 - **URL**: https://github.com/dixahq/dixa-desktop-app-release/releases/download/v4.0.9/dixa-setup-4.0.9.msi
+
+#### dj7nt-waveloggate
+
+- **Source**: winget
+- **Name**: dj7nt-waveloggate
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `dj7nt-waveloggate.yml`
+- **URL**: https://github.com/wavelog/WaveLogGate/releases/download/v1.1.6/WaveLogGate-1.1.6.Setup.exe
 
 #### dji-djiassistant2-enterpriseseries
 
@@ -19517,6 +19553,15 @@ Total entries processed: 6428
 - **File**: `foxit-phantompdf-subscription.yml`
 - **URL**: https://cdn01.foxitsoftware.com/product/phantomPDF/desktop/win/2025.2.0/FoxitPDFEditor20252_L10N_Setup_Website_x64.exe
 
+#### foxit-phantompdf
+
+- **Source**: winget
+- **Name**: foxit-phantompdf
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `foxit-phantompdf.yml`
+- **URL**: https://cdn01.foxitsoftware.com/product/phantomPDF/desktop/win/14.0.0/FoxitPDFEditor140_L10N_Setup_x64.exe
+
 #### framer-framer
 
 - **Source**: winget
@@ -21198,7 +21243,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/acgklnv6lez3jem5w7amligmpv2q_141.0.7363.0/141.0.7363.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/p5qkbdjg2w2zgxb56u3haj547q_141.0.7364.0/141.0.7364.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -21729,7 +21774,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `gravitational-teleportconnect.yml`
-- **URL**: https://cdn.teleport.dev/Teleport%20Connect%20Setup-18.1.4.exe
+- **URL**: https://cdn.teleport.dev/Teleport%20Connect%20Setup-18.1.5.exe
 
 #### grayloginc-graylogsidecar
 
@@ -25590,7 +25635,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `jetbrains-goland.yml`
-- **URL**: https://download.jetbrains.com/go/goland-2025.2.exe
+- **URL**: https://download.jetbrains.com/go/goland-2025.2.0.1.exe
 
 #### jetbrains-hub
 
@@ -26067,7 +26112,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `jlc-easyeda.yml`
-- **URL**: https://image.easyeda.com/files/easyeda-windows-x64-6.5.5.exe
+- **URL**: https://image.easyeda.com/files/easyeda-windows-x64-6.5.51.exe
 
 #### jlc-lceda-pro
 
@@ -26474,6 +26519,15 @@ Total entries processed: 6428
 - **File**: `jziolkowski-tdm.yml`
 - **URL**: https://github.com/jziolkowski/tdm/releases/download/v0.2.13/tdmgr_0.2.13.exe
 
+#### k-software-dxlog-net
+
+- **Source**: winget
+- **Name**: k-software-dxlog-net
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `k-software-dxlog-net.yml`
+- **URL**: https://dxlog.net/sw/files/DXLog.net-2.6.19.msi
+
 #### k3d-k3d
 
 - **Source**: winget
@@ -26787,7 +26841,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-filelight.yml`
-- **URL**: https://cdn.kde.org/ci-builds/utilities/filelight/release-25.08/windows/filelight-release_25.08-1836-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/utilities/filelight/release-25.08/windows/filelight-release_25.08-1849-windows-cl-msvc2022-x86_64.exe
 
 #### kde-gcompris
 
@@ -26877,7 +26931,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-kate.yml`
-- **URL**: https://cdn.kde.org/ci-builds/utilities/kate/release-25.08/windows/kate-release_25.08-9959-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/utilities/kate/release-25.08/windows/kate-release_25.08-10047-windows-cl-msvc2022-x86_64.exe
 
 #### kde-katomic
 
@@ -26931,7 +26985,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-kbruch.yml`
-- **URL**: https://cdn.kde.org/ci-builds/education/kbruch/master/windows/kbruch-master-715-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/education/kbruch/master/windows/kbruch-master-722-windows-cl-msvc2022-x86_64.exe
 
 #### kde-kdeconnect
 
@@ -27003,7 +27057,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-kigo.yml`
-- **URL**: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-767-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-772-windows-cl-msvc2022-x86_64.exe
 
 #### kde-killbots
 
@@ -27327,7 +27381,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-neochat.yml`
-- **URL**: https://cdn.kde.org/ci-builds/network/neochat/release-25.08/windows/neochat-release_25.08-12707-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/network/neochat/release-25.08/windows/neochat-release_25.08-12797-windows-cl-msvc2022-x86_64.exe
 
 #### kde-okular
 
@@ -27336,7 +27390,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-okular.yml`
-- **URL**: https://cdn.kde.org/ci-builds/graphics/okular/release-25.08/windows/okular-release_25.08-6624-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/graphics/okular/release-25.08/windows/okular-release_25.08-6649-windows-cl-msvc2022-x86_64.exe
 
 #### kde-parley
 
@@ -27606,7 +27660,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kicad-kicad.yml`
-- **URL**: https://github.com/KiCad/kicad-source-mirror/releases/download/9.0.3/kicad-9.0.3-x86_64.exe
+- **URL**: https://github.com/KiCad/kicad-source-mirror/releases/download/9.0.4/kicad-9.0.4-x86_64.exe
 
 #### kidasasoftware-inc-milestonesprofessional2019-64
 
@@ -28173,7 +28227,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kuingsmile-piclist.yml`
-- **URL**: https://github.com/Kuingsmile/PicList/releases/download/v3.0.0/PicList-Setup-3.0.0.exe
+- **URL**: https://github.com/Kuingsmile/PicList/releases/download/v3.0.1/PicList-Setup-3.0.1.exe
 
 #### kumospace-kumospace
 
@@ -29415,7 +29469,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `loom-loom.yml`
-- **URL**: https://cdn.loom.com/desktop-packages/Loom%20Setup%200.310.0.exe
+- **URL**: https://cdn.loom.com/desktop-packages/Loom%20Setup%200.311.0.exe
 
 #### loot-loot
 
@@ -32637,7 +32691,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `mikf-gallery-dl-nightly.yml`
-- **URL**: https://github.com/gdl-org/builds/releases/download/2025.08.16/gallery-dl_windows.exe
+- **URL**: https://github.com/gdl-org/builds/releases/download/2025.08.18/gallery-dl_windows.exe
 
 #### mikrotik-thedude
 
@@ -40449,7 +40503,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `oomol-oomolstudio.yml`
-- **URL**: https://static.oomol.com/release/stable/win32/x64/OOMOL%20Studio-1.3.5-2025-07-30.21.exe
+- **URL**: https://static.oomol.com/release/stable/win32/x64/OOMOL%20Studio-1.3.6-2025-08-19.08.exe
 
 #### ooni-ooni-probe
 
@@ -50061,7 +50115,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `superflexiblesoftware-szarchiver.yml`
-- **URL**: https://www.syncovery.com/release/SzArchiver64Setup0.84.exe
+- **URL**: https://www.syncovery.com/release/SzArchiver64Setup0.90.exe
 
 #### superhuman-superhuman
 
@@ -50259,7 +50313,7 @@ Total entries processed: 6428
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `sweetscape-010editor.yml`
-- **URL**: https://download.sweetscape.com/010EditorWin64Installer16.0.exe
+- **URL**: https://download.sweetscape.com/010EditorWin64Installer16.0.1.exe
 
 #### swi-prolog-swi-prolog
 
