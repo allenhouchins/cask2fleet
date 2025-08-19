@@ -1,4 +1,4 @@
-url: https://github.com/grafana/k6/releases/download/v1.2.1/k6-v1.2.1-windows-amd64.msi
+url: https://github.com/grafana/k6/releases/download/v1.2.2/k6-v1.2.2-windows-amd64.msi
 automatic_install: false
 self_service: false
 categories: []
