@@ -1,4 +1,4 @@
-url: https://downloads.mongodb.com/compass/mongodb-compass-1.46.7-win32-x64.msi
+url: https://github.com/mongodb-js/compass/releases/download/v1.46.8/mongodb-compass-1.46.8-win32-x64.msi
 automatic_install: false
 self_service: false
 categories: []

@@ -1,4 +1,4 @@
-url: https://download.splunk.com/products/universalforwarder/releases/9.4.3/windows/splunkforwarder-9.4.3-237ebbd22314-windows-x64.msi
+url: https://download.splunk.com/products/universalforwarder/releases/9.4.4/windows/splunkforwarder-9.4.4-f627d88b766b-windows-x64.msi
 automatic_install: false
 self_service: false
 categories: []
