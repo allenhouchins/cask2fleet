@@ -1,12 +1,12 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-20 06:05:27 UTC
+Generated on: 2025-08-20 18:04:54 UTC
 
 ## Summary
 
-Total entries processed: 6435
+Total entries processed: 6436
 - macOS files: 397
-- Windows files: 6038
+- Windows files: 6039
 
 ## Generated Files
 
@@ -2773,7 +2773,7 @@ Total entries processed: 6435
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `segger-jlink.yml`
-- **URL**: https://www.segger.com/downloads/jlink/JLink_MacOSX_V860_universal.pkg
+- **URL**: https://www.segger.com/downloads/jlink/JLink_MacOSX_V862_universal.pkg
 
 #### segger-ozone
 
@@ -3999,7 +3999,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `abgox-inputtip.yml`
-- **URL**: https://github.com/abgox/InputTip/releases/download/v2025.08.03/InputTip.exe
+- **URL**: https://github.com/abgox/InputTip/releases/download/v2025.08.20/InputTip.exe
 
 #### ablaze-floorp-daylight
 
@@ -6906,7 +6906,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `appbytroye-koodoreader.yml`
-- **URL**: https://dl.koodoreader.com/v2.1.1/Koodo-Reader-2.1.1-arm64.exe
+- **URL**: https://dl.koodoreader.com/v2.1.1/Koodo-Reader-2.1.1-x64.exe
 
 #### appest-dida
 
@@ -7680,7 +7680,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `authormore-penpotdesktop.yml`
-- **URL**: https://github.com/author-more/penpot-desktop/releases/download/v0.17.0/Penpot-Desktop---Setup.exe
+- **URL**: https://github.com/author-more/penpot-desktop/releases/download/v0.18.0/Penpot-Desktop---Setup.exe
 
 #### authpass-authpass
 
@@ -7977,7 +7977,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `azaharemu-azahar.yml`
-- **URL**: https://github.com/azahar-emu/azahar/releases/download/2123/azahar-2123-windows-msvc-installer.exe
+- **URL**: https://github.com/azahar-emu/azahar/releases/download/2123.1/azahar-2123.1-windows-msvc-installer.exe
 
 #### azeus-convene
 
@@ -11406,7 +11406,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `bytedance-feishu.yml`
-- **URL**: https://sf3-cn.feishucdn.com/obj/ee-appcenter/c0a0716b/Feishu-win32_x64-7.49.9-signed.exe
+- **URL**: https://sf3-cn.feishucdn.com/obj/ee-appcenter/b829f649/Feishu-win32_x64-7.50.9-signed.exe
 
 #### bytedance-jianyingpro
 
@@ -14727,7 +14727,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `datadog-agent.yml`
-- **URL**: https://s3.amazonaws.com/ddagent-windows-stable/ddagent-cli-7.69.1.msi
+- **URL**: https://s3.amazonaws.com/ddagent-windows-stable/ddagent-cli-7.69.2.msi
 
 #### datadog-dd-trace-dotnet
 
@@ -15483,7 +15483,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `devolutions-workspace.yml`
-- **URL**: https://cdn.devolutions.net/download/Devolutions.Workspace-2025.2.3.0-x64.msi
+- **URL**: https://cdn.devolutions.net/download/Devolutions.Workspace-2025.2.4.0-x64.msi
 
 #### devproxy-devproxy-beta
 
@@ -15825,7 +15825,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `discord-discord-canary.yml`
-- **URL**: https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.699/DiscordCanarySetup.exe
+- **URL**: https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.700/DiscordCanarySetup.exe
 
 #### discord-discord-development
 
@@ -16626,7 +16626,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `duplicati-duplicati-canary.yml`
-- **URL**: https://github.com/duplicati/duplicati/releases/download/v2.1.1.101_canary_2025-08-19/duplicati-2.1.1.101_canary_2025-08-19-win-x64-gui.msi
+- **URL**: https://github.com/duplicati/duplicati/releases/download/v2.1.2.0_beta_2025-08-20/duplicati-2.1.2.0_beta_2025-08-20-win-x64-gui.msi
 
 #### duplicati-duplicati
 
@@ -17472,7 +17472,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `ej-technologies-jprofiler-15.yml`
-- **URL**: https://download.ej-technologies.com/jprofiler/jprofiler_windows-x64_15_0_2.exe
+- **URL**: https://download.ej-technologies.com/jprofiler/jprofiler_windows-x64_15_0_3.exe
 
 #### ej-technologies-perfino-4
 
@@ -21252,7 +21252,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/eml43uobf3s43ww45dghk44c3a_141.0.7366.0/141.0.7366.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/mbstxzvbwgmxecvq62bjiyoosu_141.0.7367.0/141.0.7367.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -21756,7 +21756,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `graphpad-prism.yml`
-- **URL**: https://cdn.graphpad.com/downloads/prism/10/10.5.0/InstallPrism10.msi
+- **URL**: https://cdn.graphpad.com/downloads/prism/10/10.6.0/InstallPrism10.msi
 
 #### graphviz-graphviz
 
@@ -25842,7 +25842,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `jetbrains-rubymine-eap.yml`
-- **URL**: https://download.jetbrains.com/ruby/RubyMine-252.23892.253.exe
+- **URL**: https://download.jetbrains.com/ruby/RubyMine-252.25557.4.exe
 
 #### jetbrains-rubymine
 
@@ -26769,7 +26769,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-ark.yml`
-- **URL**: https://cdn.kde.org/ci-builds/utilities/ark/release-25.08/windows/ark-release_25.08-2222-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/utilities/ark/release-25.08/windows/ark-release_25.08-2237-windows-cl-msvc2022-x86_64.exe
 
 #### kde-blinken
 
@@ -28209,7 +28209,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kubus-bcfmanager-standalone.yml`
-- **URL**: https://download.bimcollab.com/BCF%20Manager%207.0%20build%205%20SA.exe
+- **URL**: https://download.bimcollab.com/BCF%20Manager%207.1%20build%2012%20SA.exe
 
 #### kubus-bimcollabinstaller
 
@@ -38361,7 +38361,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `netease-lingxi.yml`
-- **URL**: https://cowork-storage-public-cdn.lx.netease.com/lxbg2/2025/07/02/f3278a9266874b098181545d40dd362b.exe?download=lingxi_win_x64_1.52.0.exe
+- **URL**: https://cowork-storage-public-cdn.lx.netease.com/lxbg2/2025/08/15/9cf236d1f6894c8d820f62dfe09825c9.exe?download=lingxi_win_x64_1.53.1.exe
 
 #### netease-qiyu
 
@@ -40215,7 +40215,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `oliverbetz-exiftool.yml`
-- **URL**: https://oliverbetz.de/cms/files/Artikel/ExifTool-for-Windows/ExifTool_install_13.33_64.exe
+- **URL**: https://oliverbetz.de/cms/files/Artikel/ExifTool-for-Windows/ExifTool_install_13.34_64.exe
 
 #### oliverfida-fsimman
 
@@ -40557,7 +40557,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `openagentplatform-dive.yml`
-- **URL**: https://github.com/OpenAgentPlatform/Dive/releases/download/v0.9.2/dive_0.9.2_x64-setup.exe
+- **URL**: https://github.com/OpenAgentPlatform/Dive/releases/download/v0.9.3/dive_0.9.3_x64-setup.exe
 
 #### openaudible-openaudible
 
@@ -42465,7 +42465,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `piriform-ccleaner.yml`
-- **URL**: https://download.ccleaner.com/ccsetup638.exe
+- **URL**: https://download.ccleaner.com/ccsetup639.exe
 
 #### piriform-recuva
 
@@ -42520,6 +42520,15 @@ Total entries processed: 6435
 - **Version**: 
 - **File**: `pixel-point-kube-forwarder.yml`
 - **URL**: https://github.com/pixel-point/kube-forwarder/releases/download/v1.5.1/kube-forwarder.exe
+
+#### pixellu-smartalbums
+
+- **Source**: winget
+- **Name**: pixellu-smartalbums
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `pixellu-smartalbums.yml`
+- **URL**: https://smartalbums-downloads.pixellu.com/psa/windows/SmartAlbums-2025.6.0-x64.exe
 
 #### pixelsltd-peerbrain
 
@@ -44166,7 +44175,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `qingfeng-heyboxchat.yml`
-- **URL**: https://macc.max-c.com/chat/pc/chat_installer_x64_new_1.46.0.1069.exe
+- **URL**: https://macc.max-c.com/chat/pc/chat_installer_x64_new_1.47.0.1099.exe
 
 #### qingfeng-heyboxwow
 
@@ -46911,7 +46920,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `satoshilabs-trezor-suite.yml`
-- **URL**: https://github.com/trezor/trezor-suite/releases/download/v25.7.4/Trezor-Suite-25.7.4-win-x64.exe
+- **URL**: https://github.com/trezor/trezor-suite/releases/download/v25.8.2/Trezor-Suite-25.8.2-win-x64.exe
 
 #### satoshilabs-trezorbridge
 
@@ -52095,7 +52104,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `thedocumentfoundation-libreoffice-sdk.yml`
-- **URL**: https://downloadarchive.documentfoundation.org/libreoffice/old/25.2.5.2/win/x86_64/LibreOffice_25.2.5.2_Win_x86-64_sdk.msi
+- **URL**: https://downloadarchive.documentfoundation.org/libreoffice/old/25.8.0.4/win/x86_64/LibreOffice_25.8.0.4_Win_x86-64_sdk.msi
 
 #### thedocumentfoundation-libreoffice
 
@@ -52104,7 +52113,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `thedocumentfoundation-libreoffice.yml`
-- **URL**: https://download.documentfoundation.org/libreoffice/stable/25.2.5/win/x86_64/LibreOffice_25.2.5_Win_x86-64.msi
+- **URL**: https://download.documentfoundation.org/libreoffice/stable/25.8.0/win/x86_64/LibreOffice_25.8.0_Win_x86-64.msi
 
 #### thedoggybradsoftwarelabs-edgescapenavigator
 
@@ -54156,7 +54165,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `vaclavslavik-poedit.yml`
-- **URL**: https://download.poedit.net/Poedit-3.6.3-setup.exe
+- **URL**: https://download.poedit.net/Poedit-3.7-setup.exe
 
 #### valentinsoftware-geotsol-2025
 
@@ -56235,7 +56244,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `wondershare-recoverit.yml`
-- **URL**: https://download.wondershare.com/cbs_down/ri_64bit_13.5.9_full4134.exe
+- **URL**: https://download.wondershare.com/cbs_down/ri_64bit_13.6.0_full4134.exe
 
 #### wondershare-repairit-cn
 
@@ -57234,7 +57243,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp-nightly.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.18.232943/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.20.024358/yt-dlp.exe
 
 #### yt-dlp-yt-dlp
 
@@ -57243,7 +57252,7 @@ Total entries processed: 6435
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp/releases/download/2025.08.11/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp/releases/download/2025.08.20/yt-dlp.exe
 
 #### ytmdesktop-ytmdesktop
 
