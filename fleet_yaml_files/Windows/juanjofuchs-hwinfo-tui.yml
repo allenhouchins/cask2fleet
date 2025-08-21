@@ -1,4 +1,4 @@
-url: https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9204/DiscordSetup.exe
+url: https://github.com/JuanjoFuchs/hwinfo-tui/releases/download/v1.0.1/hwinfo-tui-1.0.1-windows-x64.exe
 automatic_install: false
 self_service: false
 categories: []
