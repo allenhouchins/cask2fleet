@@ -1,4 +1,4 @@
-url: https://releases.hashicorp.com/vagrant/2.4.8/vagrant_2.4.8_windows_amd64.msi
+url: https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_windows_amd64.msi
 automatic_install: false
 self_service: false
 categories: []
