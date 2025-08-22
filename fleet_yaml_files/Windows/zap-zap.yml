@@ -1,4 +1,4 @@
-url: https://github.com/zaproxy/zaproxy/releases/download/v2.16.0/ZAP_2_16_0_windows.exe
+url: https://github.com/zaproxy/zaproxy/releases/download/v2.16.1/ZAP_2_16_1_windows.exe
 automatic_install: false
 self_service: false
 categories: []

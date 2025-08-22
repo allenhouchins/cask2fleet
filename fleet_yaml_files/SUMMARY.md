@@ -1,12 +1,12 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-21 18:04:40 UTC
+Generated on: 2025-08-22 06:05:42 UTC
 
 ## Summary
 
-Total entries processed: 6440
+Total entries processed: 6441
 - macOS files: 397
-- Windows files: 6043
+- Windows files: 6044
 
 ## Generated Files
 
@@ -2260,7 +2260,7 @@ Total entries processed: 6440
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `okta-advanced-server-access.yml`
-- **URL**: https://dist.scaleft.com/repos/macos/stable/all/macos-client/v1.94.0/ScaleFT-1.94.0.pkg
+- **URL**: https://dist.scaleft.com/repos/macos/stable/all/macos-client/v1.94.1/ScaleFT-1.94.1.pkg
 
 #### oktaverify
 
@@ -5268,7 +5268,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `alibaba-quark.yml`
-- **URL**: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@homepage_oficial/QuarkPC_V4.3.2.475_pc_pf30002_(zh-cn)_release_(Build2357142-250809135002-x64).exe
+- **URL**: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@homepage_oficial/QuarkPC_V4.3.5.483_pc_pf30002_(zh-cn)_release_(Build2374249-250817195711-x64).exe
 
 #### alibaba-quarkclouddrive
 
@@ -6627,7 +6627,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `anthropic-claudecode.yml`
-- **URL**: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/1.0.86/win32-x64/claude.exe
+- **URL**: https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/1.0.88/win32-x64/claude.exe
 
 #### antibodysoftware-wizfile
 
@@ -6834,7 +6834,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `anysphere-cursor.yml`
-- **URL**: https://downloads.cursor.com/production/99e3b1b4d8796e167e72823eadc66ac2d51fd40c/win32/x64/user-setup/CursorUserSetup-x64-1.5.1.exe
+- **URL**: https://downloads.cursor.com/production/460bf37e9a7b6a1f441c5faaae8d2c5dda059c18/win32/x64/user-setup/CursorUserSetup-x64-1.5.2.exe
 
 #### apache-directorystudio
 
@@ -10947,7 +10947,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `brave-brave-nightly.yml`
-- **URL**: https://github.com/brave/brave-browser/releases/download/v1.83.62/BraveBrowserStandaloneSilentNightlySetup.exe
+- **URL**: https://github.com/brave/brave-browser/releases/download/v1.83.66/BraveBrowserStandaloneSilentNightlySetup.exe
 
 #### brave-brave
 
@@ -11082,7 +11082,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `browseros-browseros.yml`
-- **URL**: https://github.com/browseros-ai/BrowserOS/releases/download/v0.21.0/BrowserOS_v0.21.0_x64_installer.exe
+- **URL**: https://github.com/browseros-ai/BrowserOS/releases/download/v0.21.1/BrowserOS_v0.21.1_x64_installer.exe
 
 #### browserstack-browserstacklocal
 
@@ -11586,7 +11586,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `calibre-calibre.yml`
-- **URL**: https://download.calibre-ebook.com/8.8.0/calibre-64bit-8.8.0.msi
+- **URL**: https://download.calibre-ebook.com/8.9.0/calibre-64bit-8.9.0.msi
 
 #### calibrite-profiler
 
@@ -12900,7 +12900,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `cloudflare-cloudflared.yml`
-- **URL**: https://github.com/cloudflare/cloudflared/releases/download/2025.8.0/cloudflared-windows-amd64.msi
+- **URL**: https://github.com/cloudflare/cloudflared/releases/download/2025.8.1/cloudflared-windows-amd64.msi
 
 #### cloudimperiumgames-rsilauncher
 
@@ -13989,7 +13989,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `crashplan-crashplan.yml`
-- **URL**: https://download.crashplan.com/installs/agent/cloud/11.7.0/911/install/CrashPlan_11.7.0_911_Win64.msi
+- **URL**: https://download.crashplan.com/installs/agent/cloud/11.7.1/4/install/CrashPlan_11.7.1_4_Win64.msi
 
 #### crazybump-crazybump
 
@@ -15447,7 +15447,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `devolutions-hubimporter.yml`
-- **URL**: https://cdn.devolutions.net/download/Setup.Hub.Importer.2025.2.26.0.msi
+- **URL**: https://cdn.devolutions.net/download/Setup.Hub.Importer.2025.2.27.0.msi
 
 #### devolutions-launcher
 
@@ -15456,7 +15456,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `devolutions-launcher.yml`
-- **URL**: https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.2025.2.26.0.msi
+- **URL**: https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.2025.2.27.0.msi
 
 #### devolutions-remotedesktopmanager
 
@@ -15465,7 +15465,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `devolutions-remotedesktopmanager.yml`
-- **URL**: https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.2025.2.26.0.msi
+- **URL**: https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.2025.2.27.0.msi
 
 #### devolutions-remotedesktopmanageragent
 
@@ -15474,7 +15474,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `devolutions-remotedesktopmanageragent.yml`
-- **URL**: https://cdn.devolutions.net/download/Setup.RemoteDesktopManagerAgent.2025.2.26.0.msi
+- **URL**: https://cdn.devolutions.net/download/Setup.RemoteDesktopManagerAgent.2025.2.27.0.msi
 
 #### devolutions-serverconsole
 
@@ -15843,7 +15843,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `discord-discord-development.yml`
-- **URL**: https://development.dl2.discordapp.net/distro/app/development/win/x64/1.0.933/DiscordDevelopmentSetup.exe
+- **URL**: https://development.dl2.discordapp.net/distro/app/development/win/x64/1.0.934/DiscordDevelopmentSetup.exe
 
 #### discord-discord-ptb
 
@@ -15852,7 +15852,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `discord-discord-ptb.yml`
-- **URL**: https://ptb.dl2.discordapp.net/distro/app/ptb/win/x64/1.0.1156/DiscordPTBSetup.exe
+- **URL**: https://ptb.dl2.discordapp.net/distro/app/ptb/win/x64/1.0.1157/DiscordPTBSetup.exe
 
 #### discord-discord
 
@@ -20775,7 +20775,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `gitlab-runner.yml`
-- **URL**: https://gitlab-runner-downloads.s3.amazonaws.com/v18.2.2/binaries/gitlab-runner-windows-amd64.exe
+- **URL**: https://gitlab-runner-downloads.s3.amazonaws.com/v18.3.0/binaries/gitlab-runner-windows-amd64.exe
 
 #### gitthermal-thermal
 
@@ -21261,7 +21261,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/acn3wqoi7rectfd4ql3ycabl4mha_141.0.7369.0/141.0.7369.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/ftcqasl47zrltvs6os237rwxta_141.0.7370.0/141.0.7370.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -21270,7 +21270,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-dev-exe.yml`
-- **URL**: https://dl.google.com/release2/chrome/ajh7myzvj6xcxue3q4p5jvknyy_141.0.7354.3/141.0.7354.3_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/nkk6augifwbwridu3tuptjvxji_141.0.7367.4/141.0.7367.4_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev
 
@@ -23727,7 +23727,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `igem-mega-12.yml`
-- **URL**: https://www.megasoftware.net/releases/MEGA_12.0.11_win64_setup.exe
+- **URL**: https://www.megasoftware.net/releases/MEGA_12.0.14_win64_setup.exe
 
 #### igem-mega-cli-12
 
@@ -23736,7 +23736,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `igem-mega-cli-12.yml`
-- **URL**: https://megasoftware.net/releases/MEGA_CC_12.0.11_win64_setup.exe
+- **URL**: https://www.megasoftware.net/releases/MEGA_CC_12.0.14_win64_setup.exe
 
 #### ignatandrei-makebookcli
 
@@ -27219,7 +27219,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-konsole.yml`
-- **URL**: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4179-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4188-windows-cl-msvc2022-x86_64.exe
 
 #### kde-kontact
 
@@ -29649,7 +29649,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `lucidlink-lucidlink.yml`
-- **URL**: https://releases.lucidlink.com/prod/win/lucidlink-3.3.7042-x64.msi
+- **URL**: https://releases.lucidlink.com/prod/win/lucidlink-3.3.7142-x64.msi
 
 #### luculentsystems-bluetoothbatterymonitor
 
@@ -30180,7 +30180,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `mapillary-mapillarytools.yml`
-- **URL**: https://github.com/mapillary/mapillary_tools/releases/download/v0.14.0/mapillary_tools-0.14.0-win-64bit.exe
+- **URL**: https://github.com/mapillary/mapillary_tools/releases/download/v0.14.1/mapillary_tools-0.14.1-win-64bit.exe
 
 #### mapillary-mapillaryuploader
 
@@ -32088,7 +32088,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `microsoft-remotedesktopclient.yml`
-- **URL**: https://res.cdn.office.net/remote-desktop-windows-client/01fdccc1-955f-4524-b230-fe34dd7b340c/RemoteDesktop_1.2.6424.0_x64.msi
+- **URL**: https://res.cdn.office.net/remote-desktop-windows-client/85469565-f22e-49bb-918c-c4872f06eb19/RemoteDesktop_1.2.6511.0_x64.msi
 
 #### microsoft-remotedesktopmmrservice
 
@@ -33160,6 +33160,15 @@ Total entries processed: 6440
 - **Version**: 
 - **File**: `modeliosoft-modelio.yml`
 - **URL**: https://github.com/ModelioOpenSource/Modelio/releases/download/v5.4.1/Modelio-Open-Source-5.4.1_64.exe
+
+#### modelscope-flowbench
+
+- **Source**: winget
+- **Name**: modelscope-flowbench
+- **Description**: Generated from WinGet repository
+- **Version**: 
+- **File**: `modelscope-flowbench.yml`
+- **URL**: https://muse-ai.oss-cn-hangzhou.aliyuncs.com/flowbench/release/win/FlowBench-0.1.0-beta-20250815.exe
 
 #### modorganizer2-modorganizer
 
@@ -39180,7 +39189,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `nodirtemirkhodjaev-fortfirewall.yml`
-- **URL**: https://github.com/tnodir/fort/releases/download/v3.19.1/FortFirewall-3.19.1-windows10-x86_64.exe
+- **URL**: https://github.com/tnodir/fort/releases/download/v3.19.2/FortFirewall-3.19.2-windows10-x86_64.exe
 
 #### nodist-nodist
 
@@ -44616,7 +44625,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `rakuten-viber.yml`
-- **URL**: https://download.cdn.viber.com/desktop/windows/25.9.0/ViberSetup.msi
+- **URL**: https://download.cdn.viber.com/desktop/windows/26.0.0/ViberSetup.msi
 
 #### rambax-simpletransfer
 
@@ -44643,7 +44652,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `rambox-rambox.yml`
-- **URL**: https://github.com/ramboxapp/download/releases/download/v2.5.0/Rambox-2.5.0-win-x64.exe
+- **URL**: https://github.com/ramboxapp/download/releases/download/v2.5.1/Rambox-2.5.1-win-x64.exe
 
 #### ramdor-thetis
 
@@ -47253,7 +47262,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `seafile-seadrive.yml`
-- **URL**: https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seadrive-3.0.15-en.msi
+- **URL**: https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seadrive-3.0.16-en.msi
 
 #### seafile-seafile
 
@@ -50754,7 +50763,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `t-troll-alienfxtools.yml`
-- **URL**: https://github.com/T-Troll/alienfx-tools/releases/download/9.3.1/alienfx-tools.msi
+- **URL**: https://github.com/T-Troll/alienfx-tools/releases/download/9.3.2/alienfx-tools.msi
 
 #### t1m0thyj-windynamicdesktop
 
@@ -51528,7 +51537,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `tencent-codebuddy.yml`
-- **URL**: https://codebuddy-1328495429.cos.accelerate.myqcloud.com/aiide/win32-x64-user/CodeBuddy-win32-x64-user-0.1.22.4827544-28a3e68d.exe
+- **URL**: https://codebuddy-1328495429.cos.accelerate.myqcloud.com/aiide/win32-x64-user/CodeBuddy-win32-x64-user-0.1.23.5101933-ccbac5bf.exe
 
 #### tencent-cosbrowser
 
@@ -55083,7 +55092,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `wagnardsoft-displaydriveruninstaller.yml`
-- **URL**: https://www.wagnardsoft.com/DDU/download/DDU%20v18.1.3.0_setup.exe
+- **URL**: https://www.wagnardsoft.com/DDU/download/DDU%20v18.1.3.1_setup.exe
 
 #### wago-addons
 
@@ -56892,7 +56901,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `xmacslabs-mogan.yml`
-- **URL**: https://github.com/XmacsLabs/mogan/releases/download/v2025.1.0/MoganSTEM-v2025.1.0-64bit-installer.exe
+- **URL**: https://github.com/XmacsLabs/mogan/releases/download/v2025.1.1/MoganSTEM-v2025.1.1-64bit-installer.exe
 
 #### xmake-io-xmake
 
@@ -57513,7 +57522,7 @@ Total entries processed: 6440
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `zap-zap.yml`
-- **URL**: https://github.com/zaproxy/zaproxy/releases/download/v2.16.0/ZAP_2_16_0_windows.exe
+- **URL**: https://github.com/zaproxy/zaproxy/releases/download/v2.16.1/ZAP_2_16_1_windows.exe
 
 #### zeankundev-suside
 

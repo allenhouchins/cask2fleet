@@ -1,4 +1,4 @@
-url: https://github.com/cloudflare/cloudflared/releases/download/2025.8.0/cloudflared-windows-amd64.msi
+url: https://github.com/cloudflare/cloudflared/releases/download/2025.8.1/cloudflared-windows-amd64.msi
 automatic_install: false
 self_service: false
 categories: []
