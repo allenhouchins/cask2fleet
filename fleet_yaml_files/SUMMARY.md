@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-24 06:04:27 UTC
+Generated on: 2025-08-24 18:04:20 UTC
 
 ## Summary
 
@@ -1540,7 +1540,7 @@ Total entries processed: 6452
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `jyutping.yml`
-- **URL**: https://github.com/yuetyam/jyutping/releases/download/0.62.0/Jyutping-v0.62.0-Mac.pkg
+- **URL**: https://github.com/yuetyam/jyutping/releases/download/0.63.0/Jyutping-v0.63.0-Mac.pkg
 
 #### kdrive
 
@@ -5277,7 +5277,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `alibaba-qoder.yml`
-- **URL**: https://qoder-ide.oss-accelerate.aliyuncs.com/release/0.1.15/QoderUserSetup-x64.exe
+- **URL**: https://qoder-ide.oss-accelerate.aliyuncs.com/release/0.1.16/QoderUserSetup-x64.exe
 
 #### alibaba-quark
 
@@ -8499,7 +8499,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `badboysm890-clara.yml`
-- **URL**: https://github.com/badboysm890/ClaraVerse/releases/download/v0.1.0-Stable/Clara.Setup.0.1.0-Stable.exe
+- **URL**: https://github.com/badboysm890/ClaraVerse/releases/download/v0.1.3/Clara.Setup.0.1.3.exe
 
 #### badlion-badlionclient
 
@@ -10200,7 +10200,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `biomejs-biome.yml`
-- **URL**: https://github.com/biomejs/biome/releases/download/@biomejs/biome@2.2.0/biome-win32-x64.exe
+- **URL**: https://github.com/biomejs/biome/releases/download/@biomejs/biome@2.2.2/biome-win32-x64.exe
 
 #### biosilico-essaywriter
 
@@ -15087,7 +15087,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `deanxv-donehub.yml`
-- **URL**: https://github.com/deanxv/done-hub/releases/download/v1.3.8/done-hub.exe
+- **URL**: https://github.com/deanxv/done-hub/releases/download/v1.4.3/done-hub.exe
 
 #### debaucheeopensourcegroup-barrier
 
@@ -21297,7 +21297,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-canary.yml`
-- **URL**: https://dl.google.com/release2/chrome/gesnfjieyxmzdjwro6642vo3xa_141.0.7372.0/141.0.7372.0_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/lh32q5ssh3xxayyqnorvmk4mum_141.0.7373.0/141.0.7373.0_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev-exe
 
@@ -21306,7 +21306,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `google-chrome-dev-exe.yml`
-- **URL**: https://dl.google.com/release2/chrome/nkk6augifwbwridu3tuptjvxji_141.0.7367.4/141.0.7367.4_chrome_installer_uncompressed.exe
+- **URL**: https://dl.google.com/release2/chrome/acepbqcnx4u3h3xpv33fbevzltbq_141.0.7367.5/141.0.7367.5_chrome_installer_uncompressed.exe
 
 #### google-chrome-dev
 
@@ -26922,7 +26922,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-elisa.yml`
-- **URL**: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-3994-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4001-windows-cl-msvc2022-x86_64.exe
 
 #### kde-falkon
 
@@ -38973,7 +38973,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `nickgasson-nvc.yml`
-- **URL**: https://github.com/nickg/nvc/releases/download/r1.17.1/nvc-1.17.1.msi
+- **URL**: https://github.com/nickg/nvc/releases/download/r1.17.2/nvc-1.17.2.msi
 
 #### nickgottschlich-socialamnesia
 
@@ -43401,7 +43401,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `prestonn-freetube.yml`
-- **URL**: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.7-beta/freetube-0.23.7-beta-setup-x64.exe
+- **URL**: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.8-beta/freetube-0.23.8-beta-setup-x64.exe
 
 #### prestosoft-examdiff-pro
 
@@ -49296,7 +49296,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `spotify-spotify.yml`
-- **URL**: https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.70.409.gd4fa4141-417.exe
+- **URL**: https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.71.421.g794ff5e5-317.exe
 
 #### springlobby-springlobby
 
@@ -52302,7 +52302,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `thepandemoniuminstitute-bloodontheclocktoweronline.yml`
-- **URL**: https://github.com/ThePandemoniumInstitute/botc-release/releases/download/v3.45.1/Blood.on.the.Clocktower.Online_3.45.1_x64-setup.exe
+- **URL**: https://github.com/ThePandemoniumInstitute/botc-release/releases/download/v3.45.2/Blood.on.the.Clocktower.Online_3.45.2_x64-setup.exe
 
 #### thepyzoteam-pyzo
 
@@ -52599,7 +52599,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `throneproj-throne.yml`
-- **URL**: https://github.com/throneproj/Throne/releases/download/1.0.1/Throne-1.0.1-windows64-installer.exe
+- **URL**: https://github.com/throneproj/Throne/releases/download/1.0.2/Throne-1.0.2-windows64-installer.exe
 
 #### ths-futures
 
@@ -52860,7 +52860,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `timokoessler-2faguard.yml`
-- **URL**: https://github.com/timokoessler/2FAGuard/releases/download/v1.6.0/2FAGuard-Installer-1.6.0.exe
+- **URL**: https://github.com/timokoessler/2FAGuard/releases/download/v1.6.1/2FAGuard-Installer-1.6.1.exe
 
 #### timschneeb-galaxybudsclient
 
@@ -53589,7 +53589,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `tsduck-tsduck.yml`
-- **URL**: https://github.com/tsduck/tsduck/releases/download/v3.41-4299/TSDuck-Win64-3.41-4299.exe
+- **URL**: https://github.com/tsduck/tsduck/releases/download/v3.42-4421/TSDuck-Win64-3.42-4421.exe
 
 #### tsl0922-implay
 
@@ -54084,7 +54084,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `universalmediaserver-universalmediaserver.yml`
-- **URL**: https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/14.13.0/UMS-Windows-14.13.0-x86_64.exe
+- **URL**: https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/14.13.1/UMS-Windows-14.13.1-x86_64.exe
 
 #### universityofamsterdam-jasp
 
@@ -54741,7 +54741,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `vim-vim.yml`
-- **URL**: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1563/gvim_9.1.1563_x64_signed.exe
+- **URL**: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1665/gvim_9.1.1665_x64.exe
 
 #### vinaysajip-pythonlauncher
 
@@ -55434,7 +55434,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `waytech-clouddrive2.yml`
-- **URL**: https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.9.6/CloudDrive2Setup-X64-0.9.6.exe
+- **URL**: https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.9.7/CloudDrive2Setup-X64-0.9.7.exe
 
 #### weakauras-weakaurascompanion
 
