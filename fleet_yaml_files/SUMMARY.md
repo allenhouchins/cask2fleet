@@ -1,6 +1,6 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-23 18:04:11 UTC
+Generated on: 2025-08-24 06:04:27 UTC
 
 ## Summary
 
@@ -32808,7 +32808,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `mikf-gallery-dl-nightly.yml`
-- **URL**: https://github.com/gdl-org/builds/releases/download/2025.08.19/gallery-dl_windows.exe
+- **URL**: https://github.com/gdl-org/builds/releases/download/2025.08.22/gallery-dl_windows.exe
 
 #### mikrotik-thedude
 
@@ -57405,7 +57405,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp-nightly.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.22.031729/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.22.235700/yt-dlp.exe
 
 #### yt-dlp-yt-dlp
 
@@ -57414,7 +57414,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp/releases/download/2025.08.20/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp/releases/download/2025.08.22/yt-dlp.exe
 
 #### ytmdesktop-ytmdesktop
 
