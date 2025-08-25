@@ -1,11 +1,11 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-25 06:05:17 UTC
+Generated on: 2025-08-25 18:04:49 UTC
 
 ## Summary
 
-Total entries processed: 6448
-- macOS files: 393
+Total entries processed: 6449
+- macOS files: 394
 - Windows files: 6055
 
 ## Generated Files
@@ -262,7 +262,7 @@ Total entries processed: 6448
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `azookey.yml`
-- **URL**: https://github.com/azooKey/azooKey-Desktop/releases/download/v0.1.0-alpha.21/azooKey-release-signed.pkg
+- **URL**: https://github.com/azooKey/azooKey-Desktop/releases/download/v0.1/azooKey-release-signed.pkg
 
 #### background-music
 
@@ -1297,7 +1297,7 @@ Total entries processed: 6448
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `gog-galaxy.yml`
-- **URL**: https://gog-cdn-fastly.gog.com/open/galaxy/client/galaxy_client_2.0.86.13.pkg
+- **URL**: https://gog-cdn-fastly.gog.com/open/galaxy/client/galaxy_client_2.0.88.15.pkg
 
 #### googlechromeenterprise
 
@@ -1982,6 +1982,15 @@ Total entries processed: 6448
 - **Version**: 
 - **File**: `mozilla-vpn.yml`
 - **URL**: https://archive.mozilla.org/pub/vpn/releases/2.30.0/mac/MozillaVPN.pkg
+
+#### mullvad-vpn-beta
+
+- **Source**: homebrew/installomator
+- **Name**: mullvad-vpn-beta
+- **Description**: Generated from Homebrew cask or Installomator script
+- **Version**: 
+- **File**: `mullvad-vpn-beta.yml`
+- **URL**: https://cdn.mullvad.net/app/desktop/releases/2025.9-beta1/MullvadVPN-2025.9-beta1.pkg
 
 #### mullvad-vpn
 
@@ -2836,7 +2845,7 @@ Total entries processed: 6448
 - **Description**: Generated from Homebrew cask or Installomator script
 - **Version**: 
 - **File**: `shutter-encoder.yml`
-- **URL**: https://www.shutterencoder.com/Shutter%20Encoder%2019.3%20Apple%20Silicon.pkg
+- **URL**: https://www.shutterencoder.com/Shutter%20Encoder%2019.4%20Apple%20Silicon.pkg
 
 #### sleep-aid
 
@@ -6330,7 +6339,7 @@ Total entries processed: 6448
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `amn-yasb.yml`
-- **URL**: https://github.com/amnweb/yasb/releases/download/v1.7.9/yasb-1.7.9-win64.msi
+- **URL**: https://github.com/amnweb/yasb/releases/download/v1.8.0/yasb-1.8.0-win64.msi
 
 #### amneziavpn-amnezia
 
@@ -6897,7 +6906,7 @@ Total entries processed: 6448
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `appbytroye-koodoreader.yml`
-- **URL**: https://dl.koodoreader.com/v2.1.1/Koodo-Reader-2.1.1-x64.exe
+- **URL**: https://dl.koodoreader.com/v2.1.2/Koodo-Reader-2.1.2-x64.exe
 
 #### appest-dida
 
@@ -26940,7 +26949,7 @@ Total entries processed: 6448
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-haruna.yml`
-- **URL**: https://cdn.kde.org/ci-builds/multimedia/haruna/master/windows/haruna-master-1345-windows-gcc-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/multimedia/haruna/master/windows/haruna-master-1354-windows-gcc-x86_64.exe
 
 #### kde-kaidan
 
@@ -56631,7 +56640,7 @@ Total entries processed: 6448
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `xanderfrangos-twinkletray.yml`
-- **URL**: https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.16.7/Twinkle.Tray.v1.16.7.exe
+- **URL**: https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.17.0/Twinkle.Tray.v1.17.0.exe
 
 #### xanthus58-afformationrequester
 
