@@ -1,11 +1,11 @@
 # Fleet YAML Files Generated from Homebrew Casks, Installomator, and WinGet
 
-Generated on: 2025-08-24 18:04:20 UTC
+Generated on: 2025-08-25 06:05:17 UTC
 
 ## Summary
 
-Total entries processed: 6452
-- macOS files: 397
+Total entries processed: 6448
+- macOS files: 393
 - Windows files: 6055
 
 ## Generated Files
@@ -407,15 +407,6 @@ Total entries processed: 6452
 - **Version**: 
 - **File**: `brosix.yml`
 - **URL**: https://www.brosix.com/downloads/builds/official/Brosix.pkg
-
-#### cardinal
-
-- **Source**: homebrew/installomator
-- **Name**: cardinal
-- **Description**: Generated from Homebrew cask or Installomator script
-- **Version**: 
-- **File**: `cardinal.yml`
-- **URL**: https://github.com/DISTRHO/Cardinal/releases/download/25.06/Cardinal-macOS-universal-25.06.pkg
 
 #### catoclient
 
@@ -876,24 +867,6 @@ Total entries processed: 6452
 - **File**: `desktoppr.yml`
 - **URL**: https://github.com/scriptingosx/desktoppr/releases/download/v0.5/desktoppr-0.5-218.pkg
 
-#### digikam
-
-- **Source**: homebrew/installomator
-- **Name**: digikam
-- **Description**: Generated from Homebrew cask or Installomator script
-- **Version**: 
-- **File**: `digikam.yml`
-- **URL**: https://download.kde.org/stable/digikam/8.7.0/digiKam-8.7.0-Qt6-MacOS-arm64.pkg
-
-#### displaycal
-
-- **Source**: homebrew/installomator
-- **Name**: displaycal
-- **Description**: Generated from Homebrew cask or Installomator script
-- **Version**: 
-- **File**: `displaycal.yml`
-- **URL**: https://downloads.sourceforge.net/dispcalgui/release/3.8.9.3/DisplayCAL-3.8.9.3.pkg
-
 #### distroav
 
 - **Source**: homebrew/installomator
@@ -947,15 +920,6 @@ Total entries processed: 6452
 - **Version**: 
 - **File**: `droidcam-obs.yml`
 - **URL**: https://github.com/dev47apps/droidcam-obs-plugin/releases/download/2.4.0/DroidCamOBS_2.4.0_macos.pkg
-
-#### duckietv
-
-- **Source**: homebrew/installomator
-- **Name**: duckietv
-- **Description**: Generated from Homebrew cask or Installomator script
-- **Version**: 
-- **File**: `duckietv.yml`
-- **URL**: https://github.com/SchizoDuckie/DuckieTV/releases/download/1.1.5/DuckieTV-1.1.5-OSX-x64.pkg
 
 #### duo-connect
 
@@ -4008,7 +3972,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `abgox-inputtip.yml`
-- **URL**: https://github.com/abgox/InputTip/releases/download/v2025.08.22/InputTip.exe
+- **URL**: https://github.com/abgox/InputTip/releases/download/v2025.08.25/InputTip.exe
 
 #### ablaze-floorp-daylight
 
@@ -11496,7 +11460,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `bytedance-trae-cn.yml`
-- **URL**: https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.18223/win32/Trae%20CN-Setup-x64.exe
+- **URL**: https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.18304/win32/Trae%20CN-Setup-x64.exe
 
 #### bytedance-trae
 
@@ -11505,7 +11469,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `bytedance-trae.yml`
-- **URL**: https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.18224/win32/Trae-Setup-x64.exe
+- **URL**: https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.18305/win32/Trae-Setup-x64.exe
 
 #### bytedance-ui-tars
 
@@ -14304,7 +14268,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `crystalideasoftware-uninstalltool.yml`
-- **URL**: https://crystalidea.com/downloads/uninstalltool_setup.exe
+- **URL**: https://github.com/crystalidea/uninstall-tool/releases/download/v3.8.0/uninstalltool_setup.exe
 
 #### crystallang-crystal
 
@@ -14727,7 +14691,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `dascanard-radioss.yml`
-- **URL**: https://github.com/DasCanard/radioss/releases/download/v0.7.0/radioss_0.7.0_x64_en-US.msi
+- **URL**: https://github.com/DasCanard/radioss/releases/download/v0.8.1/radioss_0.8.1_x64_en-US.msi
 
 #### dashlane-dashlane
 
@@ -23808,7 +23772,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `igoogolx-lux.yml`
-- **URL**: https://github.com/igoogolx/lux/releases/download/v1.37.4/lux-1.37.4-x64-windows.exe
+- **URL**: https://github.com/igoogolx/lux/releases/download/v1.38.0/lux-1.38.0-x64-windows.exe
 
 #### igoravl-tfscmdlets
 
@@ -27282,7 +27246,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `kde-konsole.yml`
-- **URL**: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4188-windows-cl-msvc2022-x86_64.exe
+- **URL**: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4206-windows-cl-msvc2022-x86_64.exe
 
 #### kde-kontact
 
@@ -41016,7 +40980,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `openscad-openscad-nightly.yml`
-- **URL**: https://files.openscad.org/snapshots/OpenSCAD-2025.08.18-x86-64-Installer.exe
+- **URL**: https://files.openscad.org/snapshots/OpenSCAD-2025.08.24-x86-64-Installer.exe
 
 #### openscad-openscad
 
@@ -43788,7 +43752,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `ptrtech-uvtools.yml`
-- **URL**: https://github.com/sn4k3/UVtools/releases/download/v5.1.7/UVtools_win-x64_v5.1.7.msi
+- **URL**: https://github.com/sn4k3/UVtools/releases/download/v5.2.0/UVtools_win-x64_v5.2.0.msi
 
 #### publiqvzw-uitpasbeheerdersapplicatie
 
@@ -45165,7 +45129,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `rem0o-fancontrol.yml`
-- **URL**: https://github.com/Rem0o/FanControl.Releases/releases/download/V231/FanControl_231_net_8_0_Installer.exe
+- **URL**: https://github.com/Rem0o/FanControl.Releases/releases/download/V234/FanControl_234_net_8_0_Installer.exe
 
 #### remarkable-remarkablecompanionapp
 
@@ -45588,7 +45552,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `rink-turksma-intunepreptool.yml`
-- **URL**: https://github.com/rink-turksma/IntunePrepTool/releases/download/IntunePrepTool-1.6.7.0/IntunePrepTool-1.6.7.0.msi
+- **URL**: https://github.com/rink-turksma/IntunePrepTool/releases/download/IntunePrepTool-1.6.8.0/IntunePrepTool-1.6.8.0.msi
 
 #### riok-kreya
 
@@ -53094,7 +53058,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `topalasoftwaresolutions-siw.yml`
-- **URL**: https://www.gtopala.com/download/20250817/siwtrial-setup.exe
+- **URL**: https://www.gtopala.com/download/20250817b/siwtrial-setup.exe
 
 #### topazlabs-topazdenoiseai
 
@@ -54309,7 +54273,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `v2raya-v2raya.yml`
-- **URL**: https://github.com/v2rayA/v2rayA/releases/download/v2.2.6.7/installer_windows_inno_x64_2.2.6.7.exe
+- **URL**: https://github.com/v2rayA/v2rayA/releases/download/v2.2.7/installer_windows_inno_x64_2.2.7.exe
 
 #### vaclavslavik-poedit
 
@@ -54678,7 +54642,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `videolan-vlc-nightly.yml`
-- **URL**: https://artifacts.videolan.org/vlc/nightly-win64/20250815-0421/vlc-4.0.0-dev-win64-307e6485.msi
+- **URL**: https://artifacts.videolan.org/vlc/nightly-win64/20250824-0428/vlc-4.0.0-dev-win64-2487ebc2.msi
 
 #### videolan-vlc
 
@@ -54732,7 +54696,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `vim-vim-nightly.yml`
-- **URL**: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1665/gvim_9.1.1665_x64.exe
+- **URL**: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1680/gvim_9.1.1680_x64.exe
 
 #### vim-vim
 
@@ -54741,7 +54705,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `vim-vim.yml`
-- **URL**: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1665/gvim_9.1.1665_x64.exe
+- **URL**: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1680/gvim_9.1.1680_x64.exe
 
 #### vinaysajip-pythonlauncher
 
@@ -57135,7 +57099,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `xrevealteam-xreveal.yml`
-- **URL**: https://www.xreveal.com/download/xreveal_2.8.3_x64.exe
+- **URL**: https://www.xreveal.com/download/xreveal_2.8.4_x64.exe
 
 #### xssnick-ton-torrent
 
@@ -57405,7 +57369,7 @@ Total entries processed: 6452
 - **Description**: Generated from WinGet repository
 - **Version**: 
 - **File**: `yt-dlp-yt-dlp-nightly.yml`
-- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.22.235700/yt-dlp.exe
+- **URL**: https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2025.08.23.234735/yt-dlp.exe
 
 #### yt-dlp-yt-dlp
 

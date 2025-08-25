@@ -1,4 +1,4 @@
-url: https://crystalidea.com/downloads/uninstalltool_setup.exe
+url: https://github.com/crystalidea/uninstall-tool/releases/download/v3.8.0/uninstalltool_setup.exe
 automatic_install: false
 self_service: false
 categories: []
